@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-60c9f8ae7190eaac4ff7.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "audio_capture",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "audio_capture::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-audio_capture-13dd5ee9c4a04ab352ba.json",
+					"name" : "audio_capture",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "audio_capture_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-audio_capture_node-2fde37432c6d62a05058.json",
+					"name" : "audio_capture_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "audio_capture_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-audio_capture_uninstall-1c30eca3bde07a8fbd39.json",
+					"name" : "audio_capture_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-4712918addb44afe1193.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/roamio42/Desktop/mic_control/build/audio_capture",
+		"source" : "/home/roamio42/Desktop/mic_control/src/audio_common/audio_capture"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

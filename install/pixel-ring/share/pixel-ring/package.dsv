@@ -1,0 +1,9 @@
+source;share/pixel-ring/hook/path.ps1
+source;share/pixel-ring/hook/path.dsv
+source;share/pixel-ring/hook/path.sh
+source;share/pixel-ring/hook/pythonpath.ps1
+source;share/pixel-ring/hook/pythonpath.dsv
+source;share/pixel-ring/hook/pythonpath.sh
+source;share/pixel-ring/hook/pythonscriptspath.ps1
+source;share/pixel-ring/hook/pythonscriptspath.dsv
+source;share/pixel-ring/hook/pythonscriptspath.sh

@@ -1,0 +1,46 @@
+[2.171s] Invoking command in '/home/roamio42/Desktop/mic_control/src/pixel_ring': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/roamio42/Desktop/mic_control/build/pixel-ring/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/roamio42/Desktop/mic_control/install/pixel-ring/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/pixel-ring build --build-base /home/roamio42/Desktop/mic_control/build/pixel-ring/build install --record /home/roamio42/Desktop/mic_control/build/pixel-ring/install.log --single-version-externally-managed
+[2.562s] running egg_info
+[2.562s] creating ../../build/pixel-ring/pixel_ring.egg-info
+[2.595s] writing ../../build/pixel-ring/pixel_ring.egg-info/PKG-INFO
+[2.595s] writing dependency_links to ../../build/pixel-ring/pixel_ring.egg-info/dependency_links.txt
+[2.595s] writing entry points to ../../build/pixel-ring/pixel_ring.egg-info/entry_points.txt
+[2.595s] writing requirements to ../../build/pixel-ring/pixel_ring.egg-info/requires.txt
+[2.596s] writing top-level names to ../../build/pixel-ring/pixel_ring.egg-info/top_level.txt
+[2.596s] writing manifest file '../../build/pixel-ring/pixel_ring.egg-info/SOURCES.txt'
+[2.659s] reading manifest file '../../build/pixel-ring/pixel_ring.egg-info/SOURCES.txt'
+[2.660s] writing manifest file '../../build/pixel-ring/pixel_ring.egg-info/SOURCES.txt'
+[2.660s] running build
+[2.660s] running build_py
+[2.660s] creating /home/roamio42/Desktop/mic_control/build/pixel-ring/build
+[2.661s] creating /home/roamio42/Desktop/mic_control/build/pixel-ring/build/lib
+[2.661s] creating /home/roamio42/Desktop/mic_control/build/pixel-ring/build/lib/pixel_ring
+[2.661s] copying pixel_ring/apa102_pixel_ring.py -> /home/roamio42/Desktop/mic_control/build/pixel-ring/build/lib/pixel_ring
+[2.661s] copying pixel_ring/pixel_ring.py -> /home/roamio42/Desktop/mic_control/build/pixel-ring/build/lib/pixel_ring
+[2.661s] copying pixel_ring/pattern.py -> /home/roamio42/Desktop/mic_control/build/pixel-ring/build/lib/pixel_ring
+[2.661s] copying pixel_ring/usb_pixel_ring_v2.py -> /home/roamio42/Desktop/mic_control/build/pixel-ring/build/lib/pixel_ring
+[2.662s] copying pixel_ring/usb_pixel_ring_v1.py -> /home/roamio42/Desktop/mic_control/build/pixel-ring/build/lib/pixel_ring
+[2.662s] copying pixel_ring/__init__.py -> /home/roamio42/Desktop/mic_control/build/pixel-ring/build/lib/pixel_ring
+[2.662s] copying pixel_ring/apa102.py -> /home/roamio42/Desktop/mic_control/build/pixel-ring/build/lib/pixel_ring
+[2.663s] running install
+[2.672s] running install_lib
+[2.713s] creating /home/roamio42/Desktop/mic_control/install/pixel-ring/lib/python3.12/site-packages/pixel_ring
+[2.713s] copying /home/roamio42/Desktop/mic_control/build/pixel-ring/build/lib/pixel_ring/apa102_pixel_ring.py -> /home/roamio42/Desktop/mic_control/install/pixel-ring/lib/python3.12/site-packages/pixel_ring
+[2.713s] copying /home/roamio42/Desktop/mic_control/build/pixel-ring/build/lib/pixel_ring/pixel_ring.py -> /home/roamio42/Desktop/mic_control/install/pixel-ring/lib/python3.12/site-packages/pixel_ring
+[2.714s] copying /home/roamio42/Desktop/mic_control/build/pixel-ring/build/lib/pixel_ring/pattern.py -> /home/roamio42/Desktop/mic_control/install/pixel-ring/lib/python3.12/site-packages/pixel_ring
+[2.714s] copying /home/roamio42/Desktop/mic_control/build/pixel-ring/build/lib/pixel_ring/usb_pixel_ring_v2.py -> /home/roamio42/Desktop/mic_control/install/pixel-ring/lib/python3.12/site-packages/pixel_ring
+[2.714s] copying /home/roamio42/Desktop/mic_control/build/pixel-ring/build/lib/pixel_ring/usb_pixel_ring_v1.py -> /home/roamio42/Desktop/mic_control/install/pixel-ring/lib/python3.12/site-packages/pixel_ring
+[2.714s] copying /home/roamio42/Desktop/mic_control/build/pixel-ring/build/lib/pixel_ring/__init__.py -> /home/roamio42/Desktop/mic_control/install/pixel-ring/lib/python3.12/site-packages/pixel_ring
+[2.714s] copying /home/roamio42/Desktop/mic_control/build/pixel-ring/build/lib/pixel_ring/apa102.py -> /home/roamio42/Desktop/mic_control/install/pixel-ring/lib/python3.12/site-packages/pixel_ring
+[2.717s] byte-compiling /home/roamio42/Desktop/mic_control/install/pixel-ring/lib/python3.12/site-packages/pixel_ring/apa102_pixel_ring.py to apa102_pixel_ring.cpython-312.pyc
+[2.720s] byte-compiling /home/roamio42/Desktop/mic_control/install/pixel-ring/lib/python3.12/site-packages/pixel_ring/pixel_ring.py to pixel_ring.cpython-312.pyc
+[2.721s] byte-compiling /home/roamio42/Desktop/mic_control/install/pixel-ring/lib/python3.12/site-packages/pixel_ring/pattern.py to pattern.cpython-312.pyc
+[2.725s] byte-compiling /home/roamio42/Desktop/mic_control/install/pixel-ring/lib/python3.12/site-packages/pixel_ring/usb_pixel_ring_v2.py to usb_pixel_ring_v2.cpython-312.pyc
+[2.727s] byte-compiling /home/roamio42/Desktop/mic_control/install/pixel-ring/lib/python3.12/site-packages/pixel_ring/usb_pixel_ring_v1.py to usb_pixel_ring_v1.cpython-312.pyc
+[2.732s] byte-compiling /home/roamio42/Desktop/mic_control/install/pixel-ring/lib/python3.12/site-packages/pixel_ring/__init__.py to __init__.cpython-312.pyc
+[2.732s] byte-compiling /home/roamio42/Desktop/mic_control/install/pixel-ring/lib/python3.12/site-packages/pixel_ring/apa102.py to apa102.cpython-312.pyc
+[2.734s] running install_egg_info
+[2.775s] Copying ../../build/pixel-ring/pixel_ring.egg-info to /home/roamio42/Desktop/mic_control/install/pixel-ring/lib/python3.12/site-packages/pixel_ring-0.1.0-py3.12.egg-info
+[2.777s] running install_scripts
+[3.017s] Installing pixel_ring_check script to /home/roamio42/Desktop/mic_control/install/pixel-ring/bin
+[3.017s] writing list of installed files to '/home/roamio42/Desktop/mic_control/build/pixel-ring/install.log'
+[3.145s] Invoked command in '/home/roamio42/Desktop/mic_control/src/pixel_ring' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/roamio42/Desktop/mic_control/build/pixel-ring/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/roamio42/Desktop/mic_control/install/pixel-ring/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/pixel-ring build --build-base /home/roamio42/Desktop/mic_control/build/pixel-ring/build install --record /home/roamio42/Desktop/mic_control/build/pixel-ring/install.log --single-version-externally-managed

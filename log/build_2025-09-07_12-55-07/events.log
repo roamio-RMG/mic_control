@@ -1,0 +1,11 @@
+[0.000000] (-) TimerEvent: {}
+[0.000318] (-) JobUnselected: {'identifier': 'audio_capture'}
+[0.000561] (-) JobUnselected: {'identifier': 'audio_common'}
+[0.000892] (-) JobUnselected: {'identifier': 'audio_common_msgs'}
+[0.001057] (-) JobUnselected: {'identifier': 'audio_play'}
+[0.001079] (-) JobUnselected: {'identifier': 'pixel-ring'}
+[0.001312] (-) JobUnselected: {'identifier': 'respeaker_ros'}
+[0.001337] (sound_play) JobQueued: {'identifier': 'sound_play', 'dependencies': OrderedDict({'audio_common_msgs': '/home/roamio42/Desktop/mic_control/install/audio_common_msgs'})}
+[0.001469] (sound_play) JobStarted: {'identifier': 'sound_play'}
+[0.018470] (sound_play) JobEnded: {'identifier': 'sound_play', 'rc': 1}
+[0.029032] (-) EventReactorShutdown: {}

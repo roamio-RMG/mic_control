@@ -1,0 +1,37 @@
+[1.491s] Invoking command in '/home/roamio42/Desktop/mic_control/src/keyboard_control': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/roamio42/Desktop/mic_control/src/build/keyboard_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/roamio42/Desktop/mic_control/src/install/keyboard_control/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/keyboard_control build --build-base /home/roamio42/Desktop/mic_control/src/build/keyboard_control/build install --record /home/roamio42/Desktop/mic_control/src/build/keyboard_control/install.log --single-version-externally-managed install_data
+[1.910s] running egg_info
+[1.911s] creating ../build/keyboard_control/keyboard_control.egg-info
+[1.941s] writing ../build/keyboard_control/keyboard_control.egg-info/PKG-INFO
+[1.941s] writing dependency_links to ../build/keyboard_control/keyboard_control.egg-info/dependency_links.txt
+[1.942s] writing entry points to ../build/keyboard_control/keyboard_control.egg-info/entry_points.txt
+[1.942s] writing requirements to ../build/keyboard_control/keyboard_control.egg-info/requires.txt
+[1.942s] writing top-level names to ../build/keyboard_control/keyboard_control.egg-info/top_level.txt
+[1.942s] writing manifest file '../build/keyboard_control/keyboard_control.egg-info/SOURCES.txt'
+[2.006s] reading manifest file '../build/keyboard_control/keyboard_control.egg-info/SOURCES.txt'
+[2.007s] writing manifest file '../build/keyboard_control/keyboard_control.egg-info/SOURCES.txt'
+[2.007s] running build
+[2.007s] running build_py
+[2.008s] creating /home/roamio42/Desktop/mic_control/src/build/keyboard_control/build
+[2.008s] creating /home/roamio42/Desktop/mic_control/src/build/keyboard_control/build/lib
+[2.008s] creating /home/roamio42/Desktop/mic_control/src/build/keyboard_control/build/lib/keyboard_control
+[2.008s] copying keyboard_control/__init__.py -> /home/roamio42/Desktop/mic_control/src/build/keyboard_control/build/lib/keyboard_control
+[2.009s] copying keyboard_control/keyboard_control.py -> /home/roamio42/Desktop/mic_control/src/build/keyboard_control/build/lib/keyboard_control
+[2.009s] running install
+[2.021s] running install_lib
+[2.052s] creating /home/roamio42/Desktop/mic_control/src/install/keyboard_control/lib/python3.12/site-packages/keyboard_control
+[2.053s] copying /home/roamio42/Desktop/mic_control/src/build/keyboard_control/build/lib/keyboard_control/__init__.py -> /home/roamio42/Desktop/mic_control/src/install/keyboard_control/lib/python3.12/site-packages/keyboard_control
+[2.053s] copying /home/roamio42/Desktop/mic_control/src/build/keyboard_control/build/lib/keyboard_control/keyboard_control.py -> /home/roamio42/Desktop/mic_control/src/install/keyboard_control/lib/python3.12/site-packages/keyboard_control
+[2.054s] byte-compiling /home/roamio42/Desktop/mic_control/src/install/keyboard_control/lib/python3.12/site-packages/keyboard_control/__init__.py to __init__.cpython-312.pyc
+[2.054s] byte-compiling /home/roamio42/Desktop/mic_control/src/install/keyboard_control/lib/python3.12/site-packages/keyboard_control/keyboard_control.py to keyboard_control.cpython-312.pyc
+[2.057s] running install_data
+[2.057s] creating /home/roamio42/Desktop/mic_control/src/install/keyboard_control/share/ament_index
+[2.057s] creating /home/roamio42/Desktop/mic_control/src/install/keyboard_control/share/ament_index/resource_index
+[2.057s] creating /home/roamio42/Desktop/mic_control/src/install/keyboard_control/share/ament_index/resource_index/packages
+[2.057s] copying resource/keyboard_control -> /home/roamio42/Desktop/mic_control/src/install/keyboard_control/share/ament_index/resource_index/packages
+[2.058s] copying package.xml -> /home/roamio42/Desktop/mic_control/src/install/keyboard_control/share/keyboard_control
+[2.058s] running install_egg_info
+[2.095s] Copying ../build/keyboard_control/keyboard_control.egg-info to /home/roamio42/Desktop/mic_control/src/install/keyboard_control/lib/python3.12/site-packages/keyboard_control-0.0.0-py3.12.egg-info
+[2.096s] running install_scripts
+[2.332s] Installing keyboard_control script to /home/roamio42/Desktop/mic_control/src/install/keyboard_control/lib/keyboard_control
+[2.333s] writing list of installed files to '/home/roamio42/Desktop/mic_control/src/build/keyboard_control/install.log'
+[2.506s] Invoked command in '/home/roamio42/Desktop/mic_control/src/keyboard_control' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/roamio42/Desktop/mic_control/src/build/keyboard_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/roamio42/Desktop/mic_control/src/install/keyboard_control/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/keyboard_control build --build-base /home/roamio42/Desktop/mic_control/src/build/keyboard_control/build install --record /home/roamio42/Desktop/mic_control/src/build/keyboard_control/install.log --single-version-externally-managed install_data

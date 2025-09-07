@@ -1,0 +1,52 @@
+[0.029s] Invoking command in '/home/roamio42/Desktop/mic_control/build/sound_play': AMENT_PREFIX_PATH=/home/roamio42/Desktop/mic_control/install/audio_common_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/roamio42/Desktop/mic_control/install/audio_common_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/roamio42/Desktop/mic_control/install/audio_common_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/roamio42/Desktop/mic_control/install/audio_common_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/roamio42/Desktop/mic_control/src/audio_common/sound_play -DCMAKE_INSTALL_PREFIX=/home/roamio42/Desktop/mic_control/install/sound_play
+[0.268s] -- The C compiler identification is GNU 13.3.0
+[0.497s] -- The CXX compiler identification is GNU 13.3.0
+[0.534s] -- Detecting C compiler ABI info
+[0.835s] -- Detecting C compiler ABI info - done
+[0.854s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.856s] -- Detecting C compile features
+[0.856s] -- Detecting C compile features - done
+[0.883s] -- Detecting CXX compiler ABI info
+[1.248s] -- Detecting CXX compiler ABI info - done
+[1.267s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.268s] -- Detecting CXX compile features
+[1.270s] -- Detecting CXX compile features - done
+[1.279s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.672s] -- Found Python3: /opt/venv/bin/python3 (found version "3.12.3") found components: Interpreter 
+[2.064s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[2.082s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.205s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.312s] -- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[2.315s] -- Found audio_common_msgs: 0.3.12 (/home/roamio42/Desktop/mic_control/install/audio_common_msgs/share/audio_common_msgs/cmake)
+[2.420s] -- Found action_msgs: 2.0.2 (/opt/ros/jazzy/share/action_msgs/cmake)
+[4.032s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[5.264s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[6.763s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[6.776s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[7.161s] -- Found PythonExtra: /opt/venv/bin/python3  
+[8.569s] -- Found Python3: /opt/venv/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[8.704s] [31mCMake Error at /opt/ros/jazzy/share/ament_cmake_python/cmake/ament_python_install_package.cmake:122 (add_custom_target):
+[8.704s]   add_custom_target cannot create target "ament_cmake_python_copy_sound_play"
+[8.705s]   because another target with the same name already exists.  The existing
+[8.705s]   target is a custom target created in source directory
+[8.705s]   "/home/roamio42/Desktop/mic_control/src/audio_common/sound_play".  See
+[8.705s]   documentation for policy CMP0002 for more details.
+[8.705s] Call Stack (most recent call first):
+[8.705s]   /opt/ros/jazzy/share/ament_cmake_python/cmake/ament_python_install_package.cmake:39 (_ament_cmake_python_install_package)
+[8.706s]   CMakeLists.txt:36 (ament_python_install_package)
+[8.706s] 
+[8.709s] [0m
+[8.710s] [31mCMake Error at /opt/ros/jazzy/share/ament_cmake_python/cmake/ament_python_install_package.cmake:144 (add_custom_target):
+[8.710s]   add_custom_target cannot create target
+[8.710s]   "ament_cmake_python_build_sound_play_egg" because another target with the
+[8.710s]   same name already exists.  The existing target is a custom target created
+[8.711s]   in source directory
+[8.711s]   "/home/roamio42/Desktop/mic_control/src/audio_common/sound_play".  See
+[8.711s]   documentation for policy CMP0002 for more details.
+[8.711s] Call Stack (most recent call first):
+[8.711s]   /opt/ros/jazzy/share/ament_cmake_python/cmake/ament_python_install_package.cmake:39 (_ament_cmake_python_install_package)
+[8.711s]   CMakeLists.txt:36 (ament_python_install_package)
+[8.711s] 
+[8.712s] [0m
+[8.724s] -- Configuring incomplete, errors occurred!
+[8.776s] Invoked command in '/home/roamio42/Desktop/mic_control/build/sound_play' returned '1': AMENT_PREFIX_PATH=/home/roamio42/Desktop/mic_control/install/audio_common_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/roamio42/Desktop/mic_control/install/audio_common_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/roamio42/Desktop/mic_control/install/audio_common_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/roamio42/Desktop/mic_control/install/audio_common_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/roamio42/Desktop/mic_control/src/audio_common/sound_play -DCMAKE_INSTALL_PREFIX=/home/roamio42/Desktop/mic_control/install/sound_play

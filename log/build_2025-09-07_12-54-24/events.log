@@ -1,0 +1,113 @@
+[0.000000] (-) TimerEvent: {}
+[0.000342] (-) JobUnselected: {'identifier': 'audio_capture'}
+[0.000602] (-) JobUnselected: {'identifier': 'audio_common'}
+[0.000933] (-) JobUnselected: {'identifier': 'audio_common_msgs'}
+[0.001115] (-) JobUnselected: {'identifier': 'audio_play'}
+[0.001394] (-) JobUnselected: {'identifier': 'pixel-ring'}
+[0.001538] (-) JobUnselected: {'identifier': 'respeaker_ros'}
+[0.001576] (sound_play) JobQueued: {'identifier': 'sound_play', 'dependencies': OrderedDict({'audio_common_msgs': '/home/roamio42/Desktop/mic_control/install/audio_common_msgs'})}
+[0.001640] (sound_play) JobStarted: {'identifier': 'sound_play'}
+[0.017044] (sound_play) JobProgress: {'identifier': 'sound_play', 'progress': 'cmake'}
+[0.017796] (sound_play) Command: {'cmd': ['/usr/bin/cmake', '/home/roamio42/Desktop/mic_control/src/audio_common/sound_play', '-DCMAKE_INSTALL_PREFIX=/home/roamio42/Desktop/mic_control/install/sound_play'], 'cwd': '/home/roamio42/Desktop/mic_control/build/sound_play', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'roamio42', 'SSH_CLIENT': '10.42.247.52 48638 22', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/roamio42/.cursor-server/cli/servers/Stable-d01860bc5f5a36b62f8a77cd42578126270db340/server/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/home/roamio42/Desktop/mic_control/install/audio_common_msgs/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'BROWSER': '/home/roamio42/.cursor-server/cli/servers/Stable-d01860bc5f5a36b62f8a77cd42578126270db340/server/bin/helpers/browser.sh', 'HOME': '/home/roamio42', 'OLDPWD': '/home/roamio42/Desktop/mic_control', 'DISABLE_AUTO_UPDATE': 'true', 'TERM_PROGRAM_VERSION': '1.4.2', 'VSCODE_IPC_HOOK_CLI': '/run/user/1002/vscode-ipc-efb91c97-36a9-489e-9d65-29350fe6b9ab.sock', 'ROS_PYTHON_VERSION': '3', 'PAGER': 'sh -c "head -n 10000 | cat"', 'VSCODE_GIT_ASKPASS_MAIN': '/home/roamio42/.cursor-server/cli/servers/Stable-d01860bc5f5a36b62f8a77cd42578126270db340/server/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/roamio42/.cursor-server/cli/servers/Stable-d01860bc5f5a36b62f8a77cd42578126270db340/server/node', 'SSL_CERT_FILE': '/usr/lib/ssl/cert.pem', 'npm_config_yes': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1002/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'roamio42', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '4', 'COMPOSER_NO_INTERACTION': '1', 'PATH': '/home/roamio42/.local/bin:/root/bin:/home/roamio42/Desktop/mic_control/bin:/opt/venv/bin:/home/roamio42/Desktop/mic_control/bin:/opt/venv/bin:/home/roamio42/Desktop/mic_control/bin:/opt/venv/bin:/opt/venv/bin:~/.local/bin:/home/roamio42/.cursor-server/cli/servers/Stable-d01860bc5f5a36b62f8a77cd42578126270db340/server/bin/remote-cli:/home/roamio42/.local/bin:/root/bin:/home/roamio42/bin:/opt/venv/bin:/home/roamio42/bin:/opt/venv/bin:/home/roamio42/bin:/opt/venv/bin:/opt/venv/bin:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:~/.local/bin:/home/roamio42/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/roamio42/bin:/home/roamio42/bin:/home/roamio42/bin:/home/roamio42/bin', 'XDG_RUNTIME_DIR': '/run/user/1002', 'SSL_CERT_DIR': '/usr/lib/ssl/certs', 'CURSOR_AGENT': '1', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1002/vscode-git-c5a8f117c1.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/home/roamio42/Desktop/mic_control/install/audio_common_msgs:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'IGN_GAZEBO_RESOURCE_PATH': '/opt/ros/jazzy/share', 'VIRTUAL_ENV': '/opt/venv', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/roamio42/Desktop/mic_control/build/sound_play', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '10.42.247.52 48638 10.42.247.240 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/roamio42/Desktop/mic_control/install/audio_common_msgs/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'PIP_NO_INPUT': 'true', 'CMAKE_PREFIX_PATH': '/home/roamio42/Desktop/mic_control/install/audio_common_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.099675] (-) TimerEvent: {}
+[0.131077] (sound_play) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[0.199836] (-) TimerEvent: {}
+[0.242065] (sound_play) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[0.273961] (sound_play) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.299964] (-) TimerEvent: {}
+[0.400358] (-) TimerEvent: {}
+[0.457191] (sound_play) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.472795] (sound_play) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.473184] (sound_play) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.473810] (sound_play) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.489711] (sound_play) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.500464] (-) TimerEvent: {}
+[0.600845] (-) TimerEvent: {}
+[0.694117] (sound_play) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.700966] (-) TimerEvent: {}
+[0.710119] (sound_play) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.710610] (sound_play) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.711379] (sound_play) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.718272] (sound_play) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.801068] (-) TimerEvent: {}
+[0.901509] (-) TimerEvent: {}
+[0.909343] (sound_play) StdoutLine: {'line': b'-- Found Python3: /opt/venv/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[1.001632] (-) TimerEvent: {}
+[1.102021] (-) TimerEvent: {}
+[1.122335] (sound_play) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)\n'}
+[1.136498] (sound_play) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.202187] (-) TimerEvent: {}
+[1.245033] (sound_play) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.302273] (-) TimerEvent: {}
+[1.335649] (sound_play) StdoutLine: {'line': b'-- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)\n'}
+[1.338321] (sound_play) StdoutLine: {'line': b'-- Found audio_common_msgs: 0.3.12 (/home/roamio42/Desktop/mic_control/install/audio_common_msgs/share/audio_common_msgs/cmake)\n'}
+[1.402380] (-) TimerEvent: {}
+[1.421898] (sound_play) StdoutLine: {'line': b'-- Found action_msgs: 2.0.2 (/opt/ros/jazzy/share/action_msgs/cmake)\n'}
+[1.502521] (-) TimerEvent: {}
+[1.602967] (-) TimerEvent: {}
+[1.703440] (-) TimerEvent: {}
+[1.803856] (-) TimerEvent: {}
+[1.904290] (-) TimerEvent: {}
+[2.004742] (-) TimerEvent: {}
+[2.105267] (-) TimerEvent: {}
+[2.205724] (-) TimerEvent: {}
+[2.306101] (-) TimerEvent: {}
+[2.406568] (-) TimerEvent: {}
+[2.409130] (sound_play) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)\n'}
+[2.506679] (-) TimerEvent: {}
+[2.607126] (-) TimerEvent: {}
+[2.707608] (-) TimerEvent: {}
+[2.808024] (-) TimerEvent: {}
+[2.908473] (-) TimerEvent: {}
+[3.008921] (-) TimerEvent: {}
+[3.079392] (sound_play) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.109018] (-) TimerEvent: {}
+[3.209407] (-) TimerEvent: {}
+[3.309924] (-) TimerEvent: {}
+[3.410313] (-) TimerEvent: {}
+[3.510679] (-) TimerEvent: {}
+[3.611182] (-) TimerEvent: {}
+[3.711563] (-) TimerEvent: {}
+[3.812062] (-) TimerEvent: {}
+[3.912534] (-) TimerEvent: {}
+[3.957030] (sound_play) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.964854] (sound_play) StdoutLine: {'line': b'-- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)\n'}
+[4.012604] (-) TimerEvent: {}
+[4.113013] (-) TimerEvent: {}
+[4.151219] (sound_play) StdoutLine: {'line': b'-- Found PythonExtra: /opt/venv/bin/python3  \n'}
+[4.213128] (-) TimerEvent: {}
+[4.313555] (-) TimerEvent: {}
+[4.413993] (-) TimerEvent: {}
+[4.514530] (-) TimerEvent: {}
+[4.615466] (-) TimerEvent: {}
+[4.717263] (-) TimerEvent: {}
+[4.767204] (sound_play) StdoutLine: {'line': b'-- Found Python3: /opt/venv/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed \n'}
+[4.817372] (-) TimerEvent: {}
+[4.843807] (sound_play) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/jazzy/share/ament_cmake_python/cmake/ament_python_install_package.cmake:122 (add_custom_target):\n'}
+[4.844157] (sound_play) StderrLine: {'line': b'  add_custom_target cannot create target "ament_cmake_python_copy_sound_play"\n'}
+[4.844292] (sound_play) StderrLine: {'line': b'  because another target with the same name already exists.  The existing\n'}
+[4.844389] (sound_play) StderrLine: {'line': b'  target is a custom target created in source directory\n'}
+[4.844483] (sound_play) StderrLine: {'line': b'  "/home/roamio42/Desktop/mic_control/src/audio_common/sound_play".  See\n'}
+[4.844573] (sound_play) StderrLine: {'line': b'  documentation for policy CMP0002 for more details.\n'}
+[4.844662] (sound_play) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[4.844749] (sound_play) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_python/cmake/ament_python_install_package.cmake:39 (_ament_cmake_python_install_package)\n'}
+[4.844839] (sound_play) StderrLine: {'line': b'  CMakeLists.txt:37 (ament_python_install_package)\n'}
+[4.844939] (sound_play) StderrLine: {'line': b'\n'}
+[4.845027] (sound_play) StderrLine: {'line': b'\x1b[0m\n'}
+[4.845112] (sound_play) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/jazzy/share/ament_cmake_python/cmake/ament_python_install_package.cmake:144 (add_custom_target):\n'}
+[4.845208] (sound_play) StderrLine: {'line': b'  add_custom_target cannot create target\n'}
+[4.845298] (sound_play) StderrLine: {'line': b'  "ament_cmake_python_build_sound_play_egg" because another target with the\n'}
+[4.845383] (sound_play) StderrLine: {'line': b'  same name already exists.  The existing target is a custom target created\n'}
+[4.845466] (sound_play) StderrLine: {'line': b'  in source directory\n'}
+[4.845549] (sound_play) StderrLine: {'line': b'  "/home/roamio42/Desktop/mic_control/src/audio_common/sound_play".  See\n'}
+[4.845632] (sound_play) StderrLine: {'line': b'  documentation for policy CMP0002 for more details.\n'}
+[4.845713] (sound_play) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[4.845798] (sound_play) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_python/cmake/ament_python_install_package.cmake:39 (_ament_cmake_python_install_package)\n'}
+[4.845881] (sound_play) StderrLine: {'line': b'  CMakeLists.txt:37 (ament_python_install_package)\n'}
+[4.845962] (sound_play) StderrLine: {'line': b'\n'}
+[4.846046] (sound_play) StderrLine: {'line': b'\x1b[0m\n'}
+[4.852980] (sound_play) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[4.875845] (sound_play) CommandEnded: {'returncode': 1}
+[4.911882] (sound_play) JobEnded: {'identifier': 'sound_play', 'rc': 1}
+[4.917441] (-) TimerEvent: {}
+[4.922669] (-) EventReactorShutdown: {}

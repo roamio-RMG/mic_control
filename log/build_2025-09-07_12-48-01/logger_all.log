@@ -1,0 +1,420 @@
+[0.360s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.360s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0xffffae2684d0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffffae4599d0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffffae4599d0>>, mixin_verb=('build',))
+[0.487s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.487s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.487s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.487s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.487s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.487s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.487s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/roamio42/Desktop/mic_control'
+[0.488s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.488s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.488s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.488s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.488s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.488s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.488s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.488s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.488s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.558s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.558s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.558s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.558s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.558s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.558s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.558s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.558s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.559s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.559s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.559s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.559s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.559s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.559s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.559s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.559s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.559s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.560s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.560s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.560s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.560s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.560s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.560s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.560s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.560s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.560s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.560s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.560s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.560s] Level 1:colcon.colcon_core.package_identification:_identify(src/audio_common) by extensions ['ignore', 'ignore_ament_install']
+[0.560s] Level 1:colcon.colcon_core.package_identification:_identify(src/audio_common) by extension 'ignore'
+[0.560s] Level 1:colcon.colcon_core.package_identification:_identify(src/audio_common) by extension 'ignore_ament_install'
+[0.561s] Level 1:colcon.colcon_core.package_identification:_identify(src/audio_common) by extensions ['colcon_pkg']
+[0.561s] Level 1:colcon.colcon_core.package_identification:_identify(src/audio_common) by extension 'colcon_pkg'
+[0.561s] Level 1:colcon.colcon_core.package_identification:_identify(src/audio_common) by extensions ['colcon_meta']
+[0.561s] Level 1:colcon.colcon_core.package_identification:_identify(src/audio_common) by extension 'colcon_meta'
+[0.561s] Level 1:colcon.colcon_core.package_identification:_identify(src/audio_common) by extensions ['ros']
+[0.561s] Level 1:colcon.colcon_core.package_identification:_identify(src/audio_common) by extension 'ros'
+[0.561s] Level 1:colcon.colcon_core.package_identification:_identify(src/audio_common) by extensions ['cmake', 'python']
+[0.561s] Level 1:colcon.colcon_core.package_identification:_identify(src/audio_common) by extension 'cmake'
+[0.561s] Level 1:colcon.colcon_core.package_identification:_identify(src/audio_common) by extension 'python'
+[0.561s] Level 1:colcon.colcon_core.package_identification:_identify(src/audio_common) by extensions ['python_setup_py']
+[0.561s] Level 1:colcon.colcon_core.package_identification:_identify(src/audio_common) by extension 'python_setup_py'
+[0.561s] Level 1:colcon.colcon_core.package_identification:_identify(src/audio_common/audio_capture) by extensions ['ignore', 'ignore_ament_install']
+[0.561s] Level 1:colcon.colcon_core.package_identification:_identify(src/audio_common/audio_capture) by extension 'ignore'
+[0.561s] Level 1:colcon.colcon_core.package_identification:_identify(src/audio_common/audio_capture) by extension 'ignore_ament_install'
+[0.562s] Level 1:colcon.colcon_core.package_identification:_identify(src/audio_common/audio_capture) by extensions ['colcon_pkg']
+[0.562s] Level 1:colcon.colcon_core.package_identification:_identify(src/audio_common/audio_capture) by extension 'colcon_pkg'
+[0.562s] Level 1:colcon.colcon_core.package_identification:_identify(src/audio_common/audio_capture) by extensions ['colcon_meta']
+[0.562s] Level 1:colcon.colcon_core.package_identification:_identify(src/audio_common/audio_capture) by extension 'colcon_meta'
+[0.562s] Level 1:colcon.colcon_core.package_identification:_identify(src/audio_common/audio_capture) by extensions ['ros']
+[0.562s] Level 1:colcon.colcon_core.package_identification:_identify(src/audio_common/audio_capture) by extension 'ros'
+[0.567s] DEBUG:colcon.colcon_core.package_identification:Package 'src/audio_common/audio_capture' with type 'ros.ament_cmake' and name 'audio_capture'
+[0.567s] Level 1:colcon.colcon_core.package_identification:_identify(src/audio_common/audio_common) by extensions ['ignore', 'ignore_ament_install']
+[0.567s] Level 1:colcon.colcon_core.package_identification:_identify(src/audio_common/audio_common) by extension 'ignore'
+[0.568s] Level 1:colcon.colcon_core.package_identification:_identify(src/audio_common/audio_common) by extension 'ignore_ament_install'
+[0.568s] Level 1:colcon.colcon_core.package_identification:_identify(src/audio_common/audio_common) by extensions ['colcon_pkg']
+[0.568s] Level 1:colcon.colcon_core.package_identification:_identify(src/audio_common/audio_common) by extension 'colcon_pkg'
+[0.568s] Level 1:colcon.colcon_core.package_identification:_identify(src/audio_common/audio_common) by extensions ['colcon_meta']
+[0.568s] Level 1:colcon.colcon_core.package_identification:_identify(src/audio_common/audio_common) by extension 'colcon_meta'
+[0.568s] Level 1:colcon.colcon_core.package_identification:_identify(src/audio_common/audio_common) by extensions ['ros']
+[0.568s] Level 1:colcon.colcon_core.package_identification:_identify(src/audio_common/audio_common) by extension 'ros'
+[0.569s] DEBUG:colcon.colcon_core.package_identification:Package 'src/audio_common/audio_common' with type 'ros.ament_cmake' and name 'audio_common'
+[0.569s] Level 1:colcon.colcon_core.package_identification:_identify(src/audio_common/audio_common_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.569s] Level 1:colcon.colcon_core.package_identification:_identify(src/audio_common/audio_common_msgs) by extension 'ignore'
+[0.569s] Level 1:colcon.colcon_core.package_identification:_identify(src/audio_common/audio_common_msgs) by extension 'ignore_ament_install'
+[0.569s] Level 1:colcon.colcon_core.package_identification:_identify(src/audio_common/audio_common_msgs) by extensions ['colcon_pkg']
+[0.569s] Level 1:colcon.colcon_core.package_identification:_identify(src/audio_common/audio_common_msgs) by extension 'colcon_pkg'
+[0.569s] Level 1:colcon.colcon_core.package_identification:_identify(src/audio_common/audio_common_msgs) by extensions ['colcon_meta']
+[0.569s] Level 1:colcon.colcon_core.package_identification:_identify(src/audio_common/audio_common_msgs) by extension 'colcon_meta'
+[0.569s] Level 1:colcon.colcon_core.package_identification:_identify(src/audio_common/audio_common_msgs) by extensions ['ros']
+[0.569s] Level 1:colcon.colcon_core.package_identification:_identify(src/audio_common/audio_common_msgs) by extension 'ros'
+[0.570s] DEBUG:colcon.colcon_core.package_identification:Package 'src/audio_common/audio_common_msgs' with type 'ros.ament_cmake' and name 'audio_common_msgs'
+[0.570s] Level 1:colcon.colcon_core.package_identification:_identify(src/audio_common/audio_play) by extensions ['ignore', 'ignore_ament_install']
+[0.570s] Level 1:colcon.colcon_core.package_identification:_identify(src/audio_common/audio_play) by extension 'ignore'
+[0.570s] Level 1:colcon.colcon_core.package_identification:_identify(src/audio_common/audio_play) by extension 'ignore_ament_install'
+[0.570s] Level 1:colcon.colcon_core.package_identification:_identify(src/audio_common/audio_play) by extensions ['colcon_pkg']
+[0.570s] Level 1:colcon.colcon_core.package_identification:_identify(src/audio_common/audio_play) by extension 'colcon_pkg'
+[0.570s] Level 1:colcon.colcon_core.package_identification:_identify(src/audio_common/audio_play) by extensions ['colcon_meta']
+[0.570s] Level 1:colcon.colcon_core.package_identification:_identify(src/audio_common/audio_play) by extension 'colcon_meta'
+[0.570s] Level 1:colcon.colcon_core.package_identification:_identify(src/audio_common/audio_play) by extensions ['ros']
+[0.570s] Level 1:colcon.colcon_core.package_identification:_identify(src/audio_common/audio_play) by extension 'ros'
+[0.571s] DEBUG:colcon.colcon_core.package_identification:Package 'src/audio_common/audio_play' with type 'ros.ament_cmake' and name 'audio_play'
+[0.571s] Level 1:colcon.colcon_core.package_identification:_identify(src/audio_common/sound_play) by extensions ['ignore', 'ignore_ament_install']
+[0.571s] Level 1:colcon.colcon_core.package_identification:_identify(src/audio_common/sound_play) by extension 'ignore'
+[0.571s] Level 1:colcon.colcon_core.package_identification:_identify(src/audio_common/sound_play) by extension 'ignore_ament_install'
+[0.572s] Level 1:colcon.colcon_core.package_identification:_identify(src/audio_common/sound_play) by extensions ['colcon_pkg']
+[0.572s] Level 1:colcon.colcon_core.package_identification:_identify(src/audio_common/sound_play) by extension 'colcon_pkg'
+[0.572s] Level 1:colcon.colcon_core.package_identification:_identify(src/audio_common/sound_play) by extensions ['colcon_meta']
+[0.572s] Level 1:colcon.colcon_core.package_identification:_identify(src/audio_common/sound_play) by extension 'colcon_meta'
+[0.572s] Level 1:colcon.colcon_core.package_identification:_identify(src/audio_common/sound_play) by extensions ['ros']
+[0.572s] Level 1:colcon.colcon_core.package_identification:_identify(src/audio_common/sound_play) by extension 'ros'
+[0.573s] DEBUG:colcon.colcon_core.package_identification:Package 'src/audio_common/sound_play' with type 'ros.ament_cmake' and name 'sound_play'
+[0.573s] Level 1:colcon.colcon_core.package_identification:_identify(src/pixel_ring) by extensions ['ignore', 'ignore_ament_install']
+[0.573s] Level 1:colcon.colcon_core.package_identification:_identify(src/pixel_ring) by extension 'ignore'
+[0.573s] Level 1:colcon.colcon_core.package_identification:_identify(src/pixel_ring) by extension 'ignore_ament_install'
+[0.573s] Level 1:colcon.colcon_core.package_identification:_identify(src/pixel_ring) by extensions ['colcon_pkg']
+[0.573s] Level 1:colcon.colcon_core.package_identification:_identify(src/pixel_ring) by extension 'colcon_pkg'
+[0.573s] Level 1:colcon.colcon_core.package_identification:_identify(src/pixel_ring) by extensions ['colcon_meta']
+[0.573s] Level 1:colcon.colcon_core.package_identification:_identify(src/pixel_ring) by extension 'colcon_meta'
+[0.573s] Level 1:colcon.colcon_core.package_identification:_identify(src/pixel_ring) by extensions ['ros']
+[0.573s] Level 1:colcon.colcon_core.package_identification:_identify(src/pixel_ring) by extension 'ros'
+[0.573s] Level 1:colcon.colcon_core.package_identification:_identify(src/pixel_ring) by extensions ['cmake', 'python']
+[0.573s] Level 1:colcon.colcon_core.package_identification:_identify(src/pixel_ring) by extension 'cmake'
+[0.573s] Level 1:colcon.colcon_core.package_identification:_identify(src/pixel_ring) by extension 'python'
+[0.573s] DEBUG:colcon.colcon_core.package_identification:Python package in 'src/pixel_ring' passes arguments to the setup() function which requires a different identification extension than 'python'
+[0.573s] Level 1:colcon.colcon_core.package_identification:_identify(src/pixel_ring) by extensions ['python_setup_py']
+[0.573s] Level 1:colcon.colcon_core.package_identification:_identify(src/pixel_ring) by extension 'python_setup_py'
+[0.949s] DEBUG:colcon.colcon_core.package_identification:Package 'src/pixel_ring' with type 'python' and name 'pixel-ring'
+[0.950s] Level 1:colcon.colcon_core.package_identification:_identify(src/respeaker_ros) by extensions ['ignore', 'ignore_ament_install']
+[0.950s] Level 1:colcon.colcon_core.package_identification:_identify(src/respeaker_ros) by extension 'ignore'
+[0.950s] Level 1:colcon.colcon_core.package_identification:_identify(src/respeaker_ros) by extension 'ignore_ament_install'
+[0.950s] Level 1:colcon.colcon_core.package_identification:_identify(src/respeaker_ros) by extensions ['colcon_pkg']
+[0.950s] Level 1:colcon.colcon_core.package_identification:_identify(src/respeaker_ros) by extension 'colcon_pkg'
+[0.950s] Level 1:colcon.colcon_core.package_identification:_identify(src/respeaker_ros) by extensions ['colcon_meta']
+[0.950s] Level 1:colcon.colcon_core.package_identification:_identify(src/respeaker_ros) by extension 'colcon_meta'
+[0.950s] Level 1:colcon.colcon_core.package_identification:_identify(src/respeaker_ros) by extensions ['ros']
+[0.950s] Level 1:colcon.colcon_core.package_identification:_identify(src/respeaker_ros) by extension 'ros'
+[0.952s] DEBUG:colcon.colcon_core.package_identification:Package 'src/respeaker_ros' with type 'ros.ament_python' and name 'respeaker_ros'
+[0.952s] Level 1:colcon.colcon_core.package_identification:_identify(src/script) by extensions ['ignore', 'ignore_ament_install']
+[0.952s] Level 1:colcon.colcon_core.package_identification:_identify(src/script) by extension 'ignore'
+[0.952s] Level 1:colcon.colcon_core.package_identification:_identify(src/script) by extension 'ignore_ament_install'
+[0.952s] Level 1:colcon.colcon_core.package_identification:_identify(src/script) by extensions ['colcon_pkg']
+[0.952s] Level 1:colcon.colcon_core.package_identification:_identify(src/script) by extension 'colcon_pkg'
+[0.952s] Level 1:colcon.colcon_core.package_identification:_identify(src/script) by extensions ['colcon_meta']
+[0.952s] Level 1:colcon.colcon_core.package_identification:_identify(src/script) by extension 'colcon_meta'
+[0.952s] Level 1:colcon.colcon_core.package_identification:_identify(src/script) by extensions ['ros']
+[0.952s] Level 1:colcon.colcon_core.package_identification:_identify(src/script) by extension 'ros'
+[0.952s] Level 1:colcon.colcon_core.package_identification:_identify(src/script) by extensions ['cmake', 'python']
+[0.952s] Level 1:colcon.colcon_core.package_identification:_identify(src/script) by extension 'cmake'
+[0.952s] Level 1:colcon.colcon_core.package_identification:_identify(src/script) by extension 'python'
+[0.952s] Level 1:colcon.colcon_core.package_identification:_identify(src/script) by extensions ['python_setup_py']
+[0.952s] Level 1:colcon.colcon_core.package_identification:_identify(src/script) by extension 'python_setup_py'
+[0.953s] Level 1:colcon.colcon_core.package_identification:_identify(src/script/keyboard) by extensions ['ignore', 'ignore_ament_install']
+[0.953s] Level 1:colcon.colcon_core.package_identification:_identify(src/script/keyboard) by extension 'ignore'
+[0.953s] Level 1:colcon.colcon_core.package_identification:_identify(src/script/keyboard) by extension 'ignore_ament_install'
+[0.953s] Level 1:colcon.colcon_core.package_identification:_identify(src/script/keyboard) by extensions ['colcon_pkg']
+[0.953s] Level 1:colcon.colcon_core.package_identification:_identify(src/script/keyboard) by extension 'colcon_pkg'
+[0.953s] Level 1:colcon.colcon_core.package_identification:_identify(src/script/keyboard) by extensions ['colcon_meta']
+[0.953s] Level 1:colcon.colcon_core.package_identification:_identify(src/script/keyboard) by extension 'colcon_meta'
+[0.953s] Level 1:colcon.colcon_core.package_identification:_identify(src/script/keyboard) by extensions ['ros']
+[0.953s] Level 1:colcon.colcon_core.package_identification:_identify(src/script/keyboard) by extension 'ros'
+[0.953s] Level 1:colcon.colcon_core.package_identification:_identify(src/script/keyboard) by extensions ['cmake', 'python']
+[0.953s] Level 1:colcon.colcon_core.package_identification:_identify(src/script/keyboard) by extension 'cmake'
+[0.953s] Level 1:colcon.colcon_core.package_identification:_identify(src/script/keyboard) by extension 'python'
+[0.953s] Level 1:colcon.colcon_core.package_identification:_identify(src/script/keyboard) by extensions ['python_setup_py']
+[0.953s] Level 1:colcon.colcon_core.package_identification:_identify(src/script/keyboard) by extension 'python_setup_py'
+[0.953s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.953s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.953s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.953s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.953s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.010s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.010s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.017s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 437 installed packages in /opt/ros/jazzy
+[1.021s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.121s] Level 5:colcon.colcon_core.verb:set package 'audio_common_msgs' build argument 'cmake_args' from command line to 'None'
+[1.121s] Level 5:colcon.colcon_core.verb:set package 'audio_common_msgs' build argument 'cmake_target' from command line to 'None'
+[1.122s] Level 5:colcon.colcon_core.verb:set package 'audio_common_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.122s] Level 5:colcon.colcon_core.verb:set package 'audio_common_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[1.122s] Level 5:colcon.colcon_core.verb:set package 'audio_common_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[1.122s] Level 5:colcon.colcon_core.verb:set package 'audio_common_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[1.122s] Level 5:colcon.colcon_core.verb:set package 'audio_common_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[1.122s] Level 5:colcon.colcon_core.verb:set package 'audio_common_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[1.122s] Level 5:colcon.colcon_core.verb:set package 'audio_common_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.122s] DEBUG:colcon.colcon_core.verb:Building package 'audio_common_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/roamio42/Desktop/mic_control/build/audio_common_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/roamio42/Desktop/mic_control/install/audio_common_msgs', 'merge_install': False, 'path': '/home/roamio42/Desktop/mic_control/src/audio_common/audio_common_msgs', 'symlink_install': False, 'test_result_base': None}
+[1.122s] Level 5:colcon.colcon_core.verb:set package 'pixel-ring' build argument 'cmake_args' from command line to 'None'
+[1.122s] Level 5:colcon.colcon_core.verb:set package 'pixel-ring' build argument 'cmake_target' from command line to 'None'
+[1.122s] Level 5:colcon.colcon_core.verb:set package 'pixel-ring' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.122s] Level 5:colcon.colcon_core.verb:set package 'pixel-ring' build argument 'cmake_clean_cache' from command line to 'False'
+[1.122s] Level 5:colcon.colcon_core.verb:set package 'pixel-ring' build argument 'cmake_clean_first' from command line to 'False'
+[1.122s] Level 5:colcon.colcon_core.verb:set package 'pixel-ring' build argument 'cmake_force_configure' from command line to 'False'
+[1.122s] Level 5:colcon.colcon_core.verb:set package 'pixel-ring' build argument 'ament_cmake_args' from command line to 'None'
+[1.122s] Level 5:colcon.colcon_core.verb:set package 'pixel-ring' build argument 'catkin_cmake_args' from command line to 'None'
+[1.122s] Level 5:colcon.colcon_core.verb:set package 'pixel-ring' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.123s] DEBUG:colcon.colcon_core.verb:Building package 'pixel-ring' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/roamio42/Desktop/mic_control/build/pixel-ring', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/roamio42/Desktop/mic_control/install/pixel-ring', 'merge_install': False, 'path': '/home/roamio42/Desktop/mic_control/src/pixel_ring', 'symlink_install': False, 'test_result_base': None}
+[1.123s] Level 5:colcon.colcon_core.verb:set package 'audio_capture' build argument 'cmake_args' from command line to 'None'
+[1.123s] Level 5:colcon.colcon_core.verb:set package 'audio_capture' build argument 'cmake_target' from command line to 'None'
+[1.123s] Level 5:colcon.colcon_core.verb:set package 'audio_capture' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.123s] Level 5:colcon.colcon_core.verb:set package 'audio_capture' build argument 'cmake_clean_cache' from command line to 'False'
+[1.123s] Level 5:colcon.colcon_core.verb:set package 'audio_capture' build argument 'cmake_clean_first' from command line to 'False'
+[1.123s] Level 5:colcon.colcon_core.verb:set package 'audio_capture' build argument 'cmake_force_configure' from command line to 'False'
+[1.123s] Level 5:colcon.colcon_core.verb:set package 'audio_capture' build argument 'ament_cmake_args' from command line to 'None'
+[1.123s] Level 5:colcon.colcon_core.verb:set package 'audio_capture' build argument 'catkin_cmake_args' from command line to 'None'
+[1.123s] Level 5:colcon.colcon_core.verb:set package 'audio_capture' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.123s] DEBUG:colcon.colcon_core.verb:Building package 'audio_capture' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/roamio42/Desktop/mic_control/build/audio_capture', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/roamio42/Desktop/mic_control/install/audio_capture', 'merge_install': False, 'path': '/home/roamio42/Desktop/mic_control/src/audio_common/audio_capture', 'symlink_install': False, 'test_result_base': None}
+[1.124s] Level 5:colcon.colcon_core.verb:set package 'audio_play' build argument 'cmake_args' from command line to 'None'
+[1.124s] Level 5:colcon.colcon_core.verb:set package 'audio_play' build argument 'cmake_target' from command line to 'None'
+[1.124s] Level 5:colcon.colcon_core.verb:set package 'audio_play' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.124s] Level 5:colcon.colcon_core.verb:set package 'audio_play' build argument 'cmake_clean_cache' from command line to 'False'
+[1.124s] Level 5:colcon.colcon_core.verb:set package 'audio_play' build argument 'cmake_clean_first' from command line to 'False'
+[1.124s] Level 5:colcon.colcon_core.verb:set package 'audio_play' build argument 'cmake_force_configure' from command line to 'False'
+[1.124s] Level 5:colcon.colcon_core.verb:set package 'audio_play' build argument 'ament_cmake_args' from command line to 'None'
+[1.124s] Level 5:colcon.colcon_core.verb:set package 'audio_play' build argument 'catkin_cmake_args' from command line to 'None'
+[1.124s] Level 5:colcon.colcon_core.verb:set package 'audio_play' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.124s] DEBUG:colcon.colcon_core.verb:Building package 'audio_play' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/roamio42/Desktop/mic_control/build/audio_play', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/roamio42/Desktop/mic_control/install/audio_play', 'merge_install': False, 'path': '/home/roamio42/Desktop/mic_control/src/audio_common/audio_play', 'symlink_install': False, 'test_result_base': None}
+[1.124s] Level 5:colcon.colcon_core.verb:set package 'respeaker_ros' build argument 'cmake_args' from command line to 'None'
+[1.124s] Level 5:colcon.colcon_core.verb:set package 'respeaker_ros' build argument 'cmake_target' from command line to 'None'
+[1.124s] Level 5:colcon.colcon_core.verb:set package 'respeaker_ros' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.124s] Level 5:colcon.colcon_core.verb:set package 'respeaker_ros' build argument 'cmake_clean_cache' from command line to 'False'
+[1.124s] Level 5:colcon.colcon_core.verb:set package 'respeaker_ros' build argument 'cmake_clean_first' from command line to 'False'
+[1.124s] Level 5:colcon.colcon_core.verb:set package 'respeaker_ros' build argument 'cmake_force_configure' from command line to 'False'
+[1.124s] Level 5:colcon.colcon_core.verb:set package 'respeaker_ros' build argument 'ament_cmake_args' from command line to 'None'
+[1.124s] Level 5:colcon.colcon_core.verb:set package 'respeaker_ros' build argument 'catkin_cmake_args' from command line to 'None'
+[1.124s] Level 5:colcon.colcon_core.verb:set package 'respeaker_ros' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.124s] DEBUG:colcon.colcon_core.verb:Building package 'respeaker_ros' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/roamio42/Desktop/mic_control/build/respeaker_ros', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/roamio42/Desktop/mic_control/install/respeaker_ros', 'merge_install': False, 'path': '/home/roamio42/Desktop/mic_control/src/respeaker_ros', 'symlink_install': False, 'test_result_base': None}
+[1.125s] Level 5:colcon.colcon_core.verb:set package 'sound_play' build argument 'cmake_args' from command line to 'None'
+[1.125s] Level 5:colcon.colcon_core.verb:set package 'sound_play' build argument 'cmake_target' from command line to 'None'
+[1.125s] Level 5:colcon.colcon_core.verb:set package 'sound_play' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.125s] Level 5:colcon.colcon_core.verb:set package 'sound_play' build argument 'cmake_clean_cache' from command line to 'False'
+[1.125s] Level 5:colcon.colcon_core.verb:set package 'sound_play' build argument 'cmake_clean_first' from command line to 'False'
+[1.125s] Level 5:colcon.colcon_core.verb:set package 'sound_play' build argument 'cmake_force_configure' from command line to 'False'
+[1.125s] Level 5:colcon.colcon_core.verb:set package 'sound_play' build argument 'ament_cmake_args' from command line to 'None'
+[1.125s] Level 5:colcon.colcon_core.verb:set package 'sound_play' build argument 'catkin_cmake_args' from command line to 'None'
+[1.125s] Level 5:colcon.colcon_core.verb:set package 'sound_play' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.125s] DEBUG:colcon.colcon_core.verb:Building package 'sound_play' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/roamio42/Desktop/mic_control/build/sound_play', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/roamio42/Desktop/mic_control/install/sound_play', 'merge_install': False, 'path': '/home/roamio42/Desktop/mic_control/src/audio_common/sound_play', 'symlink_install': False, 'test_result_base': None}
+[1.125s] Level 5:colcon.colcon_core.verb:set package 'audio_common' build argument 'cmake_args' from command line to 'None'
+[1.125s] Level 5:colcon.colcon_core.verb:set package 'audio_common' build argument 'cmake_target' from command line to 'None'
+[1.125s] Level 5:colcon.colcon_core.verb:set package 'audio_common' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.125s] Level 5:colcon.colcon_core.verb:set package 'audio_common' build argument 'cmake_clean_cache' from command line to 'False'
+[1.125s] Level 5:colcon.colcon_core.verb:set package 'audio_common' build argument 'cmake_clean_first' from command line to 'False'
+[1.125s] Level 5:colcon.colcon_core.verb:set package 'audio_common' build argument 'cmake_force_configure' from command line to 'False'
+[1.125s] Level 5:colcon.colcon_core.verb:set package 'audio_common' build argument 'ament_cmake_args' from command line to 'None'
+[1.125s] Level 5:colcon.colcon_core.verb:set package 'audio_common' build argument 'catkin_cmake_args' from command line to 'None'
+[1.125s] Level 5:colcon.colcon_core.verb:set package 'audio_common' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.125s] DEBUG:colcon.colcon_core.verb:Building package 'audio_common' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/roamio42/Desktop/mic_control/build/audio_common', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/roamio42/Desktop/mic_control/install/audio_common', 'merge_install': False, 'path': '/home/roamio42/Desktop/mic_control/src/audio_common/audio_common', 'symlink_install': False, 'test_result_base': None}
+[1.126s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.127s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.128s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/roamio42/Desktop/mic_control/src/audio_common/audio_common_msgs' with build type 'ament_cmake'
+[1.128s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/roamio42/Desktop/mic_control/src/audio_common/audio_common_msgs'
+[1.139s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.140s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.140s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.146s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/roamio42/Desktop/mic_control/src/pixel_ring'
+[1.147s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.147s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.157s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/roamio42/Desktop/mic_control/build/audio_common_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/roamio42/Desktop/mic_control/src/audio_common/audio_common_msgs -DCMAKE_INSTALL_PREFIX=/home/roamio42/Desktop/mic_control/install/audio_common_msgs
+[3.319s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/roamio42/Desktop/mic_control/src/pixel_ring': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/roamio42/Desktop/mic_control/build/pixel-ring/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/roamio42/Desktop/mic_control/install/pixel-ring/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/pixel-ring build --build-base /home/roamio42/Desktop/mic_control/build/pixel-ring/build install --record /home/roamio42/Desktop/mic_control/build/pixel-ring/install.log --single-version-externally-managed
+[4.292s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/roamio42/Desktop/mic_control/src/pixel_ring' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/roamio42/Desktop/mic_control/build/pixel-ring/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/roamio42/Desktop/mic_control/install/pixel-ring/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/pixel-ring build --build-base /home/roamio42/Desktop/mic_control/build/pixel-ring/build install --record /home/roamio42/Desktop/mic_control/build/pixel-ring/install.log --single-version-externally-managed
+[4.301s] Level 1:colcon.colcon_core.environment:checking '/home/roamio42/Desktop/mic_control/install/pixel-ring' for CMake module files
+[4.301s] Level 1:colcon.colcon_core.environment:checking '/home/roamio42/Desktop/mic_control/install/pixel-ring' for CMake config files
+[4.302s] Level 1:colcon.colcon_core.environment:checking '/home/roamio42/Desktop/mic_control/install/pixel-ring/lib'
+[4.302s] Level 1:colcon.colcon_core.environment:checking '/home/roamio42/Desktop/mic_control/install/pixel-ring/bin'
+[4.302s] Level 1:colcon.colcon_core.shell:create_environment_hook('pixel-ring', 'path')
+[4.303s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/roamio42/Desktop/mic_control/install/pixel-ring/share/pixel-ring/hook/path.ps1'
+[4.304s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/roamio42/Desktop/mic_control/install/pixel-ring/share/pixel-ring/hook/path.dsv'
+[4.306s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/roamio42/Desktop/mic_control/install/pixel-ring/share/pixel-ring/hook/path.sh'
+[4.307s] Level 1:colcon.colcon_core.environment:checking '/home/roamio42/Desktop/mic_control/install/pixel-ring/lib/pkgconfig/pixel-ring.pc'
+[4.307s] Level 1:colcon.colcon_core.environment:checking '/home/roamio42/Desktop/mic_control/install/pixel-ring/lib/python3.12/site-packages'
+[4.307s] Level 1:colcon.colcon_core.shell:create_environment_hook('pixel-ring', 'pythonpath')
+[4.308s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/roamio42/Desktop/mic_control/install/pixel-ring/share/pixel-ring/hook/pythonpath.ps1'
+[4.308s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/roamio42/Desktop/mic_control/install/pixel-ring/share/pixel-ring/hook/pythonpath.dsv'
+[4.309s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/roamio42/Desktop/mic_control/install/pixel-ring/share/pixel-ring/hook/pythonpath.sh'
+[4.309s] Level 1:colcon.colcon_core.environment:checking '/home/roamio42/Desktop/mic_control/install/pixel-ring/bin'
+[4.310s] Level 1:colcon.colcon_core.shell:create_environment_hook('pixel-ring', 'pythonscriptspath')
+[4.310s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/roamio42/Desktop/mic_control/install/pixel-ring/share/pixel-ring/hook/pythonscriptspath.ps1'
+[4.312s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/roamio42/Desktop/mic_control/install/pixel-ring/share/pixel-ring/hook/pythonscriptspath.dsv'
+[4.312s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/roamio42/Desktop/mic_control/install/pixel-ring/share/pixel-ring/hook/pythonscriptspath.sh'
+[4.313s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pixel-ring)
+[4.313s] INFO:colcon.colcon_core.shell:Creating package script '/home/roamio42/Desktop/mic_control/install/pixel-ring/share/pixel-ring/package.ps1'
+[4.321s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/roamio42/Desktop/mic_control/install/pixel-ring/share/pixel-ring/package.dsv'
+[4.322s] INFO:colcon.colcon_core.shell:Creating package script '/home/roamio42/Desktop/mic_control/install/pixel-ring/share/pixel-ring/package.sh'
+[4.324s] INFO:colcon.colcon_core.shell:Creating package script '/home/roamio42/Desktop/mic_control/install/pixel-ring/share/pixel-ring/package.bash'
+[4.325s] INFO:colcon.colcon_core.shell:Creating package script '/home/roamio42/Desktop/mic_control/install/pixel-ring/share/pixel-ring/package.zsh'
+[4.326s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/roamio42/Desktop/mic_control/install/pixel-ring/share/colcon-core/packages/pixel-ring)
+[7.886s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/roamio42/Desktop/mic_control/build/audio_common_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/roamio42/Desktop/mic_control/src/audio_common/audio_common_msgs -DCMAKE_INSTALL_PREFIX=/home/roamio42/Desktop/mic_control/install/audio_common_msgs
+[7.889s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/roamio42/Desktop/mic_control/build/audio_common_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/roamio42/Desktop/mic_control/build/audio_common_msgs -- -j4 -l4
+[18.721s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/roamio42/Desktop/mic_control/build/audio_common_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/roamio42/Desktop/mic_control/build/audio_common_msgs -- -j4 -l4
+[18.743s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/roamio42/Desktop/mic_control/build/audio_common_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/roamio42/Desktop/mic_control/build/audio_common_msgs
+[18.896s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(audio_common_msgs)
+[18.896s] Level 1:colcon.colcon_core.environment:checking '/home/roamio42/Desktop/mic_control/install/audio_common_msgs' for CMake module files
+[18.897s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/roamio42/Desktop/mic_control/build/audio_common_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/roamio42/Desktop/mic_control/build/audio_common_msgs
+[18.898s] Level 1:colcon.colcon_core.environment:checking '/home/roamio42/Desktop/mic_control/install/audio_common_msgs' for CMake config files
+[18.898s] Level 1:colcon.colcon_core.shell:create_environment_hook('audio_common_msgs', 'cmake_prefix_path')
+[18.898s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/roamio42/Desktop/mic_control/install/audio_common_msgs/share/audio_common_msgs/hook/cmake_prefix_path.ps1'
+[18.899s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/roamio42/Desktop/mic_control/install/audio_common_msgs/share/audio_common_msgs/hook/cmake_prefix_path.dsv'
+[18.899s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/roamio42/Desktop/mic_control/install/audio_common_msgs/share/audio_common_msgs/hook/cmake_prefix_path.sh'
+[18.900s] Level 1:colcon.colcon_core.environment:checking '/home/roamio42/Desktop/mic_control/install/audio_common_msgs/lib'
+[18.900s] Level 1:colcon.colcon_core.shell:create_environment_hook('audio_common_msgs', 'ld_library_path_lib')
+[18.900s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/roamio42/Desktop/mic_control/install/audio_common_msgs/share/audio_common_msgs/hook/ld_library_path_lib.ps1'
+[18.901s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/roamio42/Desktop/mic_control/install/audio_common_msgs/share/audio_common_msgs/hook/ld_library_path_lib.dsv'
+[18.901s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/roamio42/Desktop/mic_control/install/audio_common_msgs/share/audio_common_msgs/hook/ld_library_path_lib.sh'
+[18.902s] Level 1:colcon.colcon_core.environment:checking '/home/roamio42/Desktop/mic_control/install/audio_common_msgs/bin'
+[18.902s] Level 1:colcon.colcon_core.environment:checking '/home/roamio42/Desktop/mic_control/install/audio_common_msgs/lib/pkgconfig/audio_common_msgs.pc'
+[18.902s] Level 1:colcon.colcon_core.environment:checking '/home/roamio42/Desktop/mic_control/install/audio_common_msgs/lib/python3.12/site-packages'
+[18.902s] Level 1:colcon.colcon_core.shell:create_environment_hook('audio_common_msgs', 'pythonpath')
+[18.902s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/roamio42/Desktop/mic_control/install/audio_common_msgs/share/audio_common_msgs/hook/pythonpath.ps1'
+[18.903s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/roamio42/Desktop/mic_control/install/audio_common_msgs/share/audio_common_msgs/hook/pythonpath.dsv'
+[18.903s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/roamio42/Desktop/mic_control/install/audio_common_msgs/share/audio_common_msgs/hook/pythonpath.sh'
+[18.904s] Level 1:colcon.colcon_core.environment:checking '/home/roamio42/Desktop/mic_control/install/audio_common_msgs/bin'
+[18.904s] INFO:colcon.colcon_core.shell:Creating package script '/home/roamio42/Desktop/mic_control/install/audio_common_msgs/share/audio_common_msgs/package.ps1'
+[18.905s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/roamio42/Desktop/mic_control/install/audio_common_msgs/share/audio_common_msgs/package.dsv'
+[18.905s] INFO:colcon.colcon_core.shell:Creating package script '/home/roamio42/Desktop/mic_control/install/audio_common_msgs/share/audio_common_msgs/package.sh'
+[18.906s] INFO:colcon.colcon_core.shell:Creating package script '/home/roamio42/Desktop/mic_control/install/audio_common_msgs/share/audio_common_msgs/package.bash'
+[18.906s] INFO:colcon.colcon_core.shell:Creating package script '/home/roamio42/Desktop/mic_control/install/audio_common_msgs/share/audio_common_msgs/package.zsh'
+[18.907s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/roamio42/Desktop/mic_control/install/audio_common_msgs/share/colcon-core/packages/audio_common_msgs)
+[18.907s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(audio_common_msgs)
+[18.908s] Level 1:colcon.colcon_core.environment:checking '/home/roamio42/Desktop/mic_control/install/audio_common_msgs' for CMake module files
+[18.909s] Level 1:colcon.colcon_core.environment:checking '/home/roamio42/Desktop/mic_control/install/audio_common_msgs' for CMake config files
+[18.909s] Level 1:colcon.colcon_core.shell:create_environment_hook('audio_common_msgs', 'cmake_prefix_path')
+[18.909s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/roamio42/Desktop/mic_control/install/audio_common_msgs/share/audio_common_msgs/hook/cmake_prefix_path.ps1'
+[18.910s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/roamio42/Desktop/mic_control/install/audio_common_msgs/share/audio_common_msgs/hook/cmake_prefix_path.dsv'
+[18.910s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/roamio42/Desktop/mic_control/install/audio_common_msgs/share/audio_common_msgs/hook/cmake_prefix_path.sh'
+[18.911s] Level 1:colcon.colcon_core.environment:checking '/home/roamio42/Desktop/mic_control/install/audio_common_msgs/lib'
+[18.911s] Level 1:colcon.colcon_core.shell:create_environment_hook('audio_common_msgs', 'ld_library_path_lib')
+[18.912s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/roamio42/Desktop/mic_control/install/audio_common_msgs/share/audio_common_msgs/hook/ld_library_path_lib.ps1'
+[18.912s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/roamio42/Desktop/mic_control/install/audio_common_msgs/share/audio_common_msgs/hook/ld_library_path_lib.dsv'
+[18.912s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/roamio42/Desktop/mic_control/install/audio_common_msgs/share/audio_common_msgs/hook/ld_library_path_lib.sh'
+[18.913s] Level 1:colcon.colcon_core.environment:checking '/home/roamio42/Desktop/mic_control/install/audio_common_msgs/bin'
+[18.913s] Level 1:colcon.colcon_core.environment:checking '/home/roamio42/Desktop/mic_control/install/audio_common_msgs/lib/pkgconfig/audio_common_msgs.pc'
+[18.913s] Level 1:colcon.colcon_core.environment:checking '/home/roamio42/Desktop/mic_control/install/audio_common_msgs/lib/python3.12/site-packages'
+[18.913s] Level 1:colcon.colcon_core.shell:create_environment_hook('audio_common_msgs', 'pythonpath')
+[18.914s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/roamio42/Desktop/mic_control/install/audio_common_msgs/share/audio_common_msgs/hook/pythonpath.ps1'
+[18.935s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/roamio42/Desktop/mic_control/install/audio_common_msgs/share/audio_common_msgs/hook/pythonpath.dsv'
+[18.936s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/roamio42/Desktop/mic_control/install/audio_common_msgs/share/audio_common_msgs/hook/pythonpath.sh'
+[18.937s] Level 1:colcon.colcon_core.environment:checking '/home/roamio42/Desktop/mic_control/install/audio_common_msgs/bin'
+[18.938s] INFO:colcon.colcon_core.shell:Creating package script '/home/roamio42/Desktop/mic_control/install/audio_common_msgs/share/audio_common_msgs/package.ps1'
+[18.939s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/roamio42/Desktop/mic_control/install/audio_common_msgs/share/audio_common_msgs/package.dsv'
+[18.940s] INFO:colcon.colcon_core.shell:Creating package script '/home/roamio42/Desktop/mic_control/install/audio_common_msgs/share/audio_common_msgs/package.sh'
+[18.941s] INFO:colcon.colcon_core.shell:Creating package script '/home/roamio42/Desktop/mic_control/install/audio_common_msgs/share/audio_common_msgs/package.bash'
+[18.941s] INFO:colcon.colcon_core.shell:Creating package script '/home/roamio42/Desktop/mic_control/install/audio_common_msgs/share/audio_common_msgs/package.zsh'
+[18.942s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/roamio42/Desktop/mic_control/install/audio_common_msgs/share/colcon-core/packages/audio_common_msgs)
+[18.943s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/roamio42/Desktop/mic_control/src/audio_common/audio_capture' with build type 'ament_cmake'
+[18.943s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/roamio42/Desktop/mic_control/src/audio_common/audio_capture'
+[18.943s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[18.943s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[18.951s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/roamio42/Desktop/mic_control/src/audio_common/audio_play' with build type 'ament_cmake'
+[18.951s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/roamio42/Desktop/mic_control/src/audio_common/audio_play'
+[18.952s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[18.952s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[18.959s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/roamio42/Desktop/mic_control/src/audio_common/sound_play' with build type 'ament_cmake'
+[18.959s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/roamio42/Desktop/mic_control/src/audio_common/sound_play'
+[18.960s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[18.960s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[18.967s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/roamio42/Desktop/mic_control/src/respeaker_ros' with build type 'ament_python'
+[18.967s] Level 1:colcon.colcon_core.shell:create_environment_hook('respeaker_ros', 'ament_prefix_path')
+[18.967s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/roamio42/Desktop/mic_control/install/respeaker_ros/share/respeaker_ros/hook/ament_prefix_path.ps1'
+[18.969s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/roamio42/Desktop/mic_control/install/respeaker_ros/share/respeaker_ros/hook/ament_prefix_path.dsv'
+[18.969s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/roamio42/Desktop/mic_control/install/respeaker_ros/share/respeaker_ros/hook/ament_prefix_path.sh'
+[18.970s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[18.970s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[18.982s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/roamio42/Desktop/mic_control/build/audio_capture': AMENT_PREFIX_PATH=/home/roamio42/Desktop/mic_control/install/audio_common_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/roamio42/Desktop/mic_control/install/audio_common_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/roamio42/Desktop/mic_control/install/audio_common_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/roamio42/Desktop/mic_control/install/audio_common_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/roamio42/Desktop/mic_control/src/audio_common/audio_capture -DCMAKE_INSTALL_PREFIX=/home/roamio42/Desktop/mic_control/install/audio_capture
+[18.986s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/roamio42/Desktop/mic_control/build/audio_play': AMENT_PREFIX_PATH=/home/roamio42/Desktop/mic_control/install/audio_common_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/roamio42/Desktop/mic_control/install/audio_common_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/roamio42/Desktop/mic_control/install/audio_common_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/roamio42/Desktop/mic_control/install/audio_common_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/roamio42/Desktop/mic_control/src/audio_common/audio_play -DCMAKE_INSTALL_PREFIX=/home/roamio42/Desktop/mic_control/install/audio_play
+[18.988s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/roamio42/Desktop/mic_control/build/sound_play': AMENT_PREFIX_PATH=/home/roamio42/Desktop/mic_control/install/audio_common_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/roamio42/Desktop/mic_control/install/audio_common_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/roamio42/Desktop/mic_control/install/audio_common_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/roamio42/Desktop/mic_control/install/audio_common_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/roamio42/Desktop/mic_control/src/audio_common/sound_play -DCMAKE_INSTALL_PREFIX=/home/roamio42/Desktop/mic_control/install/sound_play
+[19.986s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/roamio42/Desktop/mic_control/src/respeaker_ros'
+[19.987s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[19.987s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[21.925s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/roamio42/Desktop/mic_control/src/respeaker_ros': AMENT_PREFIX_PATH=/home/roamio42/Desktop/mic_control/install/audio_common_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/roamio42/Desktop/mic_control/install/audio_common_msgs:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/roamio42/Desktop/mic_control/install/audio_common_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/roamio42/Desktop/mic_control/build/respeaker_ros/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/roamio42/Desktop/mic_control/install/respeaker_ros/lib/python3.12/site-packages:/home/roamio42/Desktop/mic_control/install/audio_common_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/respeaker_ros build --build-base /home/roamio42/Desktop/mic_control/build/respeaker_ros/build install --record /home/roamio42/Desktop/mic_control/build/respeaker_ros/install.log --single-version-externally-managed install_data
+[23.606s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/roamio42/Desktop/mic_control/build/audio_capture' returned '0': AMENT_PREFIX_PATH=/home/roamio42/Desktop/mic_control/install/audio_common_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/roamio42/Desktop/mic_control/install/audio_common_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/roamio42/Desktop/mic_control/install/audio_common_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/roamio42/Desktop/mic_control/install/audio_common_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/roamio42/Desktop/mic_control/src/audio_common/audio_capture -DCMAKE_INSTALL_PREFIX=/home/roamio42/Desktop/mic_control/install/audio_capture
+[23.612s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/roamio42/Desktop/mic_control/build/audio_capture': AMENT_PREFIX_PATH=/home/roamio42/Desktop/mic_control/install/audio_common_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/roamio42/Desktop/mic_control/install/audio_common_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/roamio42/Desktop/mic_control/install/audio_common_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/roamio42/Desktop/mic_control/install/audio_common_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/roamio42/Desktop/mic_control/build/audio_capture -- -j4 -l4
+[23.621s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/roamio42/Desktop/mic_control/build/audio_play' returned '0': AMENT_PREFIX_PATH=/home/roamio42/Desktop/mic_control/install/audio_common_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/roamio42/Desktop/mic_control/install/audio_common_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/roamio42/Desktop/mic_control/install/audio_common_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/roamio42/Desktop/mic_control/install/audio_common_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/roamio42/Desktop/mic_control/src/audio_common/audio_play -DCMAKE_INSTALL_PREFIX=/home/roamio42/Desktop/mic_control/install/audio_play
+[23.623s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/roamio42/Desktop/mic_control/build/audio_play': AMENT_PREFIX_PATH=/home/roamio42/Desktop/mic_control/install/audio_common_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/roamio42/Desktop/mic_control/install/audio_common_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/roamio42/Desktop/mic_control/install/audio_common_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/roamio42/Desktop/mic_control/install/audio_common_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/roamio42/Desktop/mic_control/build/audio_play -- -j4 -l4
+[23.626s] Level 1:colcon.colcon_core.environment:checking '/home/roamio42/Desktop/mic_control/install/respeaker_ros' for CMake module files
+[23.627s] Level 1:colcon.colcon_core.environment:checking '/home/roamio42/Desktop/mic_control/install/respeaker_ros' for CMake config files
+[23.628s] Level 1:colcon.colcon_core.environment:checking '/home/roamio42/Desktop/mic_control/install/respeaker_ros/lib'
+[23.628s] Level 1:colcon.colcon_core.environment:checking '/home/roamio42/Desktop/mic_control/install/respeaker_ros/bin'
+[23.629s] Level 1:colcon.colcon_core.environment:checking '/home/roamio42/Desktop/mic_control/install/respeaker_ros/lib/pkgconfig/respeaker_ros.pc'
+[23.629s] Level 1:colcon.colcon_core.environment:checking '/home/roamio42/Desktop/mic_control/install/respeaker_ros/lib/python3.12/site-packages'
+[23.630s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/roamio42/Desktop/mic_control/src/respeaker_ros' returned '0': AMENT_PREFIX_PATH=/home/roamio42/Desktop/mic_control/install/audio_common_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/roamio42/Desktop/mic_control/install/audio_common_msgs:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/roamio42/Desktop/mic_control/install/audio_common_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/roamio42/Desktop/mic_control/build/respeaker_ros/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/roamio42/Desktop/mic_control/install/respeaker_ros/lib/python3.12/site-packages:/home/roamio42/Desktop/mic_control/install/audio_common_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/respeaker_ros build --build-base /home/roamio42/Desktop/mic_control/build/respeaker_ros/build install --record /home/roamio42/Desktop/mic_control/build/respeaker_ros/install.log --single-version-externally-managed install_data
+[23.631s] Level 1:colcon.colcon_core.shell:create_environment_hook('respeaker_ros', 'pythonpath')
+[23.631s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/roamio42/Desktop/mic_control/install/respeaker_ros/share/respeaker_ros/hook/pythonpath.ps1'
+[23.633s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/roamio42/Desktop/mic_control/install/respeaker_ros/share/respeaker_ros/hook/pythonpath.dsv'
+[23.635s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/roamio42/Desktop/mic_control/install/respeaker_ros/share/respeaker_ros/hook/pythonpath.sh'
+[23.638s] Level 1:colcon.colcon_core.environment:checking '/home/roamio42/Desktop/mic_control/install/respeaker_ros/bin'
+[23.638s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(respeaker_ros)
+[23.639s] INFO:colcon.colcon_core.shell:Creating package script '/home/roamio42/Desktop/mic_control/install/respeaker_ros/share/respeaker_ros/package.ps1'
+[23.641s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/roamio42/Desktop/mic_control/install/respeaker_ros/share/respeaker_ros/package.dsv'
+[23.642s] INFO:colcon.colcon_core.shell:Creating package script '/home/roamio42/Desktop/mic_control/install/respeaker_ros/share/respeaker_ros/package.sh'
+[23.643s] INFO:colcon.colcon_core.shell:Creating package script '/home/roamio42/Desktop/mic_control/install/respeaker_ros/share/respeaker_ros/package.bash'
+[23.644s] INFO:colcon.colcon_core.shell:Creating package script '/home/roamio42/Desktop/mic_control/install/respeaker_ros/share/respeaker_ros/package.zsh'
+[23.645s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/roamio42/Desktop/mic_control/install/respeaker_ros/share/colcon-core/packages/respeaker_ros)
+[27.735s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/roamio42/Desktop/mic_control/build/sound_play' returned '1': AMENT_PREFIX_PATH=/home/roamio42/Desktop/mic_control/install/audio_common_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/roamio42/Desktop/mic_control/install/audio_common_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/roamio42/Desktop/mic_control/install/audio_common_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/roamio42/Desktop/mic_control/install/audio_common_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/roamio42/Desktop/mic_control/src/audio_common/sound_play -DCMAKE_INSTALL_PREFIX=/home/roamio42/Desktop/mic_control/install/sound_play
+[27.770s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sound_play)
+[27.771s] Level 1:colcon.colcon_core.environment:checking '/home/roamio42/Desktop/mic_control/install/sound_play' for CMake module files
+[27.771s] Level 1:colcon.colcon_core.environment:checking '/home/roamio42/Desktop/mic_control/install/sound_play' for CMake config files
+[27.772s] Level 1:colcon.colcon_core.environment:checking '/home/roamio42/Desktop/mic_control/install/sound_play/bin'
+[27.772s] Level 1:colcon.colcon_core.environment:checking '/home/roamio42/Desktop/mic_control/install/sound_play/lib/pkgconfig/sound_play.pc'
+[27.773s] Level 1:colcon.colcon_core.environment:checking '/home/roamio42/Desktop/mic_control/install/sound_play/lib/python3.12/site-packages'
+[27.773s] Level 1:colcon.colcon_core.environment:checking '/home/roamio42/Desktop/mic_control/install/sound_play/bin'
+[27.774s] INFO:colcon.colcon_core.shell:Creating package script '/home/roamio42/Desktop/mic_control/install/sound_play/share/sound_play/package.ps1'
+[27.776s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/roamio42/Desktop/mic_control/install/sound_play/share/sound_play/package.dsv'
+[27.777s] INFO:colcon.colcon_core.shell:Creating package script '/home/roamio42/Desktop/mic_control/install/sound_play/share/sound_play/package.sh'
+[27.778s] INFO:colcon.colcon_core.shell:Creating package script '/home/roamio42/Desktop/mic_control/install/sound_play/share/sound_play/package.bash'
+[27.779s] INFO:colcon.colcon_core.shell:Creating package script '/home/roamio42/Desktop/mic_control/install/sound_play/share/sound_play/package.zsh'
+[27.780s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/roamio42/Desktop/mic_control/install/sound_play/share/colcon-core/packages/sound_play)
+[48.735s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[48.735s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[48.735s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '1'
+[48.735s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[48.755s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[48.756s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[48.756s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[48.783s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[48.784s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/roamio42/Desktop/mic_control/install/local_setup.ps1'
+[48.790s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/roamio42/Desktop/mic_control/install/_local_setup_util_ps1.py'
+[48.793s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/roamio42/Desktop/mic_control/install/setup.ps1'
+[48.795s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/roamio42/Desktop/mic_control/install/local_setup.sh'
+[48.798s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/roamio42/Desktop/mic_control/install/_local_setup_util_sh.py'
+[48.799s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/roamio42/Desktop/mic_control/install/setup.sh'
+[48.800s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/roamio42/Desktop/mic_control/install/local_setup.bash'
+[48.802s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/roamio42/Desktop/mic_control/install/setup.bash'
+[48.803s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/roamio42/Desktop/mic_control/install/local_setup.zsh'
+[48.805s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/roamio42/Desktop/mic_control/install/setup.zsh'

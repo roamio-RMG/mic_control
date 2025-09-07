@@ -1,0 +1,1048 @@
+[0.000000] (-) TimerEvent: {}
+[0.000436] (audio_common_msgs) JobQueued: {'identifier': 'audio_common_msgs', 'dependencies': OrderedDict()}
+[0.000488] (pixel-ring) JobQueued: {'identifier': 'pixel-ring', 'dependencies': OrderedDict()}
+[0.000602] (audio_capture) JobQueued: {'identifier': 'audio_capture', 'dependencies': OrderedDict({'audio_common_msgs': '/home/roamio42/Desktop/mic_control/install/audio_common_msgs'})}
+[0.000636] (audio_play) JobQueued: {'identifier': 'audio_play', 'dependencies': OrderedDict({'audio_common_msgs': '/home/roamio42/Desktop/mic_control/install/audio_common_msgs'})}
+[0.000657] (respeaker_ros) JobQueued: {'identifier': 'respeaker_ros', 'dependencies': OrderedDict({'audio_common_msgs': '/home/roamio42/Desktop/mic_control/install/audio_common_msgs'})}
+[0.000678] (sound_play) JobQueued: {'identifier': 'sound_play', 'dependencies': OrderedDict({'audio_common_msgs': '/home/roamio42/Desktop/mic_control/install/audio_common_msgs'})}
+[0.000696] (audio_common) JobQueued: {'identifier': 'audio_common', 'dependencies': OrderedDict({'audio_common_msgs': '/home/roamio42/Desktop/mic_control/install/audio_common_msgs', 'audio_capture': '/home/roamio42/Desktop/mic_control/install/audio_capture', 'audio_play': '/home/roamio42/Desktop/mic_control/install/audio_play', 'sound_play': '/home/roamio42/Desktop/mic_control/install/sound_play'})}
+[0.000999] (audio_common_msgs) JobStarted: {'identifier': 'audio_common_msgs'}
+[0.019864] (pixel-ring) JobStarted: {'identifier': 'pixel-ring'}
+[0.028071] (audio_common_msgs) JobProgress: {'identifier': 'audio_common_msgs', 'progress': 'cmake'}
+[0.029091] (audio_common_msgs) Command: {'cmd': ['/usr/bin/cmake', '/home/roamio42/Desktop/mic_control/src/audio_common/audio_common_msgs', '-DCMAKE_INSTALL_PREFIX=/home/roamio42/Desktop/mic_control/install/audio_common_msgs'], 'cwd': '/home/roamio42/Desktop/mic_control/build/audio_common_msgs', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'roamio42', 'SSH_CLIENT': '10.42.247.52 48638 22', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/roamio42/.cursor-server/cli/servers/Stable-d01860bc5f5a36b62f8a77cd42578126270db340/server/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'BROWSER': '/home/roamio42/.cursor-server/cli/servers/Stable-d01860bc5f5a36b62f8a77cd42578126270db340/server/bin/helpers/browser.sh', 'HOME': '/home/roamio42', 'OLDPWD': '/home/roamio42/Desktop', 'TERM_PROGRAM_VERSION': '1.4.2', 'VSCODE_IPC_HOOK_CLI': '/run/user/1002/vscode-ipc-28349ab4-5137-4dda-abda-45e4658f9ad7.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/roamio42/.cursor-server/cli/servers/Stable-d01860bc5f5a36b62f8a77cd42578126270db340/server/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/roamio42/.cursor-server/cli/servers/Stable-d01860bc5f5a36b62f8a77cd42578126270db340/server/node', 'SSL_CERT_FILE': '/usr/lib/ssl/cert.pem', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'BUNDLED_DEBUGPY_PATH': '/home/roamio42/.cursor-server/extensions/ms-python.debugpy-2025.10.0-linux-arm64/bundled/libs/debugpy', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1002/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'roamio42', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '4', 'PATH': '/root/bin:/home/roamio42/ros2_ws/bin:/opt/venv/bin:/home/roamio42/ros2_ws/bin:/opt/venv/bin:/home/roamio42/ros2_ws/bin:/opt/venv/bin:/opt/venv/bin:~/.local/bin:/home/roamio42/.cursor-server/cli/servers/Stable-d01860bc5f5a36b62f8a77cd42578126270db340/server/bin/remote-cli:/home/roamio42/.local/bin:/root/bin:/home/roamio42/bin:/opt/venv/bin:/home/roamio42/bin:/opt/venv/bin:/home/roamio42/bin:/opt/venv/bin:/opt/venv/bin:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:~/.local/bin:/home/roamio42/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/roamio42/bin:/home/roamio42/bin:/home/roamio42/.cursor-server/extensions/ms-python.debugpy-2025.10.0-linux-arm64/bundled/scripts/noConfigScripts:/home/roamio42/bin:/home/roamio42/bin', 'XDG_RUNTIME_DIR': '/run/user/1002', 'SSL_CERT_DIR': '/usr/lib/ssl/certs', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/roamio42/.cursor-server/extensions/ms-python.debugpy-2025.10.0-linux-arm64/.noConfigDebugAdapterEndpoints/endpoint-d14c98ef4557fbea.txt', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1002/vscode-git-220cc97faa.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'IGN_GAZEBO_RESOURCE_PATH': '/opt/ros/jazzy/share', 'VIRTUAL_ENV': '/opt/venv', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/roamio42/Desktop/mic_control/build/audio_common_msgs', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '10.42.247.52 48638 10.42.247.240 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.099625] (-) TimerEvent: {}
+[0.199987] (-) TimerEvent: {}
+[0.300362] (-) TimerEvent: {}
+[0.400736] (-) TimerEvent: {}
+[0.501083] (-) TimerEvent: {}
+[0.601490] (-) TimerEvent: {}
+[0.694041] (audio_common_msgs) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[0.701545] (-) TimerEvent: {}
+[0.801882] (-) TimerEvent: {}
+[0.902258] (-) TimerEvent: {}
+[1.002574] (-) TimerEvent: {}
+[1.103086] (-) TimerEvent: {}
+[1.142308] (audio_common_msgs) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[1.190003] (audio_common_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.203127] (-) TimerEvent: {}
+[1.303492] (-) TimerEvent: {}
+[1.403908] (-) TimerEvent: {}
+[1.420201] (audio_common_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.436352] (audio_common_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.437261] (audio_common_msgs) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.438326] (audio_common_msgs) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.461685] (audio_common_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.504032] (-) TimerEvent: {}
+[1.604525] (-) TimerEvent: {}
+[1.668660] (audio_common_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.684236] (audio_common_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.684676] (audio_common_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.685392] (audio_common_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.702117] (audio_common_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[1.704573] (-) TimerEvent: {}
+[1.804840] (-) TimerEvent: {}
+[1.905200] (-) TimerEvent: {}
+[1.928882] (audio_common_msgs) StdoutLine: {'line': b'-- Found Python3: /opt/venv/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[2.005352] (-) TimerEvent: {}
+[2.105942] (-) TimerEvent: {}
+[2.189972] (pixel-ring) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/pixel-ring', 'build', '--build-base', '/home/roamio42/Desktop/mic_control/build/pixel-ring/build', 'install', '--record', '/home/roamio42/Desktop/mic_control/build/pixel-ring/install.log', '--single-version-externally-managed'], 'cwd': '/home/roamio42/Desktop/mic_control/src/pixel_ring', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'roamio42', 'SSH_CLIENT': '10.42.247.52 48638 22', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/roamio42/.cursor-server/cli/servers/Stable-d01860bc5f5a36b62f8a77cd42578126270db340/server/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'BROWSER': '/home/roamio42/.cursor-server/cli/servers/Stable-d01860bc5f5a36b62f8a77cd42578126270db340/server/bin/helpers/browser.sh', 'HOME': '/home/roamio42', 'OLDPWD': '/home/roamio42/Desktop', 'TERM_PROGRAM_VERSION': '1.4.2', 'VSCODE_IPC_HOOK_CLI': '/run/user/1002/vscode-ipc-28349ab4-5137-4dda-abda-45e4658f9ad7.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/roamio42/.cursor-server/cli/servers/Stable-d01860bc5f5a36b62f8a77cd42578126270db340/server/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/roamio42/.cursor-server/cli/servers/Stable-d01860bc5f5a36b62f8a77cd42578126270db340/server/node', 'SSL_CERT_FILE': '/usr/lib/ssl/cert.pem', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'BUNDLED_DEBUGPY_PATH': '/home/roamio42/.cursor-server/extensions/ms-python.debugpy-2025.10.0-linux-arm64/bundled/libs/debugpy', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1002/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'roamio42', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '4', 'PATH': '/root/bin:/home/roamio42/ros2_ws/bin:/opt/venv/bin:/home/roamio42/ros2_ws/bin:/opt/venv/bin:/home/roamio42/ros2_ws/bin:/opt/venv/bin:/opt/venv/bin:~/.local/bin:/home/roamio42/.cursor-server/cli/servers/Stable-d01860bc5f5a36b62f8a77cd42578126270db340/server/bin/remote-cli:/home/roamio42/.local/bin:/root/bin:/home/roamio42/bin:/opt/venv/bin:/home/roamio42/bin:/opt/venv/bin:/home/roamio42/bin:/opt/venv/bin:/opt/venv/bin:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:~/.local/bin:/home/roamio42/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/roamio42/bin:/home/roamio42/bin:/home/roamio42/.cursor-server/extensions/ms-python.debugpy-2025.10.0-linux-arm64/bundled/scripts/noConfigScripts:/home/roamio42/bin:/home/roamio42/bin', 'XDG_RUNTIME_DIR': '/run/user/1002', 'SSL_CERT_DIR': '/usr/lib/ssl/certs', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/roamio42/.cursor-server/extensions/ms-python.debugpy-2025.10.0-linux-arm64/.noConfigDebugAdapterEndpoints/endpoint-d14c98ef4557fbea.txt', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1002/vscode-git-220cc97faa.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'IGN_GAZEBO_RESOURCE_PATH': '/opt/ros/jazzy/share', 'VIRTUAL_ENV': '/opt/venv', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/roamio42/Desktop/mic_control/build/pixel-ring', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '10.42.247.52 48638 10.42.247.240 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/roamio42/Desktop/mic_control/build/pixel-ring/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/roamio42/Desktop/mic_control/install/pixel-ring/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[2.206019] (-) TimerEvent: {}
+[2.281265] (audio_common_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)\n'}
+[2.301819] (audio_common_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.306098] (-) TimerEvent: {}
+[2.406385] (-) TimerEvent: {}
+[2.462775] (audio_common_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.506493] (-) TimerEvent: {}
+[2.582338] (pixel-ring) StdoutLine: {'line': b'running egg_info\n'}
+[2.582898] (pixel-ring) StdoutLine: {'line': b'creating ../../build/pixel-ring/pixel_ring.egg-info\n'}
+[2.594068] (audio_common_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)\n'}
+[2.606577] (-) TimerEvent: {}
+[2.611901] (audio_common_msgs) StdoutLine: {'line': b'-- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)\n'}
+[2.615102] (pixel-ring) StdoutLine: {'line': b'writing ../../build/pixel-ring/pixel_ring.egg-info/PKG-INFO\n'}
+[2.615548] (pixel-ring) StdoutLine: {'line': b'writing dependency_links to ../../build/pixel-ring/pixel_ring.egg-info/dependency_links.txt\n'}
+[2.615781] (pixel-ring) StdoutLine: {'line': b'writing entry points to ../../build/pixel-ring/pixel_ring.egg-info/entry_points.txt\n'}
+[2.615934] (pixel-ring) StdoutLine: {'line': b'writing requirements to ../../build/pixel-ring/pixel_ring.egg-info/requires.txt\n'}
+[2.616049] (pixel-ring) StdoutLine: {'line': b'writing top-level names to ../../build/pixel-ring/pixel_ring.egg-info/top_level.txt\n'}
+[2.616204] (pixel-ring) StdoutLine: {'line': b"writing manifest file '../../build/pixel-ring/pixel_ring.egg-info/SOURCES.txt'\n"}
+[2.679152] (pixel-ring) StdoutLine: {'line': b"reading manifest file '../../build/pixel-ring/pixel_ring.egg-info/SOURCES.txt'\n"}
+[2.680168] (pixel-ring) StdoutLine: {'line': b"writing manifest file '../../build/pixel-ring/pixel_ring.egg-info/SOURCES.txt'\n"}
+[2.680579] (pixel-ring) StdoutLine: {'line': b'running build\n'}
+[2.680712] (pixel-ring) StdoutLine: {'line': b'running build_py\n'}
+[2.680959] (pixel-ring) StdoutLine: {'line': b'creating /home/roamio42/Desktop/mic_control/build/pixel-ring/build\n'}
+[2.681096] (pixel-ring) StdoutLine: {'line': b'creating /home/roamio42/Desktop/mic_control/build/pixel-ring/build/lib\n'}
+[2.681230] (pixel-ring) StdoutLine: {'line': b'creating /home/roamio42/Desktop/mic_control/build/pixel-ring/build/lib/pixel_ring\n'}
+[2.681354] (pixel-ring) StdoutLine: {'line': b'copying pixel_ring/apa102_pixel_ring.py -> /home/roamio42/Desktop/mic_control/build/pixel-ring/build/lib/pixel_ring\n'}
+[2.681552] (pixel-ring) StdoutLine: {'line': b'copying pixel_ring/pixel_ring.py -> /home/roamio42/Desktop/mic_control/build/pixel-ring/build/lib/pixel_ring\n'}
+[2.681741] (pixel-ring) StdoutLine: {'line': b'copying pixel_ring/pattern.py -> /home/roamio42/Desktop/mic_control/build/pixel-ring/build/lib/pixel_ring\n'}
+[2.681921] (pixel-ring) StdoutLine: {'line': b'copying pixel_ring/usb_pixel_ring_v2.py -> /home/roamio42/Desktop/mic_control/build/pixel-ring/build/lib/pixel_ring\n'}
+[2.682140] (pixel-ring) StdoutLine: {'line': b'copying pixel_ring/usb_pixel_ring_v1.py -> /home/roamio42/Desktop/mic_control/build/pixel-ring/build/lib/pixel_ring\n'}
+[2.682378] (pixel-ring) StdoutLine: {'line': b'copying pixel_ring/__init__.py -> /home/roamio42/Desktop/mic_control/build/pixel-ring/build/lib/pixel_ring\n'}
+[2.682627] (pixel-ring) StdoutLine: {'line': b'copying pixel_ring/apa102.py -> /home/roamio42/Desktop/mic_control/build/pixel-ring/build/lib/pixel_ring\n'}
+[2.683210] (pixel-ring) StdoutLine: {'line': b'running install\n'}
+[2.692863] (pixel-ring) StdoutLine: {'line': b'running install_lib\n'}
+[2.709024] (-) TimerEvent: {}
+[2.732998] (pixel-ring) StdoutLine: {'line': b'creating /home/roamio42/Desktop/mic_control/install/pixel-ring/lib/python3.12/site-packages/pixel_ring\n'}
+[2.733561] (pixel-ring) StdoutLine: {'line': b'copying /home/roamio42/Desktop/mic_control/build/pixel-ring/build/lib/pixel_ring/apa102_pixel_ring.py -> /home/roamio42/Desktop/mic_control/install/pixel-ring/lib/python3.12/site-packages/pixel_ring\n'}
+[2.733762] (pixel-ring) StdoutLine: {'line': b'copying /home/roamio42/Desktop/mic_control/build/pixel-ring/build/lib/pixel_ring/pixel_ring.py -> /home/roamio42/Desktop/mic_control/install/pixel-ring/lib/python3.12/site-packages/pixel_ring\n'}
+[2.733953] (pixel-ring) StdoutLine: {'line': b'copying /home/roamio42/Desktop/mic_control/build/pixel-ring/build/lib/pixel_ring/pattern.py -> /home/roamio42/Desktop/mic_control/install/pixel-ring/lib/python3.12/site-packages/pixel_ring\n'}
+[2.734078] (pixel-ring) StdoutLine: {'line': b'copying /home/roamio42/Desktop/mic_control/build/pixel-ring/build/lib/pixel_ring/usb_pixel_ring_v2.py -> /home/roamio42/Desktop/mic_control/install/pixel-ring/lib/python3.12/site-packages/pixel_ring\n'}
+[2.734287] (pixel-ring) StdoutLine: {'line': b'copying /home/roamio42/Desktop/mic_control/build/pixel-ring/build/lib/pixel_ring/usb_pixel_ring_v1.py -> /home/roamio42/Desktop/mic_control/install/pixel-ring/lib/python3.12/site-packages/pixel_ring\n'}
+[2.734473] (pixel-ring) StdoutLine: {'line': b'copying /home/roamio42/Desktop/mic_control/build/pixel-ring/build/lib/pixel_ring/__init__.py -> /home/roamio42/Desktop/mic_control/install/pixel-ring/lib/python3.12/site-packages/pixel_ring\n'}
+[2.734723] (pixel-ring) StdoutLine: {'line': b'copying /home/roamio42/Desktop/mic_control/build/pixel-ring/build/lib/pixel_ring/apa102.py -> /home/roamio42/Desktop/mic_control/install/pixel-ring/lib/python3.12/site-packages/pixel_ring\n'}
+[2.736870] (pixel-ring) StdoutLine: {'line': b'byte-compiling /home/roamio42/Desktop/mic_control/install/pixel-ring/lib/python3.12/site-packages/pixel_ring/apa102_pixel_ring.py to apa102_pixel_ring.cpython-312.pyc\n'}
+[2.740424] (pixel-ring) StdoutLine: {'line': b'byte-compiling /home/roamio42/Desktop/mic_control/install/pixel-ring/lib/python3.12/site-packages/pixel_ring/pixel_ring.py to pixel_ring.cpython-312.pyc\n'}
+[2.741687] (pixel-ring) StdoutLine: {'line': b'byte-compiling /home/roamio42/Desktop/mic_control/install/pixel-ring/lib/python3.12/site-packages/pixel_ring/pattern.py to pattern.cpython-312.pyc\n'}
+[2.745665] (pixel-ring) StdoutLine: {'line': b'byte-compiling /home/roamio42/Desktop/mic_control/install/pixel-ring/lib/python3.12/site-packages/pixel_ring/usb_pixel_ring_v2.py to usb_pixel_ring_v2.cpython-312.pyc\n'}
+[2.746977] (pixel-ring) StdoutLine: {'line': b'byte-compiling /home/roamio42/Desktop/mic_control/install/pixel-ring/lib/python3.12/site-packages/pixel_ring/usb_pixel_ring_v1.py to usb_pixel_ring_v1.cpython-312.pyc\n'}
+[2.751830] (pixel-ring) StdoutLine: {'line': b'byte-compiling /home/roamio42/Desktop/mic_control/install/pixel-ring/lib/python3.12/site-packages/pixel_ring/__init__.py to __init__.cpython-312.pyc\n'}
+[2.752446] (pixel-ring) StdoutLine: {'line': b'byte-compiling /home/roamio42/Desktop/mic_control/install/pixel-ring/lib/python3.12/site-packages/pixel_ring/apa102.py to apa102.cpython-312.pyc\n'}
+[2.754265] (pixel-ring) StdoutLine: {'line': b'running install_egg_info\n'}
+[2.791618] (pixel-ring) StdoutLine: {'line': b'Copying ../../build/pixel-ring/pixel_ring.egg-info to /home/roamio42/Desktop/mic_control/install/pixel-ring/lib/python3.12/site-packages/pixel_ring-0.1.0-py3.12.egg-info\n'}
+[2.797591] (pixel-ring) StdoutLine: {'line': b'running install_scripts\n'}
+[2.809117] (-) TimerEvent: {}
+[2.909541] (-) TimerEvent: {}
+[3.009964] (-) TimerEvent: {}
+[3.036982] (pixel-ring) StdoutLine: {'line': b'Installing pixel_ring_check script to /home/roamio42/Desktop/mic_control/install/pixel-ring/bin\n'}
+[3.037598] (pixel-ring) StdoutLine: {'line': b"writing list of installed files to '/home/roamio42/Desktop/mic_control/build/pixel-ring/install.log'\n"}
+[3.110163] (-) TimerEvent: {}
+[3.165101] (pixel-ring) CommandEnded: {'returncode': 0}
+[3.199754] (pixel-ring) JobEnded: {'identifier': 'pixel-ring', 'rc': 0}
+[3.210261] (-) TimerEvent: {}
+[3.310584] (-) TimerEvent: {}
+[3.410939] (-) TimerEvent: {}
+[3.511343] (-) TimerEvent: {}
+[3.611800] (-) TimerEvent: {}
+[3.712135] (-) TimerEvent: {}
+[3.812544] (-) TimerEvent: {}
+[3.825017] (audio_common_msgs) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)\n'}
+[3.912659] (-) TimerEvent: {}
+[4.013040] (-) TimerEvent: {}
+[4.113411] (-) TimerEvent: {}
+[4.213764] (-) TimerEvent: {}
+[4.314159] (-) TimerEvent: {}
+[4.414571] (-) TimerEvent: {}
+[4.514965] (-) TimerEvent: {}
+[4.531084] (audio_common_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[4.615074] (-) TimerEvent: {}
+[4.715564] (-) TimerEvent: {}
+[4.815997] (-) TimerEvent: {}
+[4.916408] (-) TimerEvent: {}
+[5.016798] (-) TimerEvent: {}
+[5.117165] (-) TimerEvent: {}
+[5.217602] (-) TimerEvent: {}
+[5.317982] (-) TimerEvent: {}
+[5.418387] (-) TimerEvent: {}
+[5.435429] (audio_common_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[5.451111] (audio_common_msgs) StdoutLine: {'line': b'-- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)\n'}
+[5.518559] (-) TimerEvent: {}
+[5.618969] (-) TimerEvent: {}
+[5.637348] (audio_common_msgs) StdoutLine: {'line': b'-- Found PythonExtra: /opt/venv/bin/python3  \n'}
+[5.719112] (-) TimerEvent: {}
+[5.819612] (-) TimerEvent: {}
+[5.920036] (-) TimerEvent: {}
+[6.020394] (-) TimerEvent: {}
+[6.120785] (-) TimerEvent: {}
+[6.221138] (-) TimerEvent: {}
+[6.321474] (-) TimerEvent: {}
+[6.421821] (-) TimerEvent: {}
+[6.522201] (-) TimerEvent: {}
+[6.547672] (audio_common_msgs) StdoutLine: {'line': b'-- Found Python3: /opt/venv/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed \n'}
+[6.622302] (-) TimerEvent: {}
+[6.651195] (audio_common_msgs) StdoutLine: {'line': b'-- Configuring done (6.5s)\n'}
+[6.722420] (-) TimerEvent: {}
+[6.724454] (audio_common_msgs) StdoutLine: {'line': b'-- Generating done (0.1s)\n'}
+[6.742627] (audio_common_msgs) StdoutLine: {'line': b'-- Build files have been written to: /home/roamio42/Desktop/mic_control/build/audio_common_msgs\n'}
+[6.759325] (audio_common_msgs) CommandEnded: {'returncode': 0}
+[6.760062] (audio_common_msgs) JobProgress: {'identifier': 'audio_common_msgs', 'progress': 'build'}
+[6.760845] (audio_common_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/roamio42/Desktop/mic_control/build/audio_common_msgs', '--', '-j4', '-l4'], 'cwd': '/home/roamio42/Desktop/mic_control/build/audio_common_msgs', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'roamio42', 'SSH_CLIENT': '10.42.247.52 48638 22', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/roamio42/.cursor-server/cli/servers/Stable-d01860bc5f5a36b62f8a77cd42578126270db340/server/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'BROWSER': '/home/roamio42/.cursor-server/cli/servers/Stable-d01860bc5f5a36b62f8a77cd42578126270db340/server/bin/helpers/browser.sh', 'HOME': '/home/roamio42', 'OLDPWD': '/home/roamio42/Desktop', 'TERM_PROGRAM_VERSION': '1.4.2', 'VSCODE_IPC_HOOK_CLI': '/run/user/1002/vscode-ipc-28349ab4-5137-4dda-abda-45e4658f9ad7.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/roamio42/.cursor-server/cli/servers/Stable-d01860bc5f5a36b62f8a77cd42578126270db340/server/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/roamio42/.cursor-server/cli/servers/Stable-d01860bc5f5a36b62f8a77cd42578126270db340/server/node', 'SSL_CERT_FILE': '/usr/lib/ssl/cert.pem', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'BUNDLED_DEBUGPY_PATH': '/home/roamio42/.cursor-server/extensions/ms-python.debugpy-2025.10.0-linux-arm64/bundled/libs/debugpy', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1002/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'roamio42', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '4', 'PATH': '/root/bin:/home/roamio42/ros2_ws/bin:/opt/venv/bin:/home/roamio42/ros2_ws/bin:/opt/venv/bin:/home/roamio42/ros2_ws/bin:/opt/venv/bin:/opt/venv/bin:~/.local/bin:/home/roamio42/.cursor-server/cli/servers/Stable-d01860bc5f5a36b62f8a77cd42578126270db340/server/bin/remote-cli:/home/roamio42/.local/bin:/root/bin:/home/roamio42/bin:/opt/venv/bin:/home/roamio42/bin:/opt/venv/bin:/home/roamio42/bin:/opt/venv/bin:/opt/venv/bin:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:~/.local/bin:/home/roamio42/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/roamio42/bin:/home/roamio42/bin:/home/roamio42/.cursor-server/extensions/ms-python.debugpy-2025.10.0-linux-arm64/bundled/scripts/noConfigScripts:/home/roamio42/bin:/home/roamio42/bin', 'XDG_RUNTIME_DIR': '/run/user/1002', 'SSL_CERT_DIR': '/usr/lib/ssl/certs', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/roamio42/.cursor-server/extensions/ms-python.debugpy-2025.10.0-linux-arm64/.noConfigDebugAdapterEndpoints/endpoint-d14c98ef4557fbea.txt', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1002/vscode-git-220cc97faa.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'IGN_GAZEBO_RESOURCE_PATH': '/opt/ros/jazzy/share', 'VIRTUAL_ENV': '/opt/venv', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/roamio42/Desktop/mic_control/build/audio_common_msgs', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '10.42.247.52 48638 10.42.247.240 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[6.822551] (-) TimerEvent: {}
+[6.866730] (audio_common_msgs) StdoutLine: {'line': b'[  1%] \x1b[34m\x1b[1mGenerating type hashes for ROS interfaces\x1b[0m\n'}
+[6.886015] (audio_common_msgs) StdoutLine: {'line': b'[  1%] Built target ament_cmake_python_copy_audio_common_msgs\n'}
+[6.922673] (-) TimerEvent: {}
+[7.023081] (-) TimerEvent: {}
+[7.123480] (-) TimerEvent: {}
+[7.223865] (-) TimerEvent: {}
+[7.324214] (-) TimerEvent: {}
+[7.424594] (-) TimerEvent: {}
+[7.425944] (audio_common_msgs) StdoutLine: {'line': b'[  1%] Built target audio_common_msgs__rosidl_generator_type_description\n'}
+[7.448575] (audio_common_msgs) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[7.471857] (audio_common_msgs) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[7.526721] (-) TimerEvent: {}
+[7.570679] (audio_common_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[7.599673] (audio_common_msgs) StdoutLine: {'line': b'creating audio_common_msgs.egg-info\n'}
+[7.600273] (audio_common_msgs) StdoutLine: {'line': b'writing audio_common_msgs.egg-info/PKG-INFO\n'}
+[7.602344] (audio_common_msgs) StdoutLine: {'line': b'writing dependency_links to audio_common_msgs.egg-info/dependency_links.txt\n'}
+[7.602790] (audio_common_msgs) StdoutLine: {'line': b'writing top-level names to audio_common_msgs.egg-info/top_level.txt\n'}
+[7.603057] (audio_common_msgs) StdoutLine: {'line': b"writing manifest file 'audio_common_msgs.egg-info/SOURCES.txt'\n"}
+[7.626853] (-) TimerEvent: {}
+[7.700706] (audio_common_msgs) StdoutLine: {'line': b"reading manifest file 'audio_common_msgs.egg-info/SOURCES.txt'\n"}
+[7.706627] (audio_common_msgs) StdoutLine: {'line': b"writing manifest file 'audio_common_msgs.egg-info/SOURCES.txt'\n"}
+[7.726971] (-) TimerEvent: {}
+[7.827454] (-) TimerEvent: {}
+[7.857673] (audio_common_msgs) StdoutLine: {'line': b'[  5%] Built target ament_cmake_python_build_audio_common_msgs_egg\n'}
+[7.927561] (-) TimerEvent: {}
+[8.027879] (-) TimerEvent: {}
+[8.128192] (-) TimerEvent: {}
+[8.229144] (-) TimerEvent: {}
+[8.329724] (-) TimerEvent: {}
+[8.358912] (audio_common_msgs) StdoutLine: {'line': b'[  5%] Built target audio_common_msgs__cpp\n'}
+[8.430606] (-) TimerEvent: {}
+[8.508788] (audio_common_msgs) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object CMakeFiles/audio_common_msgs__rosidl_generator_c.dir/rosidl_generator_c/audio_common_msgs/msg/detail/audio_data_stamped__description.c.o\x1b[0m\n'}
+[8.509538] (audio_common_msgs) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object CMakeFiles/audio_common_msgs__rosidl_generator_c.dir/rosidl_generator_c/audio_common_msgs/msg/detail/audio_data__functions.c.o\x1b[0m\n'}
+[8.509896] (audio_common_msgs) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object CMakeFiles/audio_common_msgs__rosidl_generator_c.dir/rosidl_generator_c/audio_common_msgs/msg/detail/audio_data__type_support.c.o\x1b[0m\n'}
+[8.510263] (audio_common_msgs) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object CMakeFiles/audio_common_msgs__rosidl_generator_c.dir/rosidl_generator_c/audio_common_msgs/msg/detail/audio_data__description.c.o\x1b[0m\n'}
+[8.530739] (-) TimerEvent: {}
+[8.631228] (-) TimerEvent: {}
+[8.678347] (audio_common_msgs) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding C object CMakeFiles/audio_common_msgs__rosidl_generator_c.dir/rosidl_generator_c/audio_common_msgs/msg/detail/audio_data_stamped__functions.c.o\x1b[0m\n'}
+[8.694089] (audio_common_msgs) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding C object CMakeFiles/audio_common_msgs__rosidl_generator_c.dir/rosidl_generator_c/audio_common_msgs/msg/detail/audio_data_stamped__type_support.c.o\x1b[0m\n'}
+[8.715077] (audio_common_msgs) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding C object CMakeFiles/audio_common_msgs__rosidl_generator_c.dir/rosidl_generator_c/audio_common_msgs/msg/detail/audio_info__description.c.o\x1b[0m\n'}
+[8.731444] (-) TimerEvent: {}
+[8.774724] (audio_common_msgs) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding C object CMakeFiles/audio_common_msgs__rosidl_generator_c.dir/rosidl_generator_c/audio_common_msgs/msg/detail/audio_info__functions.c.o\x1b[0m\n'}
+[8.786524] (audio_common_msgs) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding C object CMakeFiles/audio_common_msgs__rosidl_generator_c.dir/rosidl_generator_c/audio_common_msgs/msg/detail/audio_info__type_support.c.o\x1b[0m\n'}
+[8.831943] (-) TimerEvent: {}
+[8.889422] (audio_common_msgs) StdoutLine: {'line': b'[ 24%] \x1b[32m\x1b[1mLinking C shared library libaudio_common_msgs__rosidl_generator_c.so\x1b[0m\n'}
+[8.931951] (-) TimerEvent: {}
+[9.004512] (audio_common_msgs) StdoutLine: {'line': b'[ 24%] Built target audio_common_msgs__rosidl_generator_c\n'}
+[9.033627] (audio_common_msgs) StdoutLine: {'line': b'[ 31%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[9.034063] (-) TimerEvent: {}
+[9.034290] (audio_common_msgs) StdoutLine: {'line': b'[ 31%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[9.034438] (audio_common_msgs) StdoutLine: {'line': b'[ 31%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[9.034588] (audio_common_msgs) StdoutLine: {'line': b'[ 31%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[9.134748] (-) TimerEvent: {}
+[9.238488] (-) TimerEvent: {}
+[9.340977] (-) TimerEvent: {}
+[9.442807] (-) TimerEvent: {}
+[9.546772] (-) TimerEvent: {}
+[9.647162] (-) TimerEvent: {}
+[9.747710] (-) TimerEvent: {}
+[9.848480] (-) TimerEvent: {}
+[9.934973] (audio_common_msgs) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/audio_common_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/audio_common_msgs/msg/audio_data__type_support.cpp.o\x1b[0m\n'}
+[9.948753] (-) TimerEvent: {}
+[10.049879] (-) TimerEvent: {}
+[10.084129] (audio_common_msgs) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object CMakeFiles/audio_common_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/audio_common_msgs/msg/detail/audio_data__type_support.cpp.o\x1b[0m\n'}
+[10.084645] (audio_common_msgs) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding C object CMakeFiles/audio_common_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/audio_common_msgs/msg/detail/audio_data__type_support.c.o\x1b[0m\n'}
+[10.150029] (-) TimerEvent: {}
+[10.187581] (audio_common_msgs) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding C object CMakeFiles/audio_common_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/audio_common_msgs/msg/detail/audio_data_stamped__type_support.c.o\x1b[0m\n'}
+[10.189735] (audio_common_msgs) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/audio_common_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/audio_common_msgs/msg/detail/audio_data__type_support_c.cpp.o\x1b[0m\n'}
+[10.251636] (-) TimerEvent: {}
+[10.288801] (audio_common_msgs) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding C object CMakeFiles/audio_common_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/audio_common_msgs/msg/detail/audio_info__type_support.c.o\x1b[0m\n'}
+[10.351946] (-) TimerEvent: {}
+[10.391287] (audio_common_msgs) StdoutLine: {'line': b'[ 44%] \x1b[32m\x1b[1mLinking C shared library libaudio_common_msgs__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[10.452142] (-) TimerEvent: {}
+[10.507211] (audio_common_msgs) StdoutLine: {'line': b'[ 44%] Built target audio_common_msgs__rosidl_typesupport_introspection_c\n'}
+[10.538649] (audio_common_msgs) StdoutLine: {'line': b'[ 46%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[10.552629] (-) TimerEvent: {}
+[10.655716] (-) TimerEvent: {}
+[10.756333] (-) TimerEvent: {}
+[10.857047] (-) TimerEvent: {}
+[10.957719] (-) TimerEvent: {}
+[11.058377] (-) TimerEvent: {}
+[11.066315] (audio_common_msgs) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/audio_common_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/audio_common_msgs/msg/audio_data_stamped__type_support.cpp.o\x1b[0m\n'}
+[11.159693] (-) TimerEvent: {}
+[11.205753] (audio_common_msgs) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/audio_common_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/audio_common_msgs/msg/detail/audio_data_stamped__type_support.cpp.o\x1b[0m\n'}
+[11.260649] (-) TimerEvent: {}
+[11.363673] (-) TimerEvent: {}
+[11.464437] (-) TimerEvent: {}
+[11.565337] (-) TimerEvent: {}
+[11.600946] (audio_common_msgs) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding CXX object CMakeFiles/audio_common_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/audio_common_msgs/msg/audio_data__type_support.cpp.o\x1b[0m\n'}
+[11.625675] (audio_common_msgs) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding CXX object CMakeFiles/audio_common_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/audio_common_msgs/msg/detail/audio_data_stamped__type_support_c.cpp.o\x1b[0m\n'}
+[11.665531] (-) TimerEvent: {}
+[11.723716] (audio_common_msgs) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding CXX object CMakeFiles/audio_common_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/audio_common_msgs/msg/audio_data_stamped__type_support.cpp.o\x1b[0m\n'}
+[11.765638] (-) TimerEvent: {}
+[11.846236] (audio_common_msgs) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding CXX object CMakeFiles/audio_common_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/audio_common_msgs/msg/audio_info__type_support.cpp.o\x1b[0m\n'}
+[11.865866] (-) TimerEvent: {}
+[11.965543] (audio_common_msgs) StdoutLine: {'line': b'[ 59%] \x1b[32m\x1b[1mLinking CXX shared library libaudio_common_msgs__rosidl_typesupport_c.so\x1b[0m\n'}
+[11.966098] (-) TimerEvent: {}
+[12.066580] (-) TimerEvent: {}
+[12.100383] (audio_common_msgs) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/audio_common_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/audio_common_msgs/msg/audio_info__type_support.cpp.o\x1b[0m\n'}
+[12.106536] (audio_common_msgs) StdoutLine: {'line': b'[ 61%] Built target audio_common_msgs__rosidl_typesupport_c\n'}
+[12.136661] (audio_common_msgs) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding CXX object CMakeFiles/audio_common_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/audio_common_msgs/msg/detail/audio_info__type_support_c.cpp.o\x1b[0m\n'}
+[12.166807] (-) TimerEvent: {}
+[12.269757] (-) TimerEvent: {}
+[12.280788] (audio_common_msgs) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding CXX object CMakeFiles/audio_common_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/audio_common_msgs/msg/detail/audio_info__type_support.cpp.o\x1b[0m\n'}
+[12.369954] (-) TimerEvent: {}
+[12.471669] (-) TimerEvent: {}
+[12.573668] (-) TimerEvent: {}
+[12.674340] (-) TimerEvent: {}
+[12.777664] (-) TimerEvent: {}
+[12.878314] (-) TimerEvent: {}
+[12.979014] (-) TimerEvent: {}
+[13.063663] (audio_common_msgs) StdoutLine: {'line': b'[ 66%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[13.079183] (-) TimerEvent: {}
+[13.127052] (audio_common_msgs) StdoutLine: {'line': b'[ 68%] \x1b[32m\x1b[1mLinking CXX shared library libaudio_common_msgs__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[13.179305] (-) TimerEvent: {}
+[13.275248] (audio_common_msgs) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX shared library libaudio_common_msgs__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[13.282775] (-) TimerEvent: {}
+[13.351663] (audio_common_msgs) StdoutLine: {'line': b'[ 70%] Built target audio_common_msgs__rosidl_typesupport_cpp\n'}
+[13.383248] (-) TimerEvent: {}
+[13.486833] (-) TimerEvent: {}
+[13.565479] (audio_common_msgs) StdoutLine: {'line': b'[ 70%] Built target audio_common_msgs__rosidl_typesupport_introspection_cpp\n'}
+[13.586797] (-) TimerEvent: {}
+[13.591112] (audio_common_msgs) StdoutLine: {'line': b'[ 72%] \x1b[32m\x1b[1mLinking CXX shared library libaudio_common_msgs__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[13.687033] (-) TimerEvent: {}
+[13.787711] (-) TimerEvent: {}
+[13.800716] (audio_common_msgs) StdoutLine: {'line': b'[ 72%] Built target audio_common_msgs__rosidl_typesupport_fastrtps_c\n'}
+[13.887812] (-) TimerEvent: {}
+[13.988155] (-) TimerEvent: {}
+[14.075381] (audio_common_msgs) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding CXX object CMakeFiles/audio_common_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/audio_common_msgs/msg/detail/dds_fastrtps/audio_data__type_support.cpp.o\x1b[0m\n'}
+[14.075863] (audio_common_msgs) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding CXX object CMakeFiles/audio_common_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/audio_common_msgs/msg/detail/dds_fastrtps/audio_info__type_support.cpp.o\x1b[0m\n'}
+[14.076035] (audio_common_msgs) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding CXX object CMakeFiles/audio_common_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/audio_common_msgs/msg/detail/dds_fastrtps/audio_data_stamped__type_support.cpp.o\x1b[0m\n'}
+[14.088594] (-) TimerEvent: {}
+[14.189650] (-) TimerEvent: {}
+[14.290121] (-) TimerEvent: {}
+[14.390898] (-) TimerEvent: {}
+[14.491440] (-) TimerEvent: {}
+[14.592121] (-) TimerEvent: {}
+[14.692985] (-) TimerEvent: {}
+[14.793680] (-) TimerEvent: {}
+[14.894311] (-) TimerEvent: {}
+[14.994970] (-) TimerEvent: {}
+[15.096422] (-) TimerEvent: {}
+[15.200948] (-) TimerEvent: {}
+[15.290183] (audio_common_msgs) StdoutLine: {'line': b'[ 79%] \x1b[32m\x1b[1mLinking CXX shared library libaudio_common_msgs__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[15.301115] (-) TimerEvent: {}
+[15.401531] (-) TimerEvent: {}
+[15.492732] (audio_common_msgs) StdoutLine: {'line': b'[ 79%] Built target audio_common_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[15.501653] (-) TimerEvent: {}
+[15.537228] (audio_common_msgs) StdoutLine: {'line': b'[ 79%] Built target audio_common_msgs\n'}
+[15.580439] (audio_common_msgs) StdoutLine: {'line': b'[ 81%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[15.601743] (-) TimerEvent: {}
+[15.702068] (-) TimerEvent: {}
+[15.802415] (-) TimerEvent: {}
+[15.902764] (-) TimerEvent: {}
+[16.003092] (-) TimerEvent: {}
+[16.103398] (-) TimerEvent: {}
+[16.203796] (-) TimerEvent: {}
+[16.304214] (-) TimerEvent: {}
+[16.404557] (-) TimerEvent: {}
+[16.506787] (-) TimerEvent: {}
+[16.565185] (audio_common_msgs) StdoutLine: {'line': b'[ 81%] Built target audio_common_msgs__py\n'}
+[16.606901] (-) TimerEvent: {}
+[16.609098] (audio_common_msgs) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/audio_common_msgs__rosidl_generator_py.dir/rosidl_generator_py/audio_common_msgs/msg/_audio_data_stamped_s.c.o\x1b[0m\n'}
+[16.609564] (audio_common_msgs) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/audio_common_msgs__rosidl_generator_py.dir/rosidl_generator_py/audio_common_msgs/msg/_audio_data_s.c.o\x1b[0m\n'}
+[16.609715] (audio_common_msgs) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/audio_common_msgs__rosidl_generator_py.dir/rosidl_generator_py/audio_common_msgs/msg/_audio_info_s.c.o\x1b[0m\n'}
+[16.707015] (-) TimerEvent: {}
+[16.807400] (-) TimerEvent: {}
+[16.907849] (-) TimerEvent: {}
+[17.008370] (-) TimerEvent: {}
+[17.094923] (audio_common_msgs) StdoutLine: {'line': b'[ 88%] \x1b[32m\x1b[1mLinking C shared library libaudio_common_msgs__rosidl_generator_py.so\x1b[0m\n'}
+[17.108460] (-) TimerEvent: {}
+[17.203806] (audio_common_msgs) StdoutLine: {'line': b'[ 88%] Built target audio_common_msgs__rosidl_generator_py\n'}
+[17.208625] (-) TimerEvent: {}
+[17.252599] (audio_common_msgs) StdoutLine: {'line': b'[ 94%] \x1b[32mBuilding C object CMakeFiles/audio_common_msgs_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/audio_common_msgs/_audio_common_msgs_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[17.253023] (audio_common_msgs) StdoutLine: {'line': b'[ 94%] \x1b[32mBuilding C object CMakeFiles/audio_common_msgs_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/audio_common_msgs/_audio_common_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[17.253159] (audio_common_msgs) StdoutLine: {'line': b'[ 94%] \x1b[32mBuilding C object CMakeFiles/audio_common_msgs_s__rosidl_typesupport_c.dir/rosidl_generator_py/audio_common_msgs/_audio_common_msgs_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[17.308755] (-) TimerEvent: {}
+[17.409760] (-) TimerEvent: {}
+[17.480286] (audio_common_msgs) StdoutLine: {'line': b'[ 98%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/audio_common_msgs/audio_common_msgs_s__rosidl_typesupport_c.so\x1b[0m\n'}
+[17.480722] (audio_common_msgs) StdoutLine: {'line': b'[ 98%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/audio_common_msgs/audio_common_msgs_s__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[17.492845] (audio_common_msgs) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/audio_common_msgs/audio_common_msgs_s__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[17.509875] (-) TimerEvent: {}
+[17.552687] (audio_common_msgs) StdoutLine: {'line': b'[100%] Built target audio_common_msgs_s__rosidl_typesupport_c\n'}
+[17.560470] (audio_common_msgs) StdoutLine: {'line': b'[100%] Built target audio_common_msgs_s__rosidl_typesupport_introspection_c\n'}
+[17.568659] (audio_common_msgs) StdoutLine: {'line': b'[100%] Built target audio_common_msgs_s__rosidl_typesupport_fastrtps_c\n'}
+[17.593997] (audio_common_msgs) CommandEnded: {'returncode': 0}
+[17.594818] (audio_common_msgs) JobProgress: {'identifier': 'audio_common_msgs', 'progress': 'install'}
+[17.609939] (-) TimerEvent: {}
+[17.615388] (audio_common_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/roamio42/Desktop/mic_control/build/audio_common_msgs'], 'cwd': '/home/roamio42/Desktop/mic_control/build/audio_common_msgs', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'roamio42', 'SSH_CLIENT': '10.42.247.52 48638 22', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/roamio42/.cursor-server/cli/servers/Stable-d01860bc5f5a36b62f8a77cd42578126270db340/server/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'BROWSER': '/home/roamio42/.cursor-server/cli/servers/Stable-d01860bc5f5a36b62f8a77cd42578126270db340/server/bin/helpers/browser.sh', 'HOME': '/home/roamio42', 'OLDPWD': '/home/roamio42/Desktop', 'TERM_PROGRAM_VERSION': '1.4.2', 'VSCODE_IPC_HOOK_CLI': '/run/user/1002/vscode-ipc-28349ab4-5137-4dda-abda-45e4658f9ad7.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/roamio42/.cursor-server/cli/servers/Stable-d01860bc5f5a36b62f8a77cd42578126270db340/server/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/roamio42/.cursor-server/cli/servers/Stable-d01860bc5f5a36b62f8a77cd42578126270db340/server/node', 'SSL_CERT_FILE': '/usr/lib/ssl/cert.pem', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'BUNDLED_DEBUGPY_PATH': '/home/roamio42/.cursor-server/extensions/ms-python.debugpy-2025.10.0-linux-arm64/bundled/libs/debugpy', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1002/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'roamio42', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '4', 'PATH': '/root/bin:/home/roamio42/ros2_ws/bin:/opt/venv/bin:/home/roamio42/ros2_ws/bin:/opt/venv/bin:/home/roamio42/ros2_ws/bin:/opt/venv/bin:/opt/venv/bin:~/.local/bin:/home/roamio42/.cursor-server/cli/servers/Stable-d01860bc5f5a36b62f8a77cd42578126270db340/server/bin/remote-cli:/home/roamio42/.local/bin:/root/bin:/home/roamio42/bin:/opt/venv/bin:/home/roamio42/bin:/opt/venv/bin:/home/roamio42/bin:/opt/venv/bin:/opt/venv/bin:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:~/.local/bin:/home/roamio42/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/roamio42/bin:/home/roamio42/bin:/home/roamio42/.cursor-server/extensions/ms-python.debugpy-2025.10.0-linux-arm64/bundled/scripts/noConfigScripts:/home/roamio42/bin:/home/roamio42/bin', 'XDG_RUNTIME_DIR': '/run/user/1002', 'SSL_CERT_DIR': '/usr/lib/ssl/certs', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/roamio42/.cursor-server/extensions/ms-python.debugpy-2025.10.0-linux-arm64/.noConfigDebugAdapterEndpoints/endpoint-d14c98ef4557fbea.txt', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1002/vscode-git-220cc97faa.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'IGN_GAZEBO_RESOURCE_PATH': '/opt/ros/jazzy/share', 'VIRTUAL_ENV': '/opt/venv', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/roamio42/Desktop/mic_control/build/audio_common_msgs', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '10.42.247.52 48638 10.42.247.240 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[17.633417] (audio_common_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[17.633782] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/share/ament_index/resource_index/rosidl_interfaces/audio_common_msgs\n'}
+[17.634117] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/share/audio_common_msgs/msg/AudioData.json\n'}
+[17.634308] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/share/audio_common_msgs/msg/AudioDataStamped.json\n'}
+[17.634489] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/share/audio_common_msgs/msg/AudioInfo.json\n'}
+[17.634753] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs\n'}
+[17.634925] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg\n'}
+[17.635035] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/audio_data.h\n'}
+[17.635188] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/audio_data_stamped.h\n'}
+[17.635332] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[17.635468] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail\n'}
+[17.635604] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_data__functions.c\n'}
+[17.635770] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_info__description.c\n'}
+[17.635920] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_data__struct.h\n'}
+[17.636066] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_data_stamped__functions.h\n'}
+[17.636243] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_info__struct.h\n'}
+[17.636384] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_data_stamped__description.c\n'}
+[17.636563] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_data_stamped__functions.c\n'}
+[17.636724] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_data__description.c\n'}
+[17.636855] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_info__type_support.c\n'}
+[17.637019] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_info__type_support.h\n'}
+[17.637152] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_data_stamped__type_support.c\n'}
+[17.637283] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_data__type_support.h\n'}
+[17.637427] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_info__functions.h\n'}
+[17.637573] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_data__functions.h\n'}
+[17.637711] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_data_stamped__type_support.h\n'}
+[17.637863] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_info__functions.c\n'}
+[17.638009] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_data__type_support.c\n'}
+[17.638138] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_data_stamped__struct.h\n'}
+[17.638266] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/audio_info.h\n'}
+[17.638514] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/share/audio_common_msgs/environment/library_path.sh\n'}
+[17.638698] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/share/audio_common_msgs/environment/library_path.dsv\n'}
+[17.638947] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/lib/libaudio_common_msgs__rosidl_generator_c.so\n'}
+[17.639606] (audio_common_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/roamio42/Desktop/mic_control/install/audio_common_msgs/lib/libaudio_common_msgs__rosidl_generator_c.so" to ""\n'}
+[17.639728] (audio_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs\n'}
+[17.639836] (audio_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg\n'}
+[17.639954] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[17.640056] (audio_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail\n'}
+[17.640131] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_info__rosidl_typesupport_fastrtps_c.h\n'}
+[17.640229] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_data_stamped__rosidl_typesupport_fastrtps_c.h\n'}
+[17.640330] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_data__rosidl_typesupport_fastrtps_c.h\n'}
+[17.640481] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/lib/libaudio_common_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[17.641103] (audio_common_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/roamio42/Desktop/mic_control/install/audio_common_msgs/lib/libaudio_common_msgs__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[17.641214] (audio_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs\n'}
+[17.641320] (audio_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg\n'}
+[17.641441] (audio_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail\n'}
+[17.641548] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_info__rosidl_typesupport_introspection_c.h\n'}
+[17.641634] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_info__type_support.c\n'}
+[17.641737] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_data_stamped__type_support.c\n'}
+[17.641834] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_data_stamped__rosidl_typesupport_introspection_c.h\n'}
+[17.641943] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_data__rosidl_typesupport_introspection_c.h\n'}
+[17.642070] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_data__type_support.c\n'}
+[17.642229] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[17.642425] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/lib/libaudio_common_msgs__rosidl_typesupport_introspection_c.so\n'}
+[17.642985] (audio_common_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/roamio42/Desktop/mic_control/install/audio_common_msgs/lib/libaudio_common_msgs__rosidl_typesupport_introspection_c.so" to ""\n'}
+[17.643091] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/lib/libaudio_common_msgs__rosidl_typesupport_c.so\n'}
+[17.643626] (audio_common_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/roamio42/Desktop/mic_control/install/audio_common_msgs/lib/libaudio_common_msgs__rosidl_typesupport_c.so" to ""\n'}
+[17.643732] (audio_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs\n'}
+[17.643835] (audio_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg\n'}
+[17.643947] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/audio_data.hpp\n'}
+[17.644029] (audio_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail\n'}
+[17.644131] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_data_stamped__struct.hpp\n'}
+[17.644234] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_data__builder.hpp\n'}
+[17.644339] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_info__type_support.hpp\n'}
+[17.644435] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_data_stamped__type_support.hpp\n'}
+[17.644569] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_info__struct.hpp\n'}
+[17.644717] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_data__type_support.hpp\n'}
+[17.644853] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_info__traits.hpp\n'}
+[17.644986] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_data_stamped__builder.hpp\n'}
+[17.645126] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_data__struct.hpp\n'}
+[17.645255] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_data__traits.hpp\n'}
+[17.645388] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_info__builder.hpp\n'}
+[17.645551] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_data_stamped__traits.hpp\n'}
+[17.645688] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/audio_data_stamped.hpp\n'}
+[17.645819] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[17.645958] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/audio_info.hpp\n'}
+[17.646129] (audio_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs\n'}
+[17.646225] (audio_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg\n'}
+[17.646321] (audio_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail\n'}
+[17.646435] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_data__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[17.646527] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/dds_fastrtps\n'}
+[17.646634] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_data_stamped__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[17.646748] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_info__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[17.646886] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[17.647098] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/lib/libaudio_common_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[17.647735] (audio_common_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/roamio42/Desktop/mic_control/install/audio_common_msgs/lib/libaudio_common_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[17.647858] (audio_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs\n'}
+[17.647941] (audio_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg\n'}
+[17.648054] (audio_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail\n'}
+[17.648135] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_data__rosidl_typesupport_introspection_cpp.hpp\n'}
+[17.648253] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_data_stamped__rosidl_typesupport_introspection_cpp.hpp\n'}
+[17.648330] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_info__rosidl_typesupport_introspection_cpp.hpp\n'}
+[17.648429] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_info__type_support.cpp\n'}
+[17.648522] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_data_stamped__type_support.cpp\n'}
+[17.648659] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_data__type_support.cpp\n'}
+[17.648865] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/lib/libaudio_common_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[17.649495] (audio_common_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/roamio42/Desktop/mic_control/install/audio_common_msgs/lib/libaudio_common_msgs__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[17.649613] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/lib/libaudio_common_msgs__rosidl_typesupport_cpp.so\n'}
+[17.650152] (audio_common_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/roamio42/Desktop/mic_control/install/audio_common_msgs/lib/libaudio_common_msgs__rosidl_typesupport_cpp.so" to ""\n'}
+[17.650259] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/share/audio_common_msgs/environment/pythonpath.sh\n'}
+[17.650408] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/share/audio_common_msgs/environment/pythonpath.dsv\n'}
+[17.650588] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/lib/python3.12/site-packages/audio_common_msgs-0.3.12-py3.12.egg-info\n'}
+[17.650759] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/lib/python3.12/site-packages/audio_common_msgs-0.3.12-py3.12.egg-info/dependency_links.txt\n'}
+[17.650895] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/lib/python3.12/site-packages/audio_common_msgs-0.3.12-py3.12.egg-info/PKG-INFO\n'}
+[17.651019] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/lib/python3.12/site-packages/audio_common_msgs-0.3.12-py3.12.egg-info/top_level.txt\n'}
+[17.651149] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/lib/python3.12/site-packages/audio_common_msgs-0.3.12-py3.12.egg-info/SOURCES.txt\n'}
+[17.651323] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/lib/python3.12/site-packages/audio_common_msgs\n'}
+[17.651435] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/lib/python3.12/site-packages/audio_common_msgs/audio_common_msgs_s__rosidl_typesupport_fastrtps_c.so\n'}
+[17.651713] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/lib/python3.12/site-packages/audio_common_msgs/_audio_common_msgs_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[17.651869] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/lib/python3.12/site-packages/audio_common_msgs/__init__.py\n'}
+[17.651978] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/lib/python3.12/site-packages/audio_common_msgs/msg\n'}
+[17.652085] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/lib/python3.12/site-packages/audio_common_msgs/msg/_audio_info.py\n'}
+[17.652246] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/lib/python3.12/site-packages/audio_common_msgs/msg/_audio_data_stamped.py\n'}
+[17.652384] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/lib/python3.12/site-packages/audio_common_msgs/msg/_audio_data_s.c\n'}
+[17.652521] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/lib/python3.12/site-packages/audio_common_msgs/msg/_audio_data.py\n'}
+[17.652671] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/lib/python3.12/site-packages/audio_common_msgs/msg/__init__.py\n'}
+[17.652800] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/lib/python3.12/site-packages/audio_common_msgs/msg/_audio_info_s.c\n'}
+[17.652935] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/lib/python3.12/site-packages/audio_common_msgs/msg/_audio_data_stamped_s.c\n'}
+[17.653079] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/lib/python3.12/site-packages/audio_common_msgs/_audio_common_msgs_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[17.653243] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/lib/python3.12/site-packages/audio_common_msgs/audio_common_msgs_s__rosidl_typesupport_introspection_c.so\n'}
+[17.653514] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/lib/python3.12/site-packages/audio_common_msgs/_audio_common_msgs_s.ep.rosidl_typesupport_c.c\n'}
+[17.653681] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/lib/python3.12/site-packages/audio_common_msgs/audio_common_msgs_s__rosidl_typesupport_c.so\n'}
+[17.710076] (-) TimerEvent: {}
+[17.732646] (audio_common_msgs) StdoutLine: {'line': b"Listing '/home/roamio42/Desktop/mic_control/install/audio_common_msgs/lib/python3.12/site-packages/audio_common_msgs'...\n"}
+[17.733201] (audio_common_msgs) StdoutLine: {'line': b"Compiling '/home/roamio42/Desktop/mic_control/install/audio_common_msgs/lib/python3.12/site-packages/audio_common_msgs/__init__.py'...\n"}
+[17.733345] (audio_common_msgs) StdoutLine: {'line': b"Listing '/home/roamio42/Desktop/mic_control/install/audio_common_msgs/lib/python3.12/site-packages/audio_common_msgs/msg'...\n"}
+[17.733475] (audio_common_msgs) StdoutLine: {'line': b"Compiling '/home/roamio42/Desktop/mic_control/install/audio_common_msgs/lib/python3.12/site-packages/audio_common_msgs/msg/__init__.py'...\n"}
+[17.733740] (audio_common_msgs) StdoutLine: {'line': b"Compiling '/home/roamio42/Desktop/mic_control/install/audio_common_msgs/lib/python3.12/site-packages/audio_common_msgs/msg/_audio_data.py'...\n"}
+[17.733943] (audio_common_msgs) StdoutLine: {'line': b"Compiling '/home/roamio42/Desktop/mic_control/install/audio_common_msgs/lib/python3.12/site-packages/audio_common_msgs/msg/_audio_data_stamped.py'...\n"}
+[17.734074] (audio_common_msgs) StdoutLine: {'line': b"Compiling '/home/roamio42/Desktop/mic_control/install/audio_common_msgs/lib/python3.12/site-packages/audio_common_msgs/msg/_audio_info.py'...\n"}
+[17.753547] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/lib/python3.12/site-packages/audio_common_msgs/audio_common_msgs_s__rosidl_typesupport_fastrtps_c.so\n'}
+[17.754054] (audio_common_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/roamio42/Desktop/mic_control/install/audio_common_msgs/lib/python3.12/site-packages/audio_common_msgs/audio_common_msgs_s__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[17.754401] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/lib/python3.12/site-packages/audio_common_msgs/audio_common_msgs_s__rosidl_typesupport_introspection_c.so\n'}
+[17.754987] (audio_common_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/roamio42/Desktop/mic_control/install/audio_common_msgs/lib/python3.12/site-packages/audio_common_msgs/audio_common_msgs_s__rosidl_typesupport_introspection_c.so" to ""\n'}
+[17.755300] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/lib/python3.12/site-packages/audio_common_msgs/audio_common_msgs_s__rosidl_typesupport_c.so\n'}
+[17.755822] (audio_common_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/roamio42/Desktop/mic_control/install/audio_common_msgs/lib/python3.12/site-packages/audio_common_msgs/audio_common_msgs_s__rosidl_typesupport_c.so" to ""\n'}
+[17.755965] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/lib/libaudio_common_msgs__rosidl_generator_py.so\n'}
+[17.756681] (audio_common_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/roamio42/Desktop/mic_control/install/audio_common_msgs/lib/libaudio_common_msgs__rosidl_generator_py.so" to ""\n'}
+[17.756791] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/share/audio_common_msgs/msg/AudioData.idl\n'}
+[17.756908] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/share/audio_common_msgs/msg/AudioDataStamped.idl\n'}
+[17.757021] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/share/audio_common_msgs/msg/AudioInfo.idl\n'}
+[17.757215] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/share/audio_common_msgs/msg/AudioData.msg\n'}
+[17.757398] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/share/audio_common_msgs/msg/AudioDataStamped.msg\n'}
+[17.757583] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/share/audio_common_msgs/msg/AudioInfo.msg\n'}
+[17.757863] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/share/ament_index/resource_index/package_run_dependencies/audio_common_msgs\n'}
+[17.758101] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/share/ament_index/resource_index/parent_prefix_path/audio_common_msgs\n'}
+[17.758293] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/share/audio_common_msgs/environment/ament_prefix_path.sh\n'}
+[17.758481] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/share/audio_common_msgs/environment/ament_prefix_path.dsv\n'}
+[17.758673] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/share/audio_common_msgs/environment/path.sh\n'}
+[17.758844] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/share/audio_common_msgs/environment/path.dsv\n'}
+[17.759023] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/share/audio_common_msgs/local_setup.bash\n'}
+[17.759201] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/share/audio_common_msgs/local_setup.sh\n'}
+[17.759391] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/share/audio_common_msgs/local_setup.zsh\n'}
+[17.759671] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/share/audio_common_msgs/local_setup.dsv\n'}
+[17.759847] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/share/audio_common_msgs/package.dsv\n'}
+[17.760092] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/share/ament_index/resource_index/packages/audio_common_msgs\n'}
+[17.760347] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/share/audio_common_msgs/cmake/export_audio_common_msgs__rosidl_generator_cExport.cmake\n'}
+[17.760568] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/share/audio_common_msgs/cmake/export_audio_common_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[17.760788] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/share/audio_common_msgs/cmake/export_audio_common_msgs__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[17.760984] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/share/audio_common_msgs/cmake/export_audio_common_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[17.761189] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/share/audio_common_msgs/cmake/audio_common_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[17.761378] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/share/audio_common_msgs/cmake/audio_common_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[17.761602] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/share/audio_common_msgs/cmake/audio_common_msgs__rosidl_typesupport_cExport.cmake\n'}
+[17.761803] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/share/audio_common_msgs/cmake/audio_common_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[17.762014] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/share/audio_common_msgs/cmake/export_audio_common_msgs__rosidl_generator_cppExport.cmake\n'}
+[17.762228] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/share/audio_common_msgs/cmake/export_audio_common_msgs__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[17.762431] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/share/audio_common_msgs/cmake/export_audio_common_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[17.762651] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/share/audio_common_msgs/cmake/audio_common_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[17.762843] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/share/audio_common_msgs/cmake/audio_common_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[17.763048] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/share/audio_common_msgs/cmake/audio_common_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[17.763238] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/share/audio_common_msgs/cmake/audio_common_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[17.763440] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/share/audio_common_msgs/cmake/export_audio_common_msgs__rosidl_generator_pyExport.cmake\n'}
+[17.763641] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/share/audio_common_msgs/cmake/export_audio_common_msgs__rosidl_generator_pyExport-noconfig.cmake\n'}
+[17.763838] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/share/audio_common_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[17.764015] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/share/audio_common_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[17.764199] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/share/audio_common_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[17.764383] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/share/audio_common_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[17.764592] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/share/audio_common_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[17.764777] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/share/audio_common_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[17.764961] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/share/audio_common_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[17.765148] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/share/audio_common_msgs/cmake/audio_common_msgsConfig.cmake\n'}
+[17.765290] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/share/audio_common_msgs/cmake/audio_common_msgsConfig-version.cmake\n'}
+[17.765460] (audio_common_msgs) StdoutLine: {'line': b'-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/share/audio_common_msgs/package.xml\n'}
+[17.769218] (audio_common_msgs) CommandEnded: {'returncode': 0}
+[17.810549] (-) TimerEvent: {}
+[17.816064] (audio_common_msgs) JobEnded: {'identifier': 'audio_common_msgs', 'rc': 0}
+[17.817894] (audio_capture) JobStarted: {'identifier': 'audio_capture'}
+[17.824591] (audio_play) JobStarted: {'identifier': 'audio_play'}
+[17.832539] (sound_play) JobStarted: {'identifier': 'sound_play'}
+[17.840078] (respeaker_ros) JobStarted: {'identifier': 'respeaker_ros'}
+[17.851630] (audio_capture) JobProgress: {'identifier': 'audio_capture', 'progress': 'cmake'}
+[17.852271] (audio_capture) Command: {'cmd': ['/usr/bin/cmake', '/home/roamio42/Desktop/mic_control/src/audio_common/audio_capture', '-DCMAKE_INSTALL_PREFIX=/home/roamio42/Desktop/mic_control/install/audio_capture'], 'cwd': '/home/roamio42/Desktop/mic_control/build/audio_capture', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'roamio42', 'SSH_CLIENT': '10.42.247.52 48638 22', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/roamio42/.cursor-server/cli/servers/Stable-d01860bc5f5a36b62f8a77cd42578126270db340/server/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/home/roamio42/Desktop/mic_control/install/audio_common_msgs/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'BROWSER': '/home/roamio42/.cursor-server/cli/servers/Stable-d01860bc5f5a36b62f8a77cd42578126270db340/server/bin/helpers/browser.sh', 'HOME': '/home/roamio42', 'OLDPWD': '/home/roamio42/Desktop', 'TERM_PROGRAM_VERSION': '1.4.2', 'VSCODE_IPC_HOOK_CLI': '/run/user/1002/vscode-ipc-28349ab4-5137-4dda-abda-45e4658f9ad7.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/roamio42/.cursor-server/cli/servers/Stable-d01860bc5f5a36b62f8a77cd42578126270db340/server/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/roamio42/.cursor-server/cli/servers/Stable-d01860bc5f5a36b62f8a77cd42578126270db340/server/node', 'SSL_CERT_FILE': '/usr/lib/ssl/cert.pem', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'BUNDLED_DEBUGPY_PATH': '/home/roamio42/.cursor-server/extensions/ms-python.debugpy-2025.10.0-linux-arm64/bundled/libs/debugpy', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1002/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'roamio42', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '4', 'PATH': '/root/bin:/home/roamio42/ros2_ws/bin:/opt/venv/bin:/home/roamio42/ros2_ws/bin:/opt/venv/bin:/home/roamio42/ros2_ws/bin:/opt/venv/bin:/opt/venv/bin:~/.local/bin:/home/roamio42/.cursor-server/cli/servers/Stable-d01860bc5f5a36b62f8a77cd42578126270db340/server/bin/remote-cli:/home/roamio42/.local/bin:/root/bin:/home/roamio42/bin:/opt/venv/bin:/home/roamio42/bin:/opt/venv/bin:/home/roamio42/bin:/opt/venv/bin:/opt/venv/bin:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:~/.local/bin:/home/roamio42/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/roamio42/bin:/home/roamio42/bin:/home/roamio42/.cursor-server/extensions/ms-python.debugpy-2025.10.0-linux-arm64/bundled/scripts/noConfigScripts:/home/roamio42/bin:/home/roamio42/bin', 'XDG_RUNTIME_DIR': '/run/user/1002', 'SSL_CERT_DIR': '/usr/lib/ssl/certs', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/roamio42/.cursor-server/extensions/ms-python.debugpy-2025.10.0-linux-arm64/.noConfigDebugAdapterEndpoints/endpoint-d14c98ef4557fbea.txt', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1002/vscode-git-220cc97faa.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/home/roamio42/Desktop/mic_control/install/audio_common_msgs:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'IGN_GAZEBO_RESOURCE_PATH': '/opt/ros/jazzy/share', 'VIRTUAL_ENV': '/opt/venv', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/roamio42/Desktop/mic_control/build/audio_capture', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '10.42.247.52 48638 10.42.247.240 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/roamio42/Desktop/mic_control/install/audio_common_msgs/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/roamio42/Desktop/mic_control/install/audio_common_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[17.855122] (audio_play) JobProgress: {'identifier': 'audio_play', 'progress': 'cmake'}
+[17.857168] (audio_play) Command: {'cmd': ['/usr/bin/cmake', '/home/roamio42/Desktop/mic_control/src/audio_common/audio_play', '-DCMAKE_INSTALL_PREFIX=/home/roamio42/Desktop/mic_control/install/audio_play'], 'cwd': '/home/roamio42/Desktop/mic_control/build/audio_play', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'roamio42', 'SSH_CLIENT': '10.42.247.52 48638 22', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/roamio42/.cursor-server/cli/servers/Stable-d01860bc5f5a36b62f8a77cd42578126270db340/server/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/home/roamio42/Desktop/mic_control/install/audio_common_msgs/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'BROWSER': '/home/roamio42/.cursor-server/cli/servers/Stable-d01860bc5f5a36b62f8a77cd42578126270db340/server/bin/helpers/browser.sh', 'HOME': '/home/roamio42', 'OLDPWD': '/home/roamio42/Desktop', 'TERM_PROGRAM_VERSION': '1.4.2', 'VSCODE_IPC_HOOK_CLI': '/run/user/1002/vscode-ipc-28349ab4-5137-4dda-abda-45e4658f9ad7.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/roamio42/.cursor-server/cli/servers/Stable-d01860bc5f5a36b62f8a77cd42578126270db340/server/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/roamio42/.cursor-server/cli/servers/Stable-d01860bc5f5a36b62f8a77cd42578126270db340/server/node', 'SSL_CERT_FILE': '/usr/lib/ssl/cert.pem', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'BUNDLED_DEBUGPY_PATH': '/home/roamio42/.cursor-server/extensions/ms-python.debugpy-2025.10.0-linux-arm64/bundled/libs/debugpy', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1002/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'roamio42', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '4', 'PATH': '/root/bin:/home/roamio42/ros2_ws/bin:/opt/venv/bin:/home/roamio42/ros2_ws/bin:/opt/venv/bin:/home/roamio42/ros2_ws/bin:/opt/venv/bin:/opt/venv/bin:~/.local/bin:/home/roamio42/.cursor-server/cli/servers/Stable-d01860bc5f5a36b62f8a77cd42578126270db340/server/bin/remote-cli:/home/roamio42/.local/bin:/root/bin:/home/roamio42/bin:/opt/venv/bin:/home/roamio42/bin:/opt/venv/bin:/home/roamio42/bin:/opt/venv/bin:/opt/venv/bin:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:~/.local/bin:/home/roamio42/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/roamio42/bin:/home/roamio42/bin:/home/roamio42/.cursor-server/extensions/ms-python.debugpy-2025.10.0-linux-arm64/bundled/scripts/noConfigScripts:/home/roamio42/bin:/home/roamio42/bin', 'XDG_RUNTIME_DIR': '/run/user/1002', 'SSL_CERT_DIR': '/usr/lib/ssl/certs', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/roamio42/.cursor-server/extensions/ms-python.debugpy-2025.10.0-linux-arm64/.noConfigDebugAdapterEndpoints/endpoint-d14c98ef4557fbea.txt', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1002/vscode-git-220cc97faa.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/home/roamio42/Desktop/mic_control/install/audio_common_msgs:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'IGN_GAZEBO_RESOURCE_PATH': '/opt/ros/jazzy/share', 'VIRTUAL_ENV': '/opt/venv', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/roamio42/Desktop/mic_control/build/audio_play', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '10.42.247.52 48638 10.42.247.240 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/roamio42/Desktop/mic_control/install/audio_common_msgs/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/roamio42/Desktop/mic_control/install/audio_common_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[17.859329] (sound_play) JobProgress: {'identifier': 'sound_play', 'progress': 'cmake'}
+[17.859462] (sound_play) Command: {'cmd': ['/usr/bin/cmake', '/home/roamio42/Desktop/mic_control/src/audio_common/sound_play', '-DCMAKE_INSTALL_PREFIX=/home/roamio42/Desktop/mic_control/install/sound_play'], 'cwd': '/home/roamio42/Desktop/mic_control/build/sound_play', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'roamio42', 'SSH_CLIENT': '10.42.247.52 48638 22', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/roamio42/.cursor-server/cli/servers/Stable-d01860bc5f5a36b62f8a77cd42578126270db340/server/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/home/roamio42/Desktop/mic_control/install/audio_common_msgs/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'BROWSER': '/home/roamio42/.cursor-server/cli/servers/Stable-d01860bc5f5a36b62f8a77cd42578126270db340/server/bin/helpers/browser.sh', 'HOME': '/home/roamio42', 'OLDPWD': '/home/roamio42/Desktop', 'TERM_PROGRAM_VERSION': '1.4.2', 'VSCODE_IPC_HOOK_CLI': '/run/user/1002/vscode-ipc-28349ab4-5137-4dda-abda-45e4658f9ad7.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/roamio42/.cursor-server/cli/servers/Stable-d01860bc5f5a36b62f8a77cd42578126270db340/server/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/roamio42/.cursor-server/cli/servers/Stable-d01860bc5f5a36b62f8a77cd42578126270db340/server/node', 'SSL_CERT_FILE': '/usr/lib/ssl/cert.pem', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'BUNDLED_DEBUGPY_PATH': '/home/roamio42/.cursor-server/extensions/ms-python.debugpy-2025.10.0-linux-arm64/bundled/libs/debugpy', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1002/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'roamio42', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '4', 'PATH': '/root/bin:/home/roamio42/ros2_ws/bin:/opt/venv/bin:/home/roamio42/ros2_ws/bin:/opt/venv/bin:/home/roamio42/ros2_ws/bin:/opt/venv/bin:/opt/venv/bin:~/.local/bin:/home/roamio42/.cursor-server/cli/servers/Stable-d01860bc5f5a36b62f8a77cd42578126270db340/server/bin/remote-cli:/home/roamio42/.local/bin:/root/bin:/home/roamio42/bin:/opt/venv/bin:/home/roamio42/bin:/opt/venv/bin:/home/roamio42/bin:/opt/venv/bin:/opt/venv/bin:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:~/.local/bin:/home/roamio42/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/roamio42/bin:/home/roamio42/bin:/home/roamio42/.cursor-server/extensions/ms-python.debugpy-2025.10.0-linux-arm64/bundled/scripts/noConfigScripts:/home/roamio42/bin:/home/roamio42/bin', 'XDG_RUNTIME_DIR': '/run/user/1002', 'SSL_CERT_DIR': '/usr/lib/ssl/certs', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/roamio42/.cursor-server/extensions/ms-python.debugpy-2025.10.0-linux-arm64/.noConfigDebugAdapterEndpoints/endpoint-d14c98ef4557fbea.txt', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1002/vscode-git-220cc97faa.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/home/roamio42/Desktop/mic_control/install/audio_common_msgs:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'IGN_GAZEBO_RESOURCE_PATH': '/opt/ros/jazzy/share', 'VIRTUAL_ENV': '/opt/venv', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/roamio42/Desktop/mic_control/build/sound_play', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '10.42.247.52 48638 10.42.247.240 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/roamio42/Desktop/mic_control/install/audio_common_msgs/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/roamio42/Desktop/mic_control/install/audio_common_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[17.911631] (-) TimerEvent: {}
+[18.013907] (-) TimerEvent: {}
+[18.074646] (audio_play) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[18.082772] (audio_capture) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[18.100804] (sound_play) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[18.114011] (-) TimerEvent: {}
+[18.215929] (-) TimerEvent: {}
+[18.320719] (audio_capture) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[18.321121] (-) TimerEvent: {}
+[18.321474] (audio_play) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[18.329086] (sound_play) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[18.355457] (audio_play) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[18.360398] (audio_capture) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[18.366472] (sound_play) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[18.421383] (-) TimerEvent: {}
+[18.524783] (-) TimerEvent: {}
+[18.625637] (-) TimerEvent: {}
+[18.650858] (audio_play) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[18.659533] (audio_capture) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[18.666692] (audio_play) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[18.667404] (audio_play) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[18.667848] (sound_play) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[18.668282] (audio_play) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[18.680076] (audio_capture) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[18.681170] (audio_capture) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[18.682473] (audio_capture) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[18.686555] (sound_play) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[18.688003] (sound_play) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[18.688560] (sound_play) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[18.695136] (audio_play) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[18.712738] (audio_capture) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[18.715312] (sound_play) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[18.725805] (-) TimerEvent: {}
+[18.858633] (-) TimerEvent: {}
+[18.960075] (-) TimerEvent: {}
+[19.063624] (-) TimerEvent: {}
+[19.080277] (sound_play) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[19.080838] (audio_play) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[19.093917] (audio_capture) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[19.098599] (audio_play) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[19.099123] (audio_play) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[19.099262] (audio_play) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[19.099639] (sound_play) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[19.100625] (sound_play) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[19.102576] (sound_play) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[19.107897] (audio_play) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[19.111600] (sound_play) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[19.111932] (audio_capture) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[19.112232] (audio_capture) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[19.112350] (audio_capture) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[19.121580] (audio_capture) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[19.163779] (-) TimerEvent: {}
+[19.264434] (-) TimerEvent: {}
+[19.365113] (-) TimerEvent: {}
+[19.469027] (-) TimerEvent: {}
+[19.490184] (audio_play) StdoutLine: {'line': b'-- Found Python3: /opt/venv/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[19.504680] (sound_play) StdoutLine: {'line': b'-- Found Python3: /opt/venv/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[19.508794] (audio_capture) StdoutLine: {'line': b'-- Found Python3: /opt/venv/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[19.569154] (-) TimerEvent: {}
+[19.669731] (-) TimerEvent: {}
+[19.770759] (-) TimerEvent: {}
+[19.872889] (-) TimerEvent: {}
+[19.896091] (sound_play) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)\n'}
+[19.899593] (audio_capture) StdoutLine: {'line': b'-- Found rclcpp: 28.1.10 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[19.899993] (audio_play) StdoutLine: {'line': b'-- Found rclcpp: 28.1.10 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[19.914632] (sound_play) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[19.973006] (-) TimerEvent: {}
+[19.996759] (audio_capture) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[19.999667] (audio_play) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[20.031567] (audio_capture) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[20.031862] (audio_play) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[20.037994] (sound_play) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[20.068892] (audio_capture) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[20.069408] (audio_play) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[20.073138] (-) TimerEvent: {}
+[20.110743] (audio_capture) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[20.111085] (audio_play) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[20.144252] (sound_play) StdoutLine: {'line': b'-- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)\n'}
+[20.147936] (sound_play) StdoutLine: {'line': b'-- Found audio_common_msgs: 0.3.12 (/home/roamio42/Desktop/mic_control/install/audio_common_msgs/share/audio_common_msgs/cmake)\n'}
+[20.173594] (-) TimerEvent: {}
+[20.252718] (sound_play) StdoutLine: {'line': b'-- Found action_msgs: 2.0.2 (/opt/ros/jazzy/share/action_msgs/cmake)\n'}
+[20.273720] (-) TimerEvent: {}
+[20.323445] (audio_play) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[20.323788] (audio_capture) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[20.335260] (audio_play) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[20.336712] (audio_capture) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[20.373842] (-) TimerEvent: {}
+[20.474797] (-) TimerEvent: {}
+[20.575853] (-) TimerEvent: {}
+[20.676536] (-) TimerEvent: {}
+[20.703130] (audio_capture) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.13")  \n'}
+[20.703600] (audio_play) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.13")  \n'}
+[20.766894] (audio_capture) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") \n'}
+[20.767674] (audio_play) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") \n'}
+[20.777725] (-) TimerEvent: {}
+[20.796732] (respeaker_ros) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/respeaker_ros', 'build', '--build-base', '/home/roamio42/Desktop/mic_control/build/respeaker_ros/build', 'install', '--record', '/home/roamio42/Desktop/mic_control/build/respeaker_ros/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/roamio42/Desktop/mic_control/src/respeaker_ros', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'roamio42', 'SSH_CLIENT': '10.42.247.52 48638 22', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/roamio42/.cursor-server/cli/servers/Stable-d01860bc5f5a36b62f8a77cd42578126270db340/server/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/home/roamio42/Desktop/mic_control/install/audio_common_msgs/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'BROWSER': '/home/roamio42/.cursor-server/cli/servers/Stable-d01860bc5f5a36b62f8a77cd42578126270db340/server/bin/helpers/browser.sh', 'HOME': '/home/roamio42', 'OLDPWD': '/home/roamio42/Desktop', 'TERM_PROGRAM_VERSION': '1.4.2', 'VSCODE_IPC_HOOK_CLI': '/run/user/1002/vscode-ipc-28349ab4-5137-4dda-abda-45e4658f9ad7.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/roamio42/.cursor-server/cli/servers/Stable-d01860bc5f5a36b62f8a77cd42578126270db340/server/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/roamio42/.cursor-server/cli/servers/Stable-d01860bc5f5a36b62f8a77cd42578126270db340/server/node', 'SSL_CERT_FILE': '/usr/lib/ssl/cert.pem', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'BUNDLED_DEBUGPY_PATH': '/home/roamio42/.cursor-server/extensions/ms-python.debugpy-2025.10.0-linux-arm64/bundled/libs/debugpy', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1002/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'roamio42', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '4', 'PATH': '/root/bin:/home/roamio42/ros2_ws/bin:/opt/venv/bin:/home/roamio42/ros2_ws/bin:/opt/venv/bin:/home/roamio42/ros2_ws/bin:/opt/venv/bin:/opt/venv/bin:~/.local/bin:/home/roamio42/.cursor-server/cli/servers/Stable-d01860bc5f5a36b62f8a77cd42578126270db340/server/bin/remote-cli:/home/roamio42/.local/bin:/root/bin:/home/roamio42/bin:/opt/venv/bin:/home/roamio42/bin:/opt/venv/bin:/home/roamio42/bin:/opt/venv/bin:/opt/venv/bin:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:~/.local/bin:/home/roamio42/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/roamio42/bin:/home/roamio42/bin:/home/roamio42/.cursor-server/extensions/ms-python.debugpy-2025.10.0-linux-arm64/bundled/scripts/noConfigScripts:/home/roamio42/bin:/home/roamio42/bin', 'XDG_RUNTIME_DIR': '/run/user/1002', 'SSL_CERT_DIR': '/usr/lib/ssl/certs', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/roamio42/.cursor-server/extensions/ms-python.debugpy-2025.10.0-linux-arm64/.noConfigDebugAdapterEndpoints/endpoint-d14c98ef4557fbea.txt', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1002/vscode-git-220cc97faa.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/home/roamio42/Desktop/mic_control/install/audio_common_msgs:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'IGN_GAZEBO_RESOURCE_PATH': '/opt/ros/jazzy/share', 'VIRTUAL_ENV': '/opt/venv', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/roamio42/Desktop/mic_control/build/respeaker_ros', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '10.42.247.52 48638 10.42.247.240 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/roamio42/Desktop/mic_control/build/respeaker_ros/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/roamio42/Desktop/mic_control/install/respeaker_ros/lib/python3.12/site-packages:/home/roamio42/Desktop/mic_control/install/audio_common_msgs/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/roamio42/Desktop/mic_control/install/audio_common_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[20.838386] (audio_play) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[20.842165] (audio_capture) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[20.879615] (-) TimerEvent: {}
+[20.980136] (-) TimerEvent: {}
+[21.080717] (-) TimerEvent: {}
+[21.115446] (audio_capture) StdoutLine: {'line': b'-- Found rclcpp_components: 28.1.10 (/opt/ros/jazzy/share/rclcpp_components/cmake)\n'}
+[21.115938] (audio_play) StdoutLine: {'line': b'-- Found rclcpp_components: 28.1.10 (/opt/ros/jazzy/share/rclcpp_components/cmake)\n'}
+[21.181107] (-) TimerEvent: {}
+[21.239114] (audio_capture) StdoutLine: {'line': b'-- Found audio_common_msgs: 0.3.12 (/home/roamio42/Desktop/mic_control/install/audio_common_msgs/share/audio_common_msgs/cmake)\n'}
+[21.241676] (audio_play) StdoutLine: {'line': b'-- Found audio_common_msgs: 0.3.12 (/home/roamio42/Desktop/mic_control/install/audio_common_msgs/share/audio_common_msgs/cmake)\n'}
+[21.281715] (-) TimerEvent: {}
+[21.320665] (audio_play) StdoutLine: {'line': b'-- Found PkgConfig: /usr/bin/pkg-config (found version "1.8.1") \n'}
+[21.324001] (audio_play) StdoutLine: {'line': b"-- Checking for module 'gstreamer-1.0'\n"}
+[21.325917] (audio_capture) StdoutLine: {'line': b'-- Found diagnostic_updater: 4.2.6 (/opt/ros/jazzy/share/diagnostic_updater/cmake)\n'}
+[21.383297] (-) TimerEvent: {}
+[21.394669] (audio_play) StdoutLine: {'line': b'--   Found gstreamer-1.0, version 1.24.2\n'}
+[21.428132] (audio_capture) StdoutLine: {'line': b'-- Found PkgConfig: /usr/bin/pkg-config (found version "1.8.1") \n'}
+[21.428453] (audio_capture) StdoutLine: {'line': b"-- Checking for module 'gstreamer-1.0'\n"}
+[21.474705] (respeaker_ros) StdoutLine: {'line': b'running egg_info\n'}
+[21.475088] (respeaker_ros) StdoutLine: {'line': b'creating ../../build/respeaker_ros/respeaker_ros.egg-info\n'}
+[21.479124] (audio_capture) StdoutLine: {'line': b'--   Found gstreamer-1.0, version 1.24.2\n'}
+[21.483448] (-) TimerEvent: {}
+[21.514259] (respeaker_ros) StdoutLine: {'line': b'writing ../../build/respeaker_ros/respeaker_ros.egg-info/PKG-INFO\n'}
+[21.514687] (respeaker_ros) StdoutLine: {'line': b'writing dependency_links to ../../build/respeaker_ros/respeaker_ros.egg-info/dependency_links.txt\n'}
+[21.514961] (respeaker_ros) StdoutLine: {'line': b'writing entry points to ../../build/respeaker_ros/respeaker_ros.egg-info/entry_points.txt\n'}
+[21.517751] (respeaker_ros) StdoutLine: {'line': b'writing requirements to ../../build/respeaker_ros/respeaker_ros.egg-info/requires.txt\n'}
+[21.518315] (respeaker_ros) StdoutLine: {'line': b'writing top-level names to ../../build/respeaker_ros/respeaker_ros.egg-info/top_level.txt\n'}
+[21.518440] (respeaker_ros) StdoutLine: {'line': b"writing manifest file '../../build/respeaker_ros/respeaker_ros.egg-info/SOURCES.txt'\n"}
+[21.583708] (-) TimerEvent: {}
+[21.601597] (respeaker_ros) StdoutLine: {'line': b"reading manifest file '../../build/respeaker_ros/respeaker_ros.egg-info/SOURCES.txt'\n"}
+[21.602046] (respeaker_ros) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[21.602841] (respeaker_ros) StdoutLine: {'line': b"writing manifest file '../../build/respeaker_ros/respeaker_ros.egg-info/SOURCES.txt'\n"}
+[21.603599] (respeaker_ros) StdoutLine: {'line': b'running build\n'}
+[21.604020] (respeaker_ros) StdoutLine: {'line': b'running build_py\n'}
+[21.604758] (respeaker_ros) StdoutLine: {'line': b'creating /home/roamio42/Desktop/mic_control/build/respeaker_ros/build\n'}
+[21.605205] (respeaker_ros) StdoutLine: {'line': b'creating /home/roamio42/Desktop/mic_control/build/respeaker_ros/build/lib\n'}
+[21.605594] (respeaker_ros) StdoutLine: {'line': b'creating /home/roamio42/Desktop/mic_control/build/respeaker_ros/build/lib/respeaker_ros\n'}
+[21.606025] (respeaker_ros) StdoutLine: {'line': b'copying respeaker_ros/util.py -> /home/roamio42/Desktop/mic_control/build/respeaker_ros/build/lib/respeaker_ros\n'}
+[21.606514] (respeaker_ros) StdoutLine: {'line': b'copying respeaker_ros/parameters.py -> /home/roamio42/Desktop/mic_control/build/respeaker_ros/build/lib/respeaker_ros\n'}
+[21.607437] (respeaker_ros) StdoutLine: {'line': b'copying respeaker_ros/respeaker_node.py -> /home/roamio42/Desktop/mic_control/build/respeaker_ros/build/lib/respeaker_ros\n'}
+[21.607682] (respeaker_ros) StdoutLine: {'line': b'copying respeaker_ros/doa_listener.py -> /home/roamio42/Desktop/mic_control/build/respeaker_ros/build/lib/respeaker_ros\n'}
+[21.608166] (respeaker_ros) StdoutLine: {'line': b'copying respeaker_ros/__init__.py -> /home/roamio42/Desktop/mic_control/build/respeaker_ros/build/lib/respeaker_ros\n'}
+[21.608647] (respeaker_ros) StdoutLine: {'line': b'copying respeaker_ros/audio.py -> /home/roamio42/Desktop/mic_control/build/respeaker_ros/build/lib/respeaker_ros\n'}
+[21.609858] (respeaker_ros) StdoutLine: {'line': b'copying respeaker_ros/interface.py -> /home/roamio42/Desktop/mic_control/build/respeaker_ros/build/lib/respeaker_ros\n'}
+[21.610250] (respeaker_ros) StdoutLine: {'line': b'creating /home/roamio42/Desktop/mic_control/build/respeaker_ros/build/lib/scripts\n'}
+[21.612199] (respeaker_ros) StdoutLine: {'line': b'copying scripts/__init__.py -> /home/roamio42/Desktop/mic_control/build/respeaker_ros/build/lib/scripts\n'}
+[21.612838] (respeaker_ros) StdoutLine: {'line': b'running install\n'}
+[21.627695] (respeaker_ros) StdoutLine: {'line': b'running install_lib\n'}
+[21.679079] (respeaker_ros) StdoutLine: {'line': b'creating /home/roamio42/Desktop/mic_control/install/respeaker_ros/lib/python3.12/site-packages/respeaker_ros\n'}
+[21.680162] (respeaker_ros) StdoutLine: {'line': b'copying /home/roamio42/Desktop/mic_control/build/respeaker_ros/build/lib/respeaker_ros/util.py -> /home/roamio42/Desktop/mic_control/install/respeaker_ros/lib/python3.12/site-packages/respeaker_ros\n'}
+[21.681327] (respeaker_ros) StdoutLine: {'line': b'copying /home/roamio42/Desktop/mic_control/build/respeaker_ros/build/lib/respeaker_ros/parameters.py -> /home/roamio42/Desktop/mic_control/install/respeaker_ros/lib/python3.12/site-packages/respeaker_ros\n'}
+[21.682176] (respeaker_ros) StdoutLine: {'line': b'copying /home/roamio42/Desktop/mic_control/build/respeaker_ros/build/lib/respeaker_ros/respeaker_node.py -> /home/roamio42/Desktop/mic_control/install/respeaker_ros/lib/python3.12/site-packages/respeaker_ros\n'}
+[21.682964] (respeaker_ros) StdoutLine: {'line': b'copying /home/roamio42/Desktop/mic_control/build/respeaker_ros/build/lib/respeaker_ros/doa_listener.py -> /home/roamio42/Desktop/mic_control/install/respeaker_ros/lib/python3.12/site-packages/respeaker_ros\n'}
+[21.683847] (respeaker_ros) StdoutLine: {'line': b'copying /home/roamio42/Desktop/mic_control/build/respeaker_ros/build/lib/respeaker_ros/__init__.py -> /home/roamio42/Desktop/mic_control/install/respeaker_ros/lib/python3.12/site-packages/respeaker_ros\n'}
+[21.684114] (-) TimerEvent: {}
+[21.685064] (respeaker_ros) StdoutLine: {'line': b'copying /home/roamio42/Desktop/mic_control/build/respeaker_ros/build/lib/respeaker_ros/audio.py -> /home/roamio42/Desktop/mic_control/install/respeaker_ros/lib/python3.12/site-packages/respeaker_ros\n'}
+[21.686620] (respeaker_ros) StdoutLine: {'line': b'copying /home/roamio42/Desktop/mic_control/build/respeaker_ros/build/lib/respeaker_ros/interface.py -> /home/roamio42/Desktop/mic_control/install/respeaker_ros/lib/python3.12/site-packages/respeaker_ros\n'}
+[21.688357] (respeaker_ros) StdoutLine: {'line': b'creating /home/roamio42/Desktop/mic_control/install/respeaker_ros/lib/python3.12/site-packages/scripts\n'}
+[21.688783] (respeaker_ros) StdoutLine: {'line': b'copying /home/roamio42/Desktop/mic_control/build/respeaker_ros/build/lib/scripts/__init__.py -> /home/roamio42/Desktop/mic_control/install/respeaker_ros/lib/python3.12/site-packages/scripts\n'}
+[21.691650] (respeaker_ros) StdoutLine: {'line': b'byte-compiling /home/roamio42/Desktop/mic_control/install/respeaker_ros/lib/python3.12/site-packages/respeaker_ros/util.py to util.cpython-312.pyc\n'}
+[21.693159] (respeaker_ros) StdoutLine: {'line': b'byte-compiling /home/roamio42/Desktop/mic_control/install/respeaker_ros/lib/python3.12/site-packages/respeaker_ros/parameters.py to parameters.cpython-312.pyc\n'}
+[21.696836] (respeaker_ros) StdoutLine: {'line': b'byte-compiling /home/roamio42/Desktop/mic_control/install/respeaker_ros/lib/python3.12/site-packages/respeaker_ros/respeaker_node.py to respeaker_node.cpython-312.pyc\n'}
+[21.702778] (respeaker_ros) StdoutLine: {'line': b'byte-compiling /home/roamio42/Desktop/mic_control/install/respeaker_ros/lib/python3.12/site-packages/respeaker_ros/doa_listener.py to doa_listener.cpython-312.pyc\n'}
+[21.706073] (respeaker_ros) StdoutLine: {'line': b'byte-compiling /home/roamio42/Desktop/mic_control/install/respeaker_ros/lib/python3.12/site-packages/respeaker_ros/__init__.py to __init__.cpython-312.pyc\n'}
+[21.709676] (respeaker_ros) StdoutLine: {'line': b'byte-compiling /home/roamio42/Desktop/mic_control/install/respeaker_ros/lib/python3.12/site-packages/respeaker_ros/audio.py to audio.cpython-312.pyc\n'}
+[21.710353] (respeaker_ros) StdoutLine: {'line': b'byte-compiling /home/roamio42/Desktop/mic_control/install/respeaker_ros/lib/python3.12/site-packages/respeaker_ros/interface.py to interface.cpython-312.pyc\n'}
+[21.716838] (respeaker_ros) StdoutLine: {'line': b'byte-compiling /home/roamio42/Desktop/mic_control/install/respeaker_ros/lib/python3.12/site-packages/scripts/__init__.py to __init__.cpython-312.pyc\n'}
+[21.717250] (respeaker_ros) StdoutLine: {'line': b'running install_data\n'}
+[21.717367] (respeaker_ros) StdoutLine: {'line': b'copying package.xml -> /home/roamio42/Desktop/mic_control/install/respeaker_ros/share/respeaker_ros\n'}
+[21.717458] (respeaker_ros) StdoutLine: {'line': b'creating /home/roamio42/Desktop/mic_control/install/respeaker_ros/share/ament_index\n'}
+[21.717592] (respeaker_ros) StdoutLine: {'line': b'creating /home/roamio42/Desktop/mic_control/install/respeaker_ros/share/ament_index/resource_index\n'}
+[21.717693] (respeaker_ros) StdoutLine: {'line': b'creating /home/roamio42/Desktop/mic_control/install/respeaker_ros/share/ament_index/resource_index/packages\n'}
+[21.717776] (respeaker_ros) StdoutLine: {'line': b'copying resource/respeaker_ros -> /home/roamio42/Desktop/mic_control/install/respeaker_ros/share/ament_index/resource_index/packages\n'}
+[21.717865] (respeaker_ros) StdoutLine: {'line': b'creating /home/roamio42/Desktop/mic_control/install/respeaker_ros/share/respeaker_ros/launch\n'}
+[21.717945] (respeaker_ros) StdoutLine: {'line': b'copying launch/respeaker_doa.launch.py -> /home/roamio42/Desktop/mic_control/install/respeaker_ros/share/respeaker_ros/launch\n'}
+[21.718050] (respeaker_ros) StdoutLine: {'line': b'running install_egg_info\n'}
+[21.784294] (-) TimerEvent: {}
+[21.790061] (respeaker_ros) StdoutLine: {'line': b'Copying ../../build/respeaker_ros/respeaker_ros.egg-info to /home/roamio42/Desktop/mic_control/install/respeaker_ros/lib/python3.12/site-packages/respeaker_ros-1.0.0-py3.12.egg-info\n'}
+[21.794616] (respeaker_ros) StdoutLine: {'line': b'running install_scripts\n'}
+[21.863084] (sound_play) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)\n'}
+[21.886004] (-) TimerEvent: {}
+[21.916351] (audio_play) StdoutLine: {'line': b'-- Found Boost: /usr/lib/aarch64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: thread \n'}
+[21.925789] (audio_capture) StdoutLine: {'line': b'-- Found Boost: /usr/lib/aarch64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: thread \n'}
+[21.986625] (-) TimerEvent: {}
+[22.087167] (-) TimerEvent: {}
+[22.188855] (-) TimerEvent: {}
+[22.258443] (respeaker_ros) StdoutLine: {'line': b'Installing doa_listener script to /home/roamio42/Desktop/mic_control/install/respeaker_ros/lib/respeaker_ros\n'}
+[22.262715] (respeaker_ros) StdoutLine: {'line': b'Installing respeaker_node script to /home/roamio42/Desktop/mic_control/install/respeaker_ros/lib/respeaker_ros\n'}
+[22.263678] (respeaker_ros) StdoutLine: {'line': b"writing list of installed files to '/home/roamio42/Desktop/mic_control/build/respeaker_ros/install.log'\n"}
+[22.289217] (-) TimerEvent: {}
+[22.325701] (audio_capture) StdoutLine: {'line': b'-- Configuring done (4.5s)\n'}
+[22.326399] (audio_play) StdoutLine: {'line': b'-- Configuring done (4.4s)\n'}
+[22.390767] (audio_play) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[22.391144] (-) TimerEvent: {}
+[22.391381] (audio_capture) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[22.403844] (audio_capture) StdoutLine: {'line': b'-- Build files have been written to: /home/roamio42/Desktop/mic_control/build/audio_capture\n'}
+[22.416893] (audio_play) StdoutLine: {'line': b'-- Build files have been written to: /home/roamio42/Desktop/mic_control/build/audio_play\n'}
+[22.478729] (audio_capture) CommandEnded: {'returncode': 0}
+[22.483295] (audio_capture) JobProgress: {'identifier': 'audio_capture', 'progress': 'build'}
+[22.483549] (audio_capture) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/roamio42/Desktop/mic_control/build/audio_capture', '--', '-j4', '-l4'], 'cwd': '/home/roamio42/Desktop/mic_control/build/audio_capture', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'roamio42', 'SSH_CLIENT': '10.42.247.52 48638 22', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/roamio42/.cursor-server/cli/servers/Stable-d01860bc5f5a36b62f8a77cd42578126270db340/server/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/home/roamio42/Desktop/mic_control/install/audio_common_msgs/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'BROWSER': '/home/roamio42/.cursor-server/cli/servers/Stable-d01860bc5f5a36b62f8a77cd42578126270db340/server/bin/helpers/browser.sh', 'HOME': '/home/roamio42', 'OLDPWD': '/home/roamio42/Desktop', 'TERM_PROGRAM_VERSION': '1.4.2', 'VSCODE_IPC_HOOK_CLI': '/run/user/1002/vscode-ipc-28349ab4-5137-4dda-abda-45e4658f9ad7.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/roamio42/.cursor-server/cli/servers/Stable-d01860bc5f5a36b62f8a77cd42578126270db340/server/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/roamio42/.cursor-server/cli/servers/Stable-d01860bc5f5a36b62f8a77cd42578126270db340/server/node', 'SSL_CERT_FILE': '/usr/lib/ssl/cert.pem', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'BUNDLED_DEBUGPY_PATH': '/home/roamio42/.cursor-server/extensions/ms-python.debugpy-2025.10.0-linux-arm64/bundled/libs/debugpy', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1002/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'roamio42', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '4', 'PATH': '/root/bin:/home/roamio42/ros2_ws/bin:/opt/venv/bin:/home/roamio42/ros2_ws/bin:/opt/venv/bin:/home/roamio42/ros2_ws/bin:/opt/venv/bin:/opt/venv/bin:~/.local/bin:/home/roamio42/.cursor-server/cli/servers/Stable-d01860bc5f5a36b62f8a77cd42578126270db340/server/bin/remote-cli:/home/roamio42/.local/bin:/root/bin:/home/roamio42/bin:/opt/venv/bin:/home/roamio42/bin:/opt/venv/bin:/home/roamio42/bin:/opt/venv/bin:/opt/venv/bin:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:~/.local/bin:/home/roamio42/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/roamio42/bin:/home/roamio42/bin:/home/roamio42/.cursor-server/extensions/ms-python.debugpy-2025.10.0-linux-arm64/bundled/scripts/noConfigScripts:/home/roamio42/bin:/home/roamio42/bin', 'XDG_RUNTIME_DIR': '/run/user/1002', 'SSL_CERT_DIR': '/usr/lib/ssl/certs', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/roamio42/.cursor-server/extensions/ms-python.debugpy-2025.10.0-linux-arm64/.noConfigDebugAdapterEndpoints/endpoint-d14c98ef4557fbea.txt', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1002/vscode-git-220cc97faa.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/home/roamio42/Desktop/mic_control/install/audio_common_msgs:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'IGN_GAZEBO_RESOURCE_PATH': '/opt/ros/jazzy/share', 'VIRTUAL_ENV': '/opt/venv', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/roamio42/Desktop/mic_control/build/audio_capture', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '10.42.247.52 48638 10.42.247.240 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/roamio42/Desktop/mic_control/install/audio_common_msgs/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/roamio42/Desktop/mic_control/install/audio_common_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[22.493723] (audio_play) CommandEnded: {'returncode': 0}
+[22.494922] (-) TimerEvent: {}
+[22.495258] (audio_play) JobProgress: {'identifier': 'audio_play', 'progress': 'build'}
+[22.495307] (audio_play) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/roamio42/Desktop/mic_control/build/audio_play', '--', '-j4', '-l4'], 'cwd': '/home/roamio42/Desktop/mic_control/build/audio_play', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'roamio42', 'SSH_CLIENT': '10.42.247.52 48638 22', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/roamio42/.cursor-server/cli/servers/Stable-d01860bc5f5a36b62f8a77cd42578126270db340/server/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/home/roamio42/Desktop/mic_control/install/audio_common_msgs/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'BROWSER': '/home/roamio42/.cursor-server/cli/servers/Stable-d01860bc5f5a36b62f8a77cd42578126270db340/server/bin/helpers/browser.sh', 'HOME': '/home/roamio42', 'OLDPWD': '/home/roamio42/Desktop', 'TERM_PROGRAM_VERSION': '1.4.2', 'VSCODE_IPC_HOOK_CLI': '/run/user/1002/vscode-ipc-28349ab4-5137-4dda-abda-45e4658f9ad7.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/roamio42/.cursor-server/cli/servers/Stable-d01860bc5f5a36b62f8a77cd42578126270db340/server/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/roamio42/.cursor-server/cli/servers/Stable-d01860bc5f5a36b62f8a77cd42578126270db340/server/node', 'SSL_CERT_FILE': '/usr/lib/ssl/cert.pem', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'BUNDLED_DEBUGPY_PATH': '/home/roamio42/.cursor-server/extensions/ms-python.debugpy-2025.10.0-linux-arm64/bundled/libs/debugpy', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1002/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'roamio42', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '4', 'PATH': '/root/bin:/home/roamio42/ros2_ws/bin:/opt/venv/bin:/home/roamio42/ros2_ws/bin:/opt/venv/bin:/home/roamio42/ros2_ws/bin:/opt/venv/bin:/opt/venv/bin:~/.local/bin:/home/roamio42/.cursor-server/cli/servers/Stable-d01860bc5f5a36b62f8a77cd42578126270db340/server/bin/remote-cli:/home/roamio42/.local/bin:/root/bin:/home/roamio42/bin:/opt/venv/bin:/home/roamio42/bin:/opt/venv/bin:/home/roamio42/bin:/opt/venv/bin:/opt/venv/bin:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:~/.local/bin:/home/roamio42/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/roamio42/bin:/home/roamio42/bin:/home/roamio42/.cursor-server/extensions/ms-python.debugpy-2025.10.0-linux-arm64/bundled/scripts/noConfigScripts:/home/roamio42/bin:/home/roamio42/bin', 'XDG_RUNTIME_DIR': '/run/user/1002', 'SSL_CERT_DIR': '/usr/lib/ssl/certs', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/roamio42/.cursor-server/extensions/ms-python.debugpy-2025.10.0-linux-arm64/.noConfigDebugAdapterEndpoints/endpoint-d14c98ef4557fbea.txt', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1002/vscode-git-220cc97faa.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/home/roamio42/Desktop/mic_control/install/audio_common_msgs:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'IGN_GAZEBO_RESOURCE_PATH': '/opt/ros/jazzy/share', 'VIRTUAL_ENV': '/opt/venv', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/roamio42/Desktop/mic_control/build/audio_play', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '10.42.247.52 48638 10.42.247.240 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/roamio42/Desktop/mic_control/install/audio_common_msgs/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/roamio42/Desktop/mic_control/install/audio_common_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[22.502154] (respeaker_ros) CommandEnded: {'returncode': 0}
+[22.518972] (respeaker_ros) JobEnded: {'identifier': 'respeaker_ros', 'rc': 0}
+[22.595161] (-) TimerEvent: {}
+[22.637447] (audio_capture) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/audio_capture_node.dir/rclcpp_components/node_main_audio_capture_node.cpp.o\x1b[0m\n'}
+[22.650897] (audio_capture) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/audio_capture.dir/src/audio_capture_node.cpp.o\x1b[0m\n'}
+[22.662644] (audio_play) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/audio_play_node.dir/rclcpp_components/node_main_audio_play_node.cpp.o\x1b[0m\n'}
+[22.665676] (audio_play) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/audio_play.dir/src/audio_play_node.cpp.o\x1b[0m\n'}
+[22.695375] (-) TimerEvent: {}
+[22.799102] (-) TimerEvent: {}
+[22.916050] (-) TimerEvent: {}
+[23.021813] (-) TimerEvent: {}
+[23.096822] (sound_play) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[23.121939] (-) TimerEvent: {}
+[23.224255] (-) TimerEvent: {}
+[23.325082] (-) TimerEvent: {}
+[23.425771] (-) TimerEvent: {}
+[23.526180] (-) TimerEvent: {}
+[23.627338] (-) TimerEvent: {}
+[23.727835] (-) TimerEvent: {}
+[23.830921] (-) TimerEvent: {}
+[23.935657] (-) TimerEvent: {}
+[24.036366] (-) TimerEvent: {}
+[24.136961] (-) TimerEvent: {}
+[24.237920] (-) TimerEvent: {}
+[24.338554] (-) TimerEvent: {}
+[24.440689] (-) TimerEvent: {}
+[24.541327] (-) TimerEvent: {}
+[24.595784] (sound_play) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[24.608658] (sound_play) StdoutLine: {'line': b'-- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)\n'}
+[24.641541] (-) TimerEvent: {}
+[24.744877] (-) TimerEvent: {}
+[24.845477] (-) TimerEvent: {}
+[24.948019] (-) TimerEvent: {}
+[24.993670] (sound_play) StdoutLine: {'line': b'-- Found PythonExtra: /opt/venv/bin/python3  \n'}
+[25.049461] (-) TimerEvent: {}
+[25.150052] (-) TimerEvent: {}
+[25.251598] (-) TimerEvent: {}
+[25.354079] (-) TimerEvent: {}
+[25.459678] (-) TimerEvent: {}
+[25.560445] (-) TimerEvent: {}
+[25.661189] (-) TimerEvent: {}
+[25.763789] (-) TimerEvent: {}
+[25.866514] (-) TimerEvent: {}
+[25.968177] (-) TimerEvent: {}
+[26.072059] (-) TimerEvent: {}
+[26.178601] (-) TimerEvent: {}
+[26.279096] (-) TimerEvent: {}
+[26.380224] (-) TimerEvent: {}
+[26.401239] (sound_play) StdoutLine: {'line': b'-- Found Python3: /opt/venv/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed \n'}
+[26.480384] (-) TimerEvent: {}
+[26.536213] (sound_play) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/jazzy/share/ament_cmake_python/cmake/ament_python_install_package.cmake:122 (add_custom_target):\n'}
+[26.537098] (sound_play) StderrLine: {'line': b'  add_custom_target cannot create target "ament_cmake_python_copy_sound_play"\n'}
+[26.537285] (sound_play) StderrLine: {'line': b'  because another target with the same name already exists.  The existing\n'}
+[26.537410] (sound_play) StderrLine: {'line': b'  target is a custom target created in source directory\n'}
+[26.537570] (sound_play) StderrLine: {'line': b'  "/home/roamio42/Desktop/mic_control/src/audio_common/sound_play".  See\n'}
+[26.537737] (sound_play) StderrLine: {'line': b'  documentation for policy CMP0002 for more details.\n'}
+[26.537895] (sound_play) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[26.538072] (sound_play) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_python/cmake/ament_python_install_package.cmake:39 (_ament_cmake_python_install_package)\n'}
+[26.538200] (sound_play) StderrLine: {'line': b'  CMakeLists.txt:36 (ament_python_install_package)\n'}
+[26.538345] (sound_play) StderrLine: {'line': b'\n'}
+[26.538460] (sound_play) StderrLine: {'line': b'\x1b[0m\n'}
+[26.542436] (sound_play) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/jazzy/share/ament_cmake_python/cmake/ament_python_install_package.cmake:144 (add_custom_target):\n'}
+[26.542726] (sound_play) StderrLine: {'line': b'  add_custom_target cannot create target\n'}
+[26.542876] (sound_play) StderrLine: {'line': b'  "ament_cmake_python_build_sound_play_egg" because another target with the\n'}
+[26.543050] (sound_play) StderrLine: {'line': b'  same name already exists.  The existing target is a custom target created\n'}
+[26.543209] (sound_play) StderrLine: {'line': b'  in source directory\n'}
+[26.543366] (sound_play) StderrLine: {'line': b'  "/home/roamio42/Desktop/mic_control/src/audio_common/sound_play".  See\n'}
+[26.543480] (sound_play) StderrLine: {'line': b'  documentation for policy CMP0002 for more details.\n'}
+[26.543749] (sound_play) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[26.543882] (sound_play) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_python/cmake/ament_python_install_package.cmake:39 (_ament_cmake_python_install_package)\n'}
+[26.543998] (sound_play) StderrLine: {'line': b'  CMakeLists.txt:36 (ament_python_install_package)\n'}
+[26.544131] (sound_play) StderrLine: {'line': b'\n'}
+[26.544260] (sound_play) StderrLine: {'line': b'\x1b[0m\n'}
+[26.556886] (sound_play) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[26.581707] (-) TimerEvent: {}
+[26.607958] (sound_play) CommandEnded: {'returncode': 1}
+[26.654811] (sound_play) JobEnded: {'identifier': 'sound_play', 'rc': 1}
+[26.683282] (-) TimerEvent: {}
+[26.786857] (-) TimerEvent: {}
+[26.888086] (-) TimerEvent: {}
+[26.988625] (-) TimerEvent: {}
+[27.091917] (-) TimerEvent: {}
+[27.192446] (-) TimerEvent: {}
+[27.293042] (-) TimerEvent: {}
+[27.393794] (-) TimerEvent: {}
+[27.497574] (-) TimerEvent: {}
+[27.598173] (-) TimerEvent: {}
+[27.698931] (-) TimerEvent: {}
+[27.803051] (-) TimerEvent: {}
+[27.914836] (-) TimerEvent: {}
+[28.015422] (-) TimerEvent: {}
+[28.118164] (-) TimerEvent: {}
+[28.218648] (-) TimerEvent: {}
+[28.319153] (-) TimerEvent: {}
+[28.420619] (-) TimerEvent: {}
+[28.521118] (-) TimerEvent: {}
+[28.622653] (-) TimerEvent: {}
+[28.723226] (-) TimerEvent: {}
+[28.824612] (-) TimerEvent: {}
+[28.925265] (-) TimerEvent: {}
+[29.025730] (-) TimerEvent: {}
+[29.126760] (-) TimerEvent: {}
+[29.230901] (-) TimerEvent: {}
+[29.331441] (-) TimerEvent: {}
+[29.432085] (-) TimerEvent: {}
+[29.532665] (-) TimerEvent: {}
+[29.633244] (-) TimerEvent: {}
+[29.733782] (-) TimerEvent: {}
+[29.835632] (-) TimerEvent: {}
+[29.936160] (-) TimerEvent: {}
+[30.036717] (-) TimerEvent: {}
+[30.139892] (-) TimerEvent: {}
+[30.240516] (-) TimerEvent: {}
+[30.341116] (-) TimerEvent: {}
+[30.441642] (-) TimerEvent: {}
+[30.542162] (-) TimerEvent: {}
+[30.644615] (-) TimerEvent: {}
+[30.745132] (-) TimerEvent: {}
+[30.845624] (-) TimerEvent: {}
+[30.947618] (-) TimerEvent: {}
+[31.048804] (-) TimerEvent: {}
+[31.150623] (-) TimerEvent: {}
+[31.251133] (-) TimerEvent: {}
+[31.351638] (-) TimerEvent: {}
+[31.454683] (-) TimerEvent: {}
+[31.555272] (-) TimerEvent: {}
+[31.655756] (-) TimerEvent: {}
+[31.756226] (-) TimerEvent: {}
+[31.856830] (-) TimerEvent: {}
+[31.960898] (-) TimerEvent: {}
+[32.061438] (-) TimerEvent: {}
+[32.162646] (-) TimerEvent: {}
+[32.265649] (-) TimerEvent: {}
+[32.366211] (-) TimerEvent: {}
+[32.466808] (-) TimerEvent: {}
+[32.567348] (-) TimerEvent: {}
+[32.667895] (-) TimerEvent: {}
+[32.769640] (-) TimerEvent: {}
+[32.870205] (-) TimerEvent: {}
+[32.877400] (audio_capture) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable audio_capture_node\x1b[0m\n'}
+[32.903015] (audio_play) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable audio_play_node\x1b[0m\n'}
+[32.971546] (-) TimerEvent: {}
+[33.073853] (-) TimerEvent: {}
+[33.174922] (-) TimerEvent: {}
+[33.276321] (-) TimerEvent: {}
+[33.381695] (-) TimerEvent: {}
+[33.482986] (-) TimerEvent: {}
+[33.584992] (-) TimerEvent: {}
+[33.687964] (-) TimerEvent: {}
+[33.726371] (audio_play) StdoutLine: {'line': b'[ 75%] Built target audio_play_node\n'}
+[33.733482] (audio_capture) StdoutLine: {'line': b'[ 75%] Built target audio_capture_node\n'}
+[33.788088] (-) TimerEvent: {}
+[33.888538] (-) TimerEvent: {}
+[33.988967] (-) TimerEvent: {}
+[34.089376] (-) TimerEvent: {}
+[34.189880] (-) TimerEvent: {}
+[34.290316] (-) TimerEvent: {}
+[34.390751] (-) TimerEvent: {}
+[34.491168] (-) TimerEvent: {}
+[34.591600] (-) TimerEvent: {}
+[34.692014] (-) TimerEvent: {}
+[34.792435] (-) TimerEvent: {}
+[34.892837] (-) TimerEvent: {}
+[34.993225] (-) TimerEvent: {}
+[35.093610] (-) TimerEvent: {}
+[35.194001] (-) TimerEvent: {}
+[35.294412] (-) TimerEvent: {}
+[35.394819] (-) TimerEvent: {}
+[35.495228] (-) TimerEvent: {}
+[35.595672] (-) TimerEvent: {}
+[35.596026] (audio_play) StderrLine: {'line': b'\x1b[01m\x1b[K/home/roamio42/Desktop/mic_control/src/audio_common/audio_play/src/audio_play_node.cpp:\x1b[m\x1b[K In static member function \xe2\x80\x98\x1b[01m\x1b[Kstatic void audio_play::AudioPlayNode::\x1b[01;32m\x1b[Kcb_newpad\x1b[m\x1b[K(GstElement*, GstPad*, gpointer)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[35.596449] (audio_play) StderrLine: {'line': b'\x1b[01m\x1b[K/home/roamio42/Desktop/mic_control/src/audio_common/audio_play/src/audio_play_node.cpp:158:41:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kdecodebin\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[35.596655] (audio_play) StderrLine: {'line': b'  158 |      static void cb_newpad (\x1b[01;35m\x1b[KGstElement *decodebin\x1b[m\x1b[K, GstPad *pad,\n'}
+[35.596768] (audio_play) StderrLine: {'line': b'      |                             \x1b[01;35m\x1b[K~~~~~~~~~~~~^~~~~~~~~\x1b[m\x1b[K\n'}
+[35.602657] (audio_capture) StderrLine: {'line': b'\x1b[01m\x1b[K/home/roamio42/Desktop/mic_control/src/audio_common/audio_capture/src/audio_capture_node.cpp:\x1b[m\x1b[K In static member function \xe2\x80\x98\x1b[01m\x1b[Kstatic gboolean audio_capture::AudioCaptureNode::\x1b[01;32m\x1b[KonMessage\x1b[m\x1b[K(GstBus*, GstMessage*, gpointer)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[35.603064] (audio_capture) StderrLine: {'line': b'\x1b[01m\x1b[K/home/roamio42/Desktop/mic_control/src/audio_common/audio_capture/src/audio_capture_node.cpp:258:42:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kbus\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[35.603226] (audio_capture) StderrLine: {'line': b'  258 |       static gboolean onMessage (\x1b[01;35m\x1b[KGstBus *bus\x1b[m\x1b[K, GstMessage *message, gpointer userData)\n'}
+[35.603333] (audio_capture) StderrLine: {'line': b'      |                                  \x1b[01;35m\x1b[K~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[35.695812] (-) TimerEvent: {}
+[35.796230] (-) TimerEvent: {}
+[35.896660] (-) TimerEvent: {}
+[35.997075] (-) TimerEvent: {}
+[36.097463] (-) TimerEvent: {}
+[36.197890] (-) TimerEvent: {}
+[36.298311] (-) TimerEvent: {}
+[36.398744] (-) TimerEvent: {}
+[36.499187] (-) TimerEvent: {}
+[36.599587] (-) TimerEvent: {}
+[36.700001] (-) TimerEvent: {}
+[36.800417] (-) TimerEvent: {}
+[36.900841] (-) TimerEvent: {}
+[37.001254] (-) TimerEvent: {}
+[37.101687] (-) TimerEvent: {}
+[37.202127] (-) TimerEvent: {}
+[37.302556] (-) TimerEvent: {}
+[37.402967] (-) TimerEvent: {}
+[37.503367] (-) TimerEvent: {}
+[37.603790] (-) TimerEvent: {}
+[37.705475] (-) TimerEvent: {}
+[37.806012] (-) TimerEvent: {}
+[37.914943] (-) TimerEvent: {}
+[38.015318] (-) TimerEvent: {}
+[38.115715] (-) TimerEvent: {}
+[38.216136] (-) TimerEvent: {}
+[38.316663] (-) TimerEvent: {}
+[38.417246] (-) TimerEvent: {}
+[38.517720] (-) TimerEvent: {}
+[38.618240] (-) TimerEvent: {}
+[38.718627] (-) TimerEvent: {}
+[38.819206] (-) TimerEvent: {}
+[38.919803] (-) TimerEvent: {}
+[39.020290] (-) TimerEvent: {}
+[39.120762] (-) TimerEvent: {}
+[39.221235] (-) TimerEvent: {}
+[39.321776] (-) TimerEvent: {}
+[39.422394] (-) TimerEvent: {}
+[39.522871] (-) TimerEvent: {}
+[39.623270] (-) TimerEvent: {}
+[39.723777] (-) TimerEvent: {}
+[39.824353] (-) TimerEvent: {}
+[39.924853] (-) TimerEvent: {}
+[40.025573] (-) TimerEvent: {}
+[40.126162] (-) TimerEvent: {}
+[40.226829] (-) TimerEvent: {}
+[40.327220] (-) TimerEvent: {}
+[40.427640] (-) TimerEvent: {}
+[40.528308] (-) TimerEvent: {}
+[40.628738] (-) TimerEvent: {}
+[40.729160] (-) TimerEvent: {}
+[40.829591] (-) TimerEvent: {}
+[40.930006] (-) TimerEvent: {}
+[41.030436] (-) TimerEvent: {}
+[41.130896] (-) TimerEvent: {}
+[41.231303] (-) TimerEvent: {}
+[41.331730] (-) TimerEvent: {}
+[41.432149] (-) TimerEvent: {}
+[41.532585] (-) TimerEvent: {}
+[41.633004] (-) TimerEvent: {}
+[41.733422] (-) TimerEvent: {}
+[41.833827] (-) TimerEvent: {}
+[41.934235] (-) TimerEvent: {}
+[42.034650] (-) TimerEvent: {}
+[42.135060] (-) TimerEvent: {}
+[42.235469] (-) TimerEvent: {}
+[42.335853] (-) TimerEvent: {}
+[42.436217] (-) TimerEvent: {}
+[42.536605] (-) TimerEvent: {}
+[42.637097] (-) TimerEvent: {}
+[42.737582] (-) TimerEvent: {}
+[42.838060] (-) TimerEvent: {}
+[42.938535] (-) TimerEvent: {}
+[43.039075] (-) TimerEvent: {}
+[43.139850] (-) TimerEvent: {}
+[43.240357] (-) TimerEvent: {}
+[43.321858] (audio_capture) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library libaudio_capture.so\x1b[0m\n'}
+[43.340480] (-) TimerEvent: {}
+[43.441344] (-) TimerEvent: {}
+[43.542057] (-) TimerEvent: {}
+[43.643213] (-) TimerEvent: {}
+[43.744830] (-) TimerEvent: {}
+[43.846376] (-) TimerEvent: {}
+[43.947330] (-) TimerEvent: {}
+[44.047988] (-) TimerEvent: {}
+[44.149384] (-) TimerEvent: {}
+[44.250957] (-) TimerEvent: {}
+[44.351599] (-) TimerEvent: {}
+[44.452205] (-) TimerEvent: {}
+[44.552809] (-) TimerEvent: {}
+[44.653226] (-) TimerEvent: {}
+[44.683420] (audio_capture) StdoutLine: {'line': b'[100%] Built target audio_capture\n'}
+[44.707880] (audio_capture) JobEnded: {'identifier': 'audio_capture', 'rc': 'SIGINT'}
+[44.753341] (-) TimerEvent: {}
+[44.853729] (-) TimerEvent: {}
+[44.954101] (-) TimerEvent: {}
+[45.054463] (-) TimerEvent: {}
+[45.154835] (-) TimerEvent: {}
+[45.255231] (-) TimerEvent: {}
+[45.355713] (-) TimerEvent: {}
+[45.456124] (-) TimerEvent: {}
+[45.556581] (-) TimerEvent: {}
+[45.657028] (-) TimerEvent: {}
+[45.757441] (-) TimerEvent: {}
+[45.857923] (-) TimerEvent: {}
+[45.958366] (-) TimerEvent: {}
+[46.058880] (-) TimerEvent: {}
+[46.159342] (-) TimerEvent: {}
+[46.260104] (-) TimerEvent: {}
+[46.306729] (audio_play) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library libaudio_play.so\x1b[0m\n'}
+[46.360309] (-) TimerEvent: {}
+[46.461039] (-) TimerEvent: {}
+[46.561831] (-) TimerEvent: {}
+[46.662949] (-) TimerEvent: {}
+[46.763581] (-) TimerEvent: {}
+[46.864315] (-) TimerEvent: {}
+[46.965100] (-) TimerEvent: {}
+[47.066021] (-) TimerEvent: {}
+[47.167386] (-) TimerEvent: {}
+[47.268454] (-) TimerEvent: {}
+[47.369010] (-) TimerEvent: {}
+[47.469403] (-) TimerEvent: {}
+[47.569762] (-) TimerEvent: {}
+[47.572671] (audio_play) StdoutLine: {'line': b'[100%] Built target audio_play\n'}
+[47.598169] (audio_play) JobEnded: {'identifier': 'audio_play', 'rc': 'SIGINT'}
+[47.608961] (audio_common) JobSkipped: {'identifier': 'audio_common'}
+[47.609099] (-) EventReactorShutdown: {}

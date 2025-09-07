@@ -1,0 +1,3 @@
+[console_scripts]
+doa_listener = respeaker_ros.doa_listener:main
+respeaker_node = respeaker_ros.respeaker_node:main

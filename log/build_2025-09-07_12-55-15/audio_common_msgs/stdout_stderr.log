@@ -1,0 +1,289 @@
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found Python3: /opt/venv/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+-- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+-- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+-- Found PythonExtra: /opt/venv/bin/python3  
+-- Found Python3: /opt/venv/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+-- Configuring done (4.8s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/roamio42/Desktop/mic_control/build/audio_common_msgs
+[  1%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[  1%] Built target ament_cmake_python_copy_audio_common_msgs
+running egg_info
+creating audio_common_msgs.egg-info
+writing audio_common_msgs.egg-info/PKG-INFO
+writing dependency_links to audio_common_msgs.egg-info/dependency_links.txt
+writing top-level names to audio_common_msgs.egg-info/top_level.txt
+writing manifest file 'audio_common_msgs.egg-info/SOURCES.txt'
+reading manifest file 'audio_common_msgs.egg-info/SOURCES.txt'
+writing manifest file 'audio_common_msgs.egg-info/SOURCES.txt'
+[  1%] Built target audio_common_msgs__rosidl_generator_type_description
+[  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[  5%] Built target ament_cmake_python_build_audio_common_msgs_egg
+[  5%] Built target audio_common_msgs__cpp
+[ 12%] [32mBuilding C object CMakeFiles/audio_common_msgs__rosidl_generator_c.dir/rosidl_generator_c/audio_common_msgs/msg/detail/audio_data__functions.c.o[0m
+[ 12%] [32mBuilding C object CMakeFiles/audio_common_msgs__rosidl_generator_c.dir/rosidl_generator_c/audio_common_msgs/msg/detail/audio_data__description.c.o[0m
+[ 12%] [32mBuilding C object CMakeFiles/audio_common_msgs__rosidl_generator_c.dir/rosidl_generator_c/audio_common_msgs/msg/detail/audio_data__type_support.c.o[0m
+[ 12%] [32mBuilding C object CMakeFiles/audio_common_msgs__rosidl_generator_c.dir/rosidl_generator_c/audio_common_msgs/msg/detail/audio_data_stamped__description.c.o[0m
+[ 14%] [32mBuilding C object CMakeFiles/audio_common_msgs__rosidl_generator_c.dir/rosidl_generator_c/audio_common_msgs/msg/detail/audio_data_stamped__functions.c.o[0m
+[ 16%] [32mBuilding C object CMakeFiles/audio_common_msgs__rosidl_generator_c.dir/rosidl_generator_c/audio_common_msgs/msg/detail/audio_data_stamped__type_support.c.o[0m
+[ 18%] [32mBuilding C object CMakeFiles/audio_common_msgs__rosidl_generator_c.dir/rosidl_generator_c/audio_common_msgs/msg/detail/audio_info__description.c.o[0m
+[ 20%] [32mBuilding C object CMakeFiles/audio_common_msgs__rosidl_generator_c.dir/rosidl_generator_c/audio_common_msgs/msg/detail/audio_info__functions.c.o[0m
+[ 22%] [32mBuilding C object CMakeFiles/audio_common_msgs__rosidl_generator_c.dir/rosidl_generator_c/audio_common_msgs/msg/detail/audio_info__type_support.c.o[0m
+[ 24%] [32m[1mLinking C shared library libaudio_common_msgs__rosidl_generator_c.so[0m
+[ 24%] Built target audio_common_msgs__rosidl_generator_c
+[ 29%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[ 29%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[ 29%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[ 31%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/audio_common_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/audio_common_msgs/msg/audio_data__type_support.cpp.o[0m
+[ 35%] [32mBuilding CXX object CMakeFiles/audio_common_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/audio_common_msgs/msg/audio_data__type_support.cpp.o[0m
+[ 37%] [32mBuilding CXX object CMakeFiles/audio_common_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/audio_common_msgs/msg/audio_data_stamped__type_support.cpp.o[0m
+[ 38%] [32mBuilding CXX object CMakeFiles/audio_common_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/audio_common_msgs/msg/detail/audio_data__type_support.cpp.o[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/audio_common_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/audio_common_msgs/msg/audio_info__type_support.cpp.o[0m
+[ 42%] [32mBuilding CXX object CMakeFiles/audio_common_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/audio_common_msgs/msg/detail/dds_fastrtps/audio_data__type_support.cpp.o[0m
+[ 44%] [32m[1mLinking CXX shared library libaudio_common_msgs__rosidl_typesupport_c.so[0m
+[ 44%] Built target audio_common_msgs__rosidl_typesupport_c
+[ 46%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[ 48%] [32mBuilding CXX object CMakeFiles/audio_common_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/audio_common_msgs/msg/audio_data_stamped__type_support.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/audio_common_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/audio_common_msgs/msg/detail/audio_data_stamped__type_support.cpp.o[0m
+[ 51%] [32mBuilding CXX object CMakeFiles/audio_common_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/audio_common_msgs/msg/audio_info__type_support.cpp.o[0m
+[ 53%] [32mBuilding CXX object CMakeFiles/audio_common_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/audio_common_msgs/msg/detail/dds_fastrtps/audio_data_stamped__type_support.cpp.o[0m
+[ 55%] [32mBuilding CXX object CMakeFiles/audio_common_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/audio_common_msgs/msg/detail/audio_data__type_support_c.cpp.o[0m
+[ 57%] [32mBuilding CXX object CMakeFiles/audio_common_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/audio_common_msgs/msg/detail/audio_info__type_support.cpp.o[0m
+[ 59%] [32m[1mLinking CXX shared library libaudio_common_msgs__rosidl_typesupport_cpp.so[0m
+[ 59%] Built target audio_common_msgs__rosidl_typesupport_cpp
+[ 61%] [32mBuilding CXX object CMakeFiles/audio_common_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/audio_common_msgs/msg/detail/dds_fastrtps/audio_info__type_support.cpp.o[0m
+[ 62%] [32m[1mLinking CXX shared library libaudio_common_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[ 62%] Built target audio_common_msgs__rosidl_typesupport_introspection_cpp
+[ 64%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/audio_common_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/audio_common_msgs/msg/detail/audio_data_stamped__type_support_c.cpp.o[0m
+[ 68%] [32mBuilding CXX object CMakeFiles/audio_common_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/audio_common_msgs/msg/detail/audio_info__type_support_c.cpp.o[0m
+[ 70%] [32m[1mLinking CXX shared library libaudio_common_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[ 72%] [32mBuilding C object CMakeFiles/audio_common_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/audio_common_msgs/msg/detail/audio_data__type_support.c.o[0m
+[ 74%] [32mBuilding C object CMakeFiles/audio_common_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/audio_common_msgs/msg/detail/audio_data_stamped__type_support.c.o[0m
+[ 75%] [32mBuilding C object CMakeFiles/audio_common_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/audio_common_msgs/msg/detail/audio_info__type_support.c.o[0m
+[ 75%] Built target audio_common_msgs__rosidl_typesupport_fastrtps_cpp
+[ 77%] [32m[1mLinking C shared library libaudio_common_msgs__rosidl_typesupport_introspection_c.so[0m
+[ 79%] [32m[1mLinking CXX shared library libaudio_common_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[ 79%] Built target audio_common_msgs__rosidl_typesupport_introspection_c
+[ 79%] Built target audio_common_msgs__rosidl_typesupport_fastrtps_c
+[ 79%] Built target audio_common_msgs
+[ 81%] [34m[1mGenerating Python code for ROS interfaces[0m
+[ 81%] Built target audio_common_msgs__py
+[ 87%] [32mBuilding C object CMakeFiles/audio_common_msgs__rosidl_generator_py.dir/rosidl_generator_py/audio_common_msgs/msg/_audio_data_stamped_s.c.o[0m
+[ 87%] [32mBuilding C object CMakeFiles/audio_common_msgs__rosidl_generator_py.dir/rosidl_generator_py/audio_common_msgs/msg/_audio_info_s.c.o[0m
+[ 87%] [32mBuilding C object CMakeFiles/audio_common_msgs__rosidl_generator_py.dir/rosidl_generator_py/audio_common_msgs/msg/_audio_data_s.c.o[0m
+[ 88%] [32m[1mLinking C shared library libaudio_common_msgs__rosidl_generator_py.so[0m
+[ 88%] Built target audio_common_msgs__rosidl_generator_py
+[ 94%] [32mBuilding C object CMakeFiles/audio_common_msgs_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/audio_common_msgs/_audio_common_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[ 94%] [32mBuilding C object CMakeFiles/audio_common_msgs_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/audio_common_msgs/_audio_common_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[ 94%] [32mBuilding C object CMakeFiles/audio_common_msgs_s__rosidl_typesupport_c.dir/rosidl_generator_py/audio_common_msgs/_audio_common_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[ 98%] [32m[1mLinking C shared module rosidl_generator_py/audio_common_msgs/audio_common_msgs_s__rosidl_typesupport_c.so[0m
+[ 98%] [32m[1mLinking C shared module rosidl_generator_py/audio_common_msgs/audio_common_msgs_s__rosidl_typesupport_introspection_c.so[0m
+[100%] [32m[1mLinking C shared module rosidl_generator_py/audio_common_msgs/audio_common_msgs_s__rosidl_typesupport_fastrtps_c.so[0m
+[100%] Built target audio_common_msgs_s__rosidl_typesupport_c
+[100%] Built target audio_common_msgs_s__rosidl_typesupport_introspection_c
+[100%] Built target audio_common_msgs_s__rosidl_typesupport_fastrtps_c
+-- Install configuration: ""
+-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/share/ament_index/resource_index/rosidl_interfaces/audio_common_msgs
+-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/share/audio_common_msgs/msg/AudioData.json
+-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/share/audio_common_msgs/msg/AudioDataStamped.json
+-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/share/audio_common_msgs/msg/AudioInfo.json
+-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs
+-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg
+-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/audio_data.h
+-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/audio_data_stamped.h
+-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/rosidl_generator_c__visibility_control.h
+-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail
+-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_data__functions.c
+-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_info__description.c
+-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_data__struct.h
+-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_data_stamped__functions.h
+-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_info__struct.h
+-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_data_stamped__description.c
+-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_data_stamped__functions.c
+-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_data__description.c
+-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_info__type_support.c
+-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_info__type_support.h
+-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_data_stamped__type_support.c
+-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_data__type_support.h
+-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_info__functions.h
+-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_data__functions.h
+-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_data_stamped__type_support.h
+-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_info__functions.c
+-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_data__type_support.c
+-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_data_stamped__struct.h
+-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/audio_info.h
+-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/share/audio_common_msgs/environment/library_path.sh
+-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/share/audio_common_msgs/environment/library_path.dsv
+-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/lib/libaudio_common_msgs__rosidl_generator_c.so
+-- Set non-toolchain portion of runtime path of "/home/roamio42/Desktop/mic_control/install/audio_common_msgs/lib/libaudio_common_msgs__rosidl_generator_c.so" to ""
+-- Up-to-date: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs
+-- Up-to-date: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg
+-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+-- Up-to-date: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail
+-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_info__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_data_stamped__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_data__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/lib/libaudio_common_msgs__rosidl_typesupport_fastrtps_c.so
+-- Set non-toolchain portion of runtime path of "/home/roamio42/Desktop/mic_control/install/audio_common_msgs/lib/libaudio_common_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+-- Up-to-date: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs
+-- Up-to-date: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg
+-- Up-to-date: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail
+-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_info__rosidl_typesupport_introspection_c.h
+-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_info__type_support.c
+-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_data_stamped__type_support.c
+-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_data_stamped__rosidl_typesupport_introspection_c.h
+-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_data__rosidl_typesupport_introspection_c.h
+-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_data__type_support.c
+-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/lib/libaudio_common_msgs__rosidl_typesupport_introspection_c.so
+-- Set non-toolchain portion of runtime path of "/home/roamio42/Desktop/mic_control/install/audio_common_msgs/lib/libaudio_common_msgs__rosidl_typesupport_introspection_c.so" to ""
+-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/lib/libaudio_common_msgs__rosidl_typesupport_c.so
+-- Set non-toolchain portion of runtime path of "/home/roamio42/Desktop/mic_control/install/audio_common_msgs/lib/libaudio_common_msgs__rosidl_typesupport_c.so" to ""
+-- Up-to-date: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs
+-- Up-to-date: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg
+-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/audio_data.hpp
+-- Up-to-date: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail
+-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_data_stamped__struct.hpp
+-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_data__builder.hpp
+-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_info__type_support.hpp
+-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_data_stamped__type_support.hpp
+-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_info__struct.hpp
+-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_data__type_support.hpp
+-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_info__traits.hpp
+-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_data_stamped__builder.hpp
+-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_data__struct.hpp
+-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_data__traits.hpp
+-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_info__builder.hpp
+-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_data_stamped__traits.hpp
+-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/audio_data_stamped.hpp
+-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/audio_info.hpp
+-- Up-to-date: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs
+-- Up-to-date: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg
+-- Up-to-date: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail
+-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_data__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/dds_fastrtps
+-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_data_stamped__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_info__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/lib/libaudio_common_msgs__rosidl_typesupport_fastrtps_cpp.so
+-- Set non-toolchain portion of runtime path of "/home/roamio42/Desktop/mic_control/install/audio_common_msgs/lib/libaudio_common_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+-- Up-to-date: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs
+-- Up-to-date: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg
+-- Up-to-date: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail
+-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_data__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_data_stamped__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_info__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_info__type_support.cpp
+-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_data_stamped__type_support.cpp
+-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_data__type_support.cpp
+-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/lib/libaudio_common_msgs__rosidl_typesupport_introspection_cpp.so
+-- Set non-toolchain portion of runtime path of "/home/roamio42/Desktop/mic_control/install/audio_common_msgs/lib/libaudio_common_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/lib/libaudio_common_msgs__rosidl_typesupport_cpp.so
+-- Set non-toolchain portion of runtime path of "/home/roamio42/Desktop/mic_control/install/audio_common_msgs/lib/libaudio_common_msgs__rosidl_typesupport_cpp.so" to ""
+-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/share/audio_common_msgs/environment/pythonpath.sh
+-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/share/audio_common_msgs/environment/pythonpath.dsv
+-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/lib/python3.12/site-packages/audio_common_msgs-0.3.12-py3.12.egg-info
+-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/lib/python3.12/site-packages/audio_common_msgs-0.3.12-py3.12.egg-info/dependency_links.txt
+-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/lib/python3.12/site-packages/audio_common_msgs-0.3.12-py3.12.egg-info/PKG-INFO
+-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/lib/python3.12/site-packages/audio_common_msgs-0.3.12-py3.12.egg-info/top_level.txt
+-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/lib/python3.12/site-packages/audio_common_msgs-0.3.12-py3.12.egg-info/SOURCES.txt
+-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/lib/python3.12/site-packages/audio_common_msgs
+-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/lib/python3.12/site-packages/audio_common_msgs/audio_common_msgs_s__rosidl_typesupport_fastrtps_c.so
+-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/lib/python3.12/site-packages/audio_common_msgs/_audio_common_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/lib/python3.12/site-packages/audio_common_msgs/__init__.py
+-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/lib/python3.12/site-packages/audio_common_msgs/msg
+-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/lib/python3.12/site-packages/audio_common_msgs/msg/_audio_info.py
+-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/lib/python3.12/site-packages/audio_common_msgs/msg/_audio_data_stamped.py
+-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/lib/python3.12/site-packages/audio_common_msgs/msg/_audio_data_s.c
+-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/lib/python3.12/site-packages/audio_common_msgs/msg/_audio_data.py
+-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/lib/python3.12/site-packages/audio_common_msgs/msg/__init__.py
+-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/lib/python3.12/site-packages/audio_common_msgs/msg/_audio_info_s.c
+-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/lib/python3.12/site-packages/audio_common_msgs/msg/_audio_data_stamped_s.c
+-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/lib/python3.12/site-packages/audio_common_msgs/_audio_common_msgs_s.ep.rosidl_typesupport_introspection_c.c
+-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/lib/python3.12/site-packages/audio_common_msgs/audio_common_msgs_s__rosidl_typesupport_introspection_c.so
+-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/lib/python3.12/site-packages/audio_common_msgs/_audio_common_msgs_s.ep.rosidl_typesupport_c.c
+-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/lib/python3.12/site-packages/audio_common_msgs/audio_common_msgs_s__rosidl_typesupport_c.so
+Listing '/home/roamio42/Desktop/mic_control/install/audio_common_msgs/lib/python3.12/site-packages/audio_common_msgs'...
+Compiling '/home/roamio42/Desktop/mic_control/install/audio_common_msgs/lib/python3.12/site-packages/audio_common_msgs/__init__.py'...
+Listing '/home/roamio42/Desktop/mic_control/install/audio_common_msgs/lib/python3.12/site-packages/audio_common_msgs/msg'...
+Compiling '/home/roamio42/Desktop/mic_control/install/audio_common_msgs/lib/python3.12/site-packages/audio_common_msgs/msg/__init__.py'...
+Compiling '/home/roamio42/Desktop/mic_control/install/audio_common_msgs/lib/python3.12/site-packages/audio_common_msgs/msg/_audio_data.py'...
+Compiling '/home/roamio42/Desktop/mic_control/install/audio_common_msgs/lib/python3.12/site-packages/audio_common_msgs/msg/_audio_data_stamped.py'...
+Compiling '/home/roamio42/Desktop/mic_control/install/audio_common_msgs/lib/python3.12/site-packages/audio_common_msgs/msg/_audio_info.py'...
+-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/lib/python3.12/site-packages/audio_common_msgs/audio_common_msgs_s__rosidl_typesupport_fastrtps_c.so
+-- Set non-toolchain portion of runtime path of "/home/roamio42/Desktop/mic_control/install/audio_common_msgs/lib/python3.12/site-packages/audio_common_msgs/audio_common_msgs_s__rosidl_typesupport_fastrtps_c.so" to ""
+-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/lib/python3.12/site-packages/audio_common_msgs/audio_common_msgs_s__rosidl_typesupport_introspection_c.so
+-- Set non-toolchain portion of runtime path of "/home/roamio42/Desktop/mic_control/install/audio_common_msgs/lib/python3.12/site-packages/audio_common_msgs/audio_common_msgs_s__rosidl_typesupport_introspection_c.so" to ""
+-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/lib/python3.12/site-packages/audio_common_msgs/audio_common_msgs_s__rosidl_typesupport_c.so
+-- Set non-toolchain portion of runtime path of "/home/roamio42/Desktop/mic_control/install/audio_common_msgs/lib/python3.12/site-packages/audio_common_msgs/audio_common_msgs_s__rosidl_typesupport_c.so" to ""
+-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/lib/libaudio_common_msgs__rosidl_generator_py.so
+-- Set non-toolchain portion of runtime path of "/home/roamio42/Desktop/mic_control/install/audio_common_msgs/lib/libaudio_common_msgs__rosidl_generator_py.so" to ""
+-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/share/audio_common_msgs/msg/AudioData.idl
+-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/share/audio_common_msgs/msg/AudioDataStamped.idl
+-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/share/audio_common_msgs/msg/AudioInfo.idl
+-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/share/audio_common_msgs/msg/AudioData.msg
+-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/share/audio_common_msgs/msg/AudioDataStamped.msg
+-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/share/audio_common_msgs/msg/AudioInfo.msg
+-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/share/ament_index/resource_index/package_run_dependencies/audio_common_msgs
+-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/share/ament_index/resource_index/parent_prefix_path/audio_common_msgs
+-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/share/audio_common_msgs/environment/ament_prefix_path.sh
+-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/share/audio_common_msgs/environment/ament_prefix_path.dsv
+-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/share/audio_common_msgs/environment/path.sh
+-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/share/audio_common_msgs/environment/path.dsv
+-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/share/audio_common_msgs/local_setup.bash
+-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/share/audio_common_msgs/local_setup.sh
+-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/share/audio_common_msgs/local_setup.zsh
+-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/share/audio_common_msgs/local_setup.dsv
+-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/share/audio_common_msgs/package.dsv
+-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/share/ament_index/resource_index/packages/audio_common_msgs
+-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/share/audio_common_msgs/cmake/export_audio_common_msgs__rosidl_generator_cExport.cmake
+-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/share/audio_common_msgs/cmake/export_audio_common_msgs__rosidl_generator_cExport-noconfig.cmake
+-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/share/audio_common_msgs/cmake/export_audio_common_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/share/audio_common_msgs/cmake/export_audio_common_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/share/audio_common_msgs/cmake/audio_common_msgs__rosidl_typesupport_introspection_cExport.cmake
+-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/share/audio_common_msgs/cmake/audio_common_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/share/audio_common_msgs/cmake/audio_common_msgs__rosidl_typesupport_cExport.cmake
+-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/share/audio_common_msgs/cmake/audio_common_msgs__rosidl_typesupport_cExport-noconfig.cmake
+-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/share/audio_common_msgs/cmake/export_audio_common_msgs__rosidl_generator_cppExport.cmake
+-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/share/audio_common_msgs/cmake/export_audio_common_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/share/audio_common_msgs/cmake/export_audio_common_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/share/audio_common_msgs/cmake/audio_common_msgs__rosidl_typesupport_introspection_cppExport.cmake
+-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/share/audio_common_msgs/cmake/audio_common_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/share/audio_common_msgs/cmake/audio_common_msgs__rosidl_typesupport_cppExport.cmake
+-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/share/audio_common_msgs/cmake/audio_common_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/share/audio_common_msgs/cmake/export_audio_common_msgs__rosidl_generator_pyExport.cmake
+-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/share/audio_common_msgs/cmake/export_audio_common_msgs__rosidl_generator_pyExport-noconfig.cmake
+-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/share/audio_common_msgs/cmake/rosidl_cmake-extras.cmake
+-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/share/audio_common_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/share/audio_common_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/share/audio_common_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/share/audio_common_msgs/cmake/ament_cmake_export_targets-extras.cmake
+-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/share/audio_common_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/share/audio_common_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/share/audio_common_msgs/cmake/audio_common_msgsConfig.cmake
+-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/share/audio_common_msgs/cmake/audio_common_msgsConfig-version.cmake
+-- Installing: /home/roamio42/Desktop/mic_control/install/audio_common_msgs/share/audio_common_msgs/package.xml

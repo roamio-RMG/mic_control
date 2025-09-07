@@ -1,0 +1,7 @@
+{
+  "package_name": "sound_play",
+  "non_idl_tuples": [
+    "/home/roamio42/Desktop/mic_control/src/audio_common/sound_play:msg/SoundRequest.msg",
+    "/home/roamio42/Desktop/mic_control/src/audio_common/sound_play:action/SoundRequest.action"
+  ]
+}

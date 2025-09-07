@@ -1,0 +1,8 @@
+{
+  "package_name": "audio_common_msgs",
+  "non_idl_tuples": [
+    "/home/roamio42/Desktop/mic_control/src/audio_common/audio_common_msgs:msg/AudioData.msg",
+    "/home/roamio42/Desktop/mic_control/src/audio_common/audio_common_msgs:msg/AudioDataStamped.msg",
+    "/home/roamio42/Desktop/mic_control/src/audio_common/audio_common_msgs:msg/AudioInfo.msg"
+  ]
+}

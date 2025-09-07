@@ -1,0 +1,44 @@
+running egg_info
+creating ../../build/pixel-ring/pixel_ring.egg-info
+writing ../../build/pixel-ring/pixel_ring.egg-info/PKG-INFO
+writing dependency_links to ../../build/pixel-ring/pixel_ring.egg-info/dependency_links.txt
+writing entry points to ../../build/pixel-ring/pixel_ring.egg-info/entry_points.txt
+writing requirements to ../../build/pixel-ring/pixel_ring.egg-info/requires.txt
+writing top-level names to ../../build/pixel-ring/pixel_ring.egg-info/top_level.txt
+writing manifest file '../../build/pixel-ring/pixel_ring.egg-info/SOURCES.txt'
+reading manifest file '../../build/pixel-ring/pixel_ring.egg-info/SOURCES.txt'
+writing manifest file '../../build/pixel-ring/pixel_ring.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/roamio42/Desktop/mic_control/build/pixel-ring/build
+creating /home/roamio42/Desktop/mic_control/build/pixel-ring/build/lib
+creating /home/roamio42/Desktop/mic_control/build/pixel-ring/build/lib/pixel_ring
+copying pixel_ring/apa102_pixel_ring.py -> /home/roamio42/Desktop/mic_control/build/pixel-ring/build/lib/pixel_ring
+copying pixel_ring/pixel_ring.py -> /home/roamio42/Desktop/mic_control/build/pixel-ring/build/lib/pixel_ring
+copying pixel_ring/pattern.py -> /home/roamio42/Desktop/mic_control/build/pixel-ring/build/lib/pixel_ring
+copying pixel_ring/usb_pixel_ring_v2.py -> /home/roamio42/Desktop/mic_control/build/pixel-ring/build/lib/pixel_ring
+copying pixel_ring/usb_pixel_ring_v1.py -> /home/roamio42/Desktop/mic_control/build/pixel-ring/build/lib/pixel_ring
+copying pixel_ring/__init__.py -> /home/roamio42/Desktop/mic_control/build/pixel-ring/build/lib/pixel_ring
+copying pixel_ring/apa102.py -> /home/roamio42/Desktop/mic_control/build/pixel-ring/build/lib/pixel_ring
+running install
+running install_lib
+creating /home/roamio42/Desktop/mic_control/install/pixel-ring/lib/python3.12/site-packages/pixel_ring
+copying /home/roamio42/Desktop/mic_control/build/pixel-ring/build/lib/pixel_ring/apa102_pixel_ring.py -> /home/roamio42/Desktop/mic_control/install/pixel-ring/lib/python3.12/site-packages/pixel_ring
+copying /home/roamio42/Desktop/mic_control/build/pixel-ring/build/lib/pixel_ring/pixel_ring.py -> /home/roamio42/Desktop/mic_control/install/pixel-ring/lib/python3.12/site-packages/pixel_ring
+copying /home/roamio42/Desktop/mic_control/build/pixel-ring/build/lib/pixel_ring/pattern.py -> /home/roamio42/Desktop/mic_control/install/pixel-ring/lib/python3.12/site-packages/pixel_ring
+copying /home/roamio42/Desktop/mic_control/build/pixel-ring/build/lib/pixel_ring/usb_pixel_ring_v2.py -> /home/roamio42/Desktop/mic_control/install/pixel-ring/lib/python3.12/site-packages/pixel_ring
+copying /home/roamio42/Desktop/mic_control/build/pixel-ring/build/lib/pixel_ring/usb_pixel_ring_v1.py -> /home/roamio42/Desktop/mic_control/install/pixel-ring/lib/python3.12/site-packages/pixel_ring
+copying /home/roamio42/Desktop/mic_control/build/pixel-ring/build/lib/pixel_ring/__init__.py -> /home/roamio42/Desktop/mic_control/install/pixel-ring/lib/python3.12/site-packages/pixel_ring
+copying /home/roamio42/Desktop/mic_control/build/pixel-ring/build/lib/pixel_ring/apa102.py -> /home/roamio42/Desktop/mic_control/install/pixel-ring/lib/python3.12/site-packages/pixel_ring
+byte-compiling /home/roamio42/Desktop/mic_control/install/pixel-ring/lib/python3.12/site-packages/pixel_ring/apa102_pixel_ring.py to apa102_pixel_ring.cpython-312.pyc
+byte-compiling /home/roamio42/Desktop/mic_control/install/pixel-ring/lib/python3.12/site-packages/pixel_ring/pixel_ring.py to pixel_ring.cpython-312.pyc
+byte-compiling /home/roamio42/Desktop/mic_control/install/pixel-ring/lib/python3.12/site-packages/pixel_ring/pattern.py to pattern.cpython-312.pyc
+byte-compiling /home/roamio42/Desktop/mic_control/install/pixel-ring/lib/python3.12/site-packages/pixel_ring/usb_pixel_ring_v2.py to usb_pixel_ring_v2.cpython-312.pyc
+byte-compiling /home/roamio42/Desktop/mic_control/install/pixel-ring/lib/python3.12/site-packages/pixel_ring/usb_pixel_ring_v1.py to usb_pixel_ring_v1.cpython-312.pyc
+byte-compiling /home/roamio42/Desktop/mic_control/install/pixel-ring/lib/python3.12/site-packages/pixel_ring/__init__.py to __init__.cpython-312.pyc
+byte-compiling /home/roamio42/Desktop/mic_control/install/pixel-ring/lib/python3.12/site-packages/pixel_ring/apa102.py to apa102.cpython-312.pyc
+running install_egg_info
+Copying ../../build/pixel-ring/pixel_ring.egg-info to /home/roamio42/Desktop/mic_control/install/pixel-ring/lib/python3.12/site-packages/pixel_ring-0.1.0-py3.12.egg-info
+running install_scripts
+Installing pixel_ring_check script to /home/roamio42/Desktop/mic_control/install/pixel-ring/bin
+writing list of installed files to '/home/roamio42/Desktop/mic_control/build/pixel-ring/install.log'

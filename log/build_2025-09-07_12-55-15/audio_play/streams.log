@@ -1,0 +1,43 @@
+[0.032s] Invoking command in '/home/roamio42/Desktop/mic_control/build/audio_play': AMENT_PREFIX_PATH=/home/roamio42/Desktop/mic_control/install/audio_common_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/roamio42/Desktop/mic_control/install/audio_common_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/roamio42/Desktop/mic_control/install/audio_common_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/roamio42/Desktop/mic_control/install/audio_common_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/roamio42/Desktop/mic_control/src/audio_common/audio_play -DCMAKE_INSTALL_PREFIX=/home/roamio42/Desktop/mic_control/install/audio_play
+[0.242s] -- The C compiler identification is GNU 13.3.0
+[0.417s] -- The CXX compiler identification is GNU 13.3.0
+[0.464s] -- Detecting C compiler ABI info
+[0.757s] -- Detecting C compiler ABI info - done
+[0.809s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.809s] -- Detecting C compile features
+[0.809s] -- Detecting C compile features - done
+[0.809s] -- Detecting CXX compiler ABI info
+[1.107s] -- Detecting CXX compiler ABI info - done
+[1.129s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.130s] -- Detecting CXX compile features
+[1.133s] -- Detecting CXX compile features - done
+[1.141s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.433s] -- Found Python3: /opt/venv/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.783s] -- Found rclcpp: 28.1.10 (/opt/ros/jazzy/share/rclcpp/cmake)
+[1.876s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.909s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.948s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.985s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.139s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[2.147s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[2.378s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[2.429s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[2.492s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.668s] -- Found rclcpp_components: 28.1.10 (/opt/ros/jazzy/share/rclcpp_components/cmake)
+[2.743s] -- Found audio_common_msgs: 0.3.12 (/home/roamio42/Desktop/mic_control/install/audio_common_msgs/share/audio_common_msgs/cmake)
+[2.817s] -- Found PkgConfig: /usr/bin/pkg-config (found version "1.8.1") 
+[2.817s] -- Checking for module 'gstreamer-1.0'
+[2.863s] --   Found gstreamer-1.0, version 1.24.2
+[3.301s] -- Found Boost: /usr/lib/aarch64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: thread 
+[3.598s] -- Configuring done (3.5s)
+[3.660s] -- Generating done (0.0s)
+[3.676s] -- Build files have been written to: /home/roamio42/Desktop/mic_control/build/audio_play
+[3.710s] Invoked command in '/home/roamio42/Desktop/mic_control/build/audio_play' returned '0': AMENT_PREFIX_PATH=/home/roamio42/Desktop/mic_control/install/audio_common_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/roamio42/Desktop/mic_control/install/audio_common_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/roamio42/Desktop/mic_control/install/audio_common_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/roamio42/Desktop/mic_control/install/audio_common_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/roamio42/Desktop/mic_control/src/audio_common/audio_play -DCMAKE_INSTALL_PREFIX=/home/roamio42/Desktop/mic_control/install/audio_play
+[3.713s] Invoking command in '/home/roamio42/Desktop/mic_control/build/audio_play': AMENT_PREFIX_PATH=/home/roamio42/Desktop/mic_control/install/audio_common_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/roamio42/Desktop/mic_control/install/audio_common_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/roamio42/Desktop/mic_control/install/audio_common_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/roamio42/Desktop/mic_control/install/audio_common_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/roamio42/Desktop/mic_control/build/audio_play -- -j4 -l4
+[3.926s] [ 25%] [32mBuilding CXX object CMakeFiles/audio_play_node.dir/rclcpp_components/node_main_audio_play_node.cpp.o[0m
+[3.944s] [ 50%] [32mBuilding CXX object CMakeFiles/audio_play.dir/src/audio_play_node.cpp.o[0m
+[12.883s] gmake[2]: *** [CMakeFiles/audio_play.dir/build.make:76: CMakeFiles/audio_play.dir/src/audio_play_node.cpp.o] Interrupt
+[12.883s] gmake[2]: *** [CMakeFiles/audio_play_node.dir/build.make:76: CMakeFiles/audio_play_node.dir/rclcpp_components/node_main_audio_play_node.cpp.o] Interrupt
+[12.883s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/audio_play_node.dir/all] Interrupt
+[12.883s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/audio_play.dir/all] Interrupt
+[12.883s] gmake: *** [Makefile:146: all] Interrupt

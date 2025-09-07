@@ -1,0 +1,11 @@
+/home/roamio42/Desktop/mic_control/build/audio_play/CMakeFiles/uninstall.dir
+/home/roamio42/Desktop/mic_control/build/audio_play/CMakeFiles/audio_play_uninstall.dir
+/home/roamio42/Desktop/mic_control/build/audio_play/CMakeFiles/audio_play.dir
+/home/roamio42/Desktop/mic_control/build/audio_play/CMakeFiles/audio_play_node.dir
+/home/roamio42/Desktop/mic_control/build/audio_play/CMakeFiles/test.dir
+/home/roamio42/Desktop/mic_control/build/audio_play/CMakeFiles/edit_cache.dir
+/home/roamio42/Desktop/mic_control/build/audio_play/CMakeFiles/rebuild_cache.dir
+/home/roamio42/Desktop/mic_control/build/audio_play/CMakeFiles/list_install_components.dir
+/home/roamio42/Desktop/mic_control/build/audio_play/CMakeFiles/install.dir
+/home/roamio42/Desktop/mic_control/build/audio_play/CMakeFiles/install/local.dir
+/home/roamio42/Desktop/mic_control/build/audio_play/CMakeFiles/install/strip.dir
