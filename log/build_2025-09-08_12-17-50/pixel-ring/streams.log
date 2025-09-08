@@ -1,0 +1,20 @@
+[4.544s] Invoking command in '/home/roamio42/Desktop/mic_control/src/pixel_ring': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/roamio42/Desktop/mic_control/build/pixel-ring/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/roamio42/Desktop/mic_control/install/pixel-ring/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/pixel-ring build --build-base /home/roamio42/Desktop/mic_control/build/pixel-ring/build install --record /home/roamio42/Desktop/mic_control/build/pixel-ring/install.log --single-version-externally-managed
+[5.754s] running egg_info
+[5.804s] writing ../../build/pixel-ring/pixel_ring.egg-info/PKG-INFO
+[5.807s] writing dependency_links to ../../build/pixel-ring/pixel_ring.egg-info/dependency_links.txt
+[5.845s] writing entry points to ../../build/pixel-ring/pixel_ring.egg-info/entry_points.txt
+[5.881s] writing requirements to ../../build/pixel-ring/pixel_ring.egg-info/requires.txt
+[5.882s] writing top-level names to ../../build/pixel-ring/pixel_ring.egg-info/top_level.txt
+[6.041s] reading manifest file '../../build/pixel-ring/pixel_ring.egg-info/SOURCES.txt'
+[6.043s] writing manifest file '../../build/pixel-ring/pixel_ring.egg-info/SOURCES.txt'
+[6.044s] running build
+[6.044s] running build_py
+[6.050s] running install
+[6.063s] running install_lib
+[6.141s] running install_egg_info
+[6.206s] removing '/home/roamio42/Desktop/mic_control/install/pixel-ring/lib/python3.12/site-packages/pixel_ring-0.1.0-py3.12.egg-info' (and everything under it)
+[6.206s] Copying ../../build/pixel-ring/pixel_ring.egg-info to /home/roamio42/Desktop/mic_control/install/pixel-ring/lib/python3.12/site-packages/pixel_ring-0.1.0-py3.12.egg-info
+[6.213s] running install_scripts
+[6.816s] Installing pixel_ring_check script to /home/roamio42/Desktop/mic_control/install/pixel-ring/bin
+[6.821s] writing list of installed files to '/home/roamio42/Desktop/mic_control/build/pixel-ring/install.log'
+[7.291s] Invoked command in '/home/roamio42/Desktop/mic_control/src/pixel_ring' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/roamio42/Desktop/mic_control/build/pixel-ring/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/roamio42/Desktop/mic_control/install/pixel-ring/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/pixel-ring build --build-base /home/roamio42/Desktop/mic_control/build/pixel-ring/build install --record /home/roamio42/Desktop/mic_control/build/pixel-ring/install.log --single-version-externally-managed

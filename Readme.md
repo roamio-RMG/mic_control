@@ -8,6 +8,10 @@ uploade the arduino code :
     ./arduino_upload/upload_arduino.py
 
 
+launch
+    ros2 launch respeaker_ros
+
+
 
 
 

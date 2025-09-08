@@ -1,0 +1,6 @@
+[ 25%] [32mBuilding CXX object CMakeFiles/audio_capture_node.dir/rclcpp_components/node_main_audio_capture_node.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/audio_capture.dir/src/audio_capture_node.cpp.o[0m
+[ 75%] [32m[1mLinking CXX executable audio_capture_node[0m
+[ 75%] Built target audio_capture_node
+[100%] [32m[1mLinking CXX shared library libaudio_capture.so[0m
+[100%] Built target audio_capture

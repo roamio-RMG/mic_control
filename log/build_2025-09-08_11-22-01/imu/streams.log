@@ -1,0 +1,37 @@
+[2.148s] Invoking command in '/home/roamio42/Desktop/mic_control/src/imu': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/roamio42/Desktop/mic_control/build/imu/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/roamio42/Desktop/mic_control/install/imu/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/imu build --build-base /home/roamio42/Desktop/mic_control/build/imu/build install --record /home/roamio42/Desktop/mic_control/build/imu/install.log --single-version-externally-managed install_data
+[2.610s] running egg_info
+[2.611s] creating ../../build/imu/imu.egg-info
+[2.644s] writing ../../build/imu/imu.egg-info/PKG-INFO
+[2.645s] writing dependency_links to ../../build/imu/imu.egg-info/dependency_links.txt
+[2.645s] writing entry points to ../../build/imu/imu.egg-info/entry_points.txt
+[2.645s] writing requirements to ../../build/imu/imu.egg-info/requires.txt
+[2.645s] writing top-level names to ../../build/imu/imu.egg-info/top_level.txt
+[2.645s] writing manifest file '../../build/imu/imu.egg-info/SOURCES.txt'
+[2.712s] reading manifest file '../../build/imu/imu.egg-info/SOURCES.txt'
+[2.713s] writing manifest file '../../build/imu/imu.egg-info/SOURCES.txt'
+[2.714s] running build
+[2.714s] running build_py
+[2.714s] creating /home/roamio42/Desktop/mic_control/build/imu/build
+[2.715s] creating /home/roamio42/Desktop/mic_control/build/imu/build/lib
+[2.715s] creating /home/roamio42/Desktop/mic_control/build/imu/build/lib/imu
+[2.715s] copying imu/mpu6050_driver.py -> /home/roamio42/Desktop/mic_control/build/imu/build/lib/imu
+[2.715s] copying imu/__init__.py -> /home/roamio42/Desktop/mic_control/build/imu/build/lib/imu
+[2.715s] running install
+[2.726s] running install_lib
+[2.759s] creating /home/roamio42/Desktop/mic_control/install/imu/lib/python3.12/site-packages/imu
+[2.760s] copying /home/roamio42/Desktop/mic_control/build/imu/build/lib/imu/mpu6050_driver.py -> /home/roamio42/Desktop/mic_control/install/imu/lib/python3.12/site-packages/imu
+[2.760s] copying /home/roamio42/Desktop/mic_control/build/imu/build/lib/imu/__init__.py -> /home/roamio42/Desktop/mic_control/install/imu/lib/python3.12/site-packages/imu
+[2.761s] byte-compiling /home/roamio42/Desktop/mic_control/install/imu/lib/python3.12/site-packages/imu/mpu6050_driver.py to mpu6050_driver.cpython-312.pyc
+[2.764s] byte-compiling /home/roamio42/Desktop/mic_control/install/imu/lib/python3.12/site-packages/imu/__init__.py to __init__.cpython-312.pyc
+[2.764s] running install_data
+[2.765s] creating /home/roamio42/Desktop/mic_control/install/imu/share/ament_index
+[2.765s] creating /home/roamio42/Desktop/mic_control/install/imu/share/ament_index/resource_index
+[2.765s] creating /home/roamio42/Desktop/mic_control/install/imu/share/ament_index/resource_index/packages
+[2.765s] copying resource/imu -> /home/roamio42/Desktop/mic_control/install/imu/share/ament_index/resource_index/packages
+[2.765s] copying package.xml -> /home/roamio42/Desktop/mic_control/install/imu/share/imu
+[2.766s] running install_egg_info
+[2.802s] Copying ../../build/imu/imu.egg-info to /home/roamio42/Desktop/mic_control/install/imu/lib/python3.12/site-packages/imu-0.0.0-py3.12.egg-info
+[2.804s] running install_scripts
+[3.040s] Installing imu_node script to /home/roamio42/Desktop/mic_control/install/imu/lib/imu
+[3.041s] writing list of installed files to '/home/roamio42/Desktop/mic_control/build/imu/install.log'
+[3.194s] Invoked command in '/home/roamio42/Desktop/mic_control/src/imu' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/roamio42/Desktop/mic_control/build/imu/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/roamio42/Desktop/mic_control/install/imu/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/imu build --build-base /home/roamio42/Desktop/mic_control/build/imu/build install --record /home/roamio42/Desktop/mic_control/build/imu/install.log --single-version-externally-managed install_data

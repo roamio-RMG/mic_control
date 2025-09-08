@@ -1,0 +1,11 @@
+[0.052s] Invoking command in '/home/roamio42/Desktop/mic_control/build/audio_capture': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/roamio42/Desktop/mic_control/install/respeaker_ros:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/roamio42/Desktop/mic_control/install/audio_common_msgs/lib/python3.12/site-packages:/home/roamio42/Desktop/mic_control/install/respeaker_ros/lib/python3.12/site-packages:/home/roamio42/Desktop/mic_control/install/pixel-ring/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake --build /home/roamio42/Desktop/mic_control/build/audio_capture -- -j4 -l4
+[0.298s] [ 25%] [32mBuilding CXX object CMakeFiles/audio_capture_node.dir/rclcpp_components/node_main_audio_capture_node.cpp.o[0m
+[0.311s] [ 50%] [32mBuilding CXX object CMakeFiles/audio_capture.dir/src/audio_capture_node.cpp.o[0m
+[16.755s] [ 75%] [32m[1mLinking CXX executable audio_capture_node[0m
+[17.442s] [ 75%] Built target audio_capture_node
+[19.309s] [01m[K/home/roamio42/Desktop/mic_control/src/audio_common/audio_capture/src/audio_capture_node.cpp:[m[K In static member function ‘[01m[Kstatic gboolean audio_capture::AudioCaptureNode::[01;32m[KonMessage[m[K(GstBus*, GstMessage*, gpointer)[m[K’:
+[19.309s] [01m[K/home/roamio42/Desktop/mic_control/src/audio_common/audio_capture/src/audio_capture_node.cpp:258:42:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kbus[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[19.309s]   258 |       static gboolean onMessage ([01;35m[KGstBus *bus[m[K, GstMessage *message, gpointer userData)
+[19.309s]       |                                  [01;35m[K~~~~~~~~^~~[m[K
+[27.162s] [100%] [32m[1mLinking CXX shared library libaudio_capture.so[0m
+[28.449s] [100%] Built target audio_capture

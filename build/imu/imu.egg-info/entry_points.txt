@@ -1,0 +1,2 @@
+[console_scripts]
+imu_node = imu.mpu6050_driver:main

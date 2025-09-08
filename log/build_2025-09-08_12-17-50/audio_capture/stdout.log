@@ -1,0 +1,35 @@
+[ 50%] Built target audio_capture_node
+[100%] Built target audio_capture
+-- Install configuration: ""
+-- Installing: /home/roamio42/Desktop/mic_control/install/audio_capture/lib/audio_capture/audio_capture_node
+-- Set non-toolchain portion of runtime path of "/home/roamio42/Desktop/mic_control/install/audio_capture/lib/audio_capture/audio_capture_node" to ""
+-- Installing: /home/roamio42/Desktop/mic_control/install/audio_capture/bin/audio_capture_node
+-- Set non-toolchain portion of runtime path of "/home/roamio42/Desktop/mic_control/install/audio_capture/bin/audio_capture_node" to ""
+-- Installing: /home/roamio42/Desktop/mic_control/install/audio_capture/lib/libaudio_capture.so
+-- Set non-toolchain portion of runtime path of "/home/roamio42/Desktop/mic_control/install/audio_capture/lib/libaudio_capture.so" to ""
+-- Installing: /home/roamio42/Desktop/mic_control/install/audio_capture/share/audio_capture/launch
+-- Installing: /home/roamio42/Desktop/mic_control/install/audio_capture/share/audio_capture/launch/capture.launch.py
+-- Installing: /home/roamio42/Desktop/mic_control/install/audio_capture/share/audio_capture/launch/capture_to_file.launch.py
+-- Installing: /home/roamio42/Desktop/mic_control/install/audio_capture/share/audio_capture/launch/capture_wave.launch.py
+-- Installing: /home/roamio42/Desktop/mic_control/install/audio_capture/share/audio_capture/launch/capture_to_file.launch.xml
+-- Installing: /home/roamio42/Desktop/mic_control/install/audio_capture/share/audio_capture/launch/capture.launch.xml
+-- Installing: /home/roamio42/Desktop/mic_control/install/audio_capture/share/audio_capture/launch/capture_wave.launch.xml
+-- Installing: /home/roamio42/Desktop/mic_control/install/audio_capture/share/audio_capture/environment/library_path.sh
+-- Installing: /home/roamio42/Desktop/mic_control/install/audio_capture/share/audio_capture/environment/library_path.dsv
+-- Installing: /home/roamio42/Desktop/mic_control/install/audio_capture/share/ament_index/resource_index/package_run_dependencies/audio_capture
+-- Installing: /home/roamio42/Desktop/mic_control/install/audio_capture/share/ament_index/resource_index/parent_prefix_path/audio_capture
+-- Installing: /home/roamio42/Desktop/mic_control/install/audio_capture/share/audio_capture/environment/ament_prefix_path.sh
+-- Installing: /home/roamio42/Desktop/mic_control/install/audio_capture/share/audio_capture/environment/ament_prefix_path.dsv
+-- Installing: /home/roamio42/Desktop/mic_control/install/audio_capture/share/audio_capture/environment/path.sh
+-- Installing: /home/roamio42/Desktop/mic_control/install/audio_capture/share/audio_capture/environment/path.dsv
+-- Installing: /home/roamio42/Desktop/mic_control/install/audio_capture/share/audio_capture/local_setup.bash
+-- Installing: /home/roamio42/Desktop/mic_control/install/audio_capture/share/audio_capture/local_setup.sh
+-- Installing: /home/roamio42/Desktop/mic_control/install/audio_capture/share/audio_capture/local_setup.zsh
+-- Installing: /home/roamio42/Desktop/mic_control/install/audio_capture/share/audio_capture/local_setup.dsv
+-- Installing: /home/roamio42/Desktop/mic_control/install/audio_capture/share/audio_capture/package.dsv
+-- Installing: /home/roamio42/Desktop/mic_control/install/audio_capture/share/ament_index/resource_index/packages/audio_capture
+-- Installing: /home/roamio42/Desktop/mic_control/install/audio_capture/share/ament_index/resource_index/rclcpp_components/audio_capture
+-- Installing: /home/roamio42/Desktop/mic_control/install/audio_capture/share/audio_capture/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /home/roamio42/Desktop/mic_control/install/audio_capture/share/audio_capture/cmake/audio_captureConfig.cmake
+-- Installing: /home/roamio42/Desktop/mic_control/install/audio_capture/share/audio_capture/cmake/audio_captureConfig-version.cmake
+-- Installing: /home/roamio42/Desktop/mic_control/install/audio_capture/share/audio_capture/package.xml

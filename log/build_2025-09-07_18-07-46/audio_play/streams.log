@@ -1,0 +1,11 @@
+[0.063s] Invoking command in '/home/roamio42/Desktop/mic_control/build/audio_play': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/roamio42/Desktop/mic_control/install/respeaker_ros:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/roamio42/Desktop/mic_control/install/audio_common_msgs/lib/python3.12/site-packages:/home/roamio42/Desktop/mic_control/install/respeaker_ros/lib/python3.12/site-packages:/home/roamio42/Desktop/mic_control/install/pixel-ring/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake --build /home/roamio42/Desktop/mic_control/build/audio_play -- -j4 -l4
+[0.356s] [ 25%] [32mBuilding CXX object CMakeFiles/audio_play.dir/src/audio_play_node.cpp.o[0m
+[0.356s] [ 50%] [32mBuilding CXX object CMakeFiles/audio_play_node.dir/rclcpp_components/node_main_audio_play_node.cpp.o[0m
+[16.361s] [ 75%] [32m[1mLinking CXX executable audio_play_node[0m
+[17.355s] [ 75%] Built target audio_play_node
+[19.174s] [01m[K/home/roamio42/Desktop/mic_control/src/audio_common/audio_play/src/audio_play_node.cpp:[m[K In static member function ‘[01m[Kstatic void audio_play::AudioPlayNode::[01;32m[Kcb_newpad[m[K(GstElement*, GstPad*, gpointer)[m[K’:
+[19.174s] [01m[K/home/roamio42/Desktop/mic_control/src/audio_common/audio_play/src/audio_play_node.cpp:158:41:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kdecodebin[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[19.174s]   158 |      static void cb_newpad ([01;35m[KGstElement *decodebin[m[K, GstPad *pad,
+[19.174s]       |                             [01;35m[K~~~~~~~~~~~~^~~~~~~~~[m[K
+[29.451s] [100%] [32m[1mLinking CXX shared library libaudio_play.so[0m
+[30.669s] [100%] Built target audio_play

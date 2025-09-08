@@ -1,0 +1,26 @@
+[1.423s] Invoking command in '/home/roamio42/Desktop/mic_control/src/respeaker_ros': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/roamio42/Desktop/mic_control/build/respeaker_ros/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/roamio42/Desktop/mic_control/install/respeaker_ros/lib/python3.12/site-packages:/home/roamio42/Desktop/mic_control/install/audio_common_msgs/lib/python3.12/site-packages:/home/roamio42/Desktop/mic_control/install/respeaker_ros/lib/python3.12/site-packages:/home/roamio42/Desktop/mic_control/install/pixel-ring/lib/python3.12/site-packages:/home/roamio42/Desktop/mic_control/install/keyboard_control/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/respeaker_ros build --build-base /home/roamio42/Desktop/mic_control/build/respeaker_ros/build install --record /home/roamio42/Desktop/mic_control/build/respeaker_ros/install.log --single-version-externally-managed install_data
+[1.833s] running egg_info
+[1.863s] writing ../../build/respeaker_ros/respeaker_ros.egg-info/PKG-INFO
+[1.863s] writing dependency_links to ../../build/respeaker_ros/respeaker_ros.egg-info/dependency_links.txt
+[1.870s] writing entry points to ../../build/respeaker_ros/respeaker_ros.egg-info/entry_points.txt
+[1.870s] writing requirements to ../../build/respeaker_ros/respeaker_ros.egg-info/requires.txt
+[1.871s] writing top-level names to ../../build/respeaker_ros/respeaker_ros.egg-info/top_level.txt
+[1.937s] reading manifest file '../../build/respeaker_ros/respeaker_ros.egg-info/SOURCES.txt'
+[1.937s] adding license file 'LICENSE'
+[1.938s] writing manifest file '../../build/respeaker_ros/respeaker_ros.egg-info/SOURCES.txt'
+[1.938s] running build
+[1.938s] running build_py
+[1.938s] copying respeaker_ros/doa_listener.py -> /home/roamio42/Desktop/mic_control/build/respeaker_ros/build/lib/respeaker_ros
+[1.939s] running install
+[1.948s] running install_lib
+[1.979s] copying /home/roamio42/Desktop/mic_control/build/respeaker_ros/build/lib/respeaker_ros/doa_listener.py -> /home/roamio42/Desktop/mic_control/install/respeaker_ros/lib/python3.12/site-packages/respeaker_ros
+[1.980s] byte-compiling /home/roamio42/Desktop/mic_control/install/respeaker_ros/lib/python3.12/site-packages/respeaker_ros/doa_listener.py to doa_listener.cpython-312.pyc
+[1.983s] running install_data
+[1.983s] running install_egg_info
+[2.016s] removing '/home/roamio42/Desktop/mic_control/install/respeaker_ros/lib/python3.12/site-packages/respeaker_ros-1.0.0-py3.12.egg-info' (and everything under it)
+[2.017s] Copying ../../build/respeaker_ros/respeaker_ros.egg-info to /home/roamio42/Desktop/mic_control/install/respeaker_ros/lib/python3.12/site-packages/respeaker_ros-1.0.0-py3.12.egg-info
+[2.018s] running install_scripts
+[2.225s] Installing doa_listener script to /home/roamio42/Desktop/mic_control/install/respeaker_ros/lib/respeaker_ros
+[2.225s] Installing respeaker_node script to /home/roamio42/Desktop/mic_control/install/respeaker_ros/lib/respeaker_ros
+[2.232s] writing list of installed files to '/home/roamio42/Desktop/mic_control/build/respeaker_ros/install.log'
+[2.317s] Invoked command in '/home/roamio42/Desktop/mic_control/src/respeaker_ros' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/roamio42/Desktop/mic_control/build/respeaker_ros/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/roamio42/Desktop/mic_control/install/respeaker_ros/lib/python3.12/site-packages:/home/roamio42/Desktop/mic_control/install/audio_common_msgs/lib/python3.12/site-packages:/home/roamio42/Desktop/mic_control/install/respeaker_ros/lib/python3.12/site-packages:/home/roamio42/Desktop/mic_control/install/pixel-ring/lib/python3.12/site-packages:/home/roamio42/Desktop/mic_control/install/keyboard_control/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/respeaker_ros build --build-base /home/roamio42/Desktop/mic_control/build/respeaker_ros/build install --record /home/roamio42/Desktop/mic_control/build/respeaker_ros/install.log --single-version-externally-managed install_data

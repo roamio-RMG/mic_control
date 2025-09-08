@@ -34,5 +34,13 @@ def generate_launch_description():
                 {'port': '/dev/ttyACM0'},
                 {'baudrate': 115200}
             ]
+        ),
+        
+        # Launch the MPU6050 IMU driver node
+        Node(
+            package='respeaker_ros',
+            executable='mpu6050_driver',
+            name='mpu6050_driver',
+            output='screen'
         )
     ])
