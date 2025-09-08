@@ -1,0 +1,27 @@
+running egg_info
+writing ../../build/respeaker_ros/respeaker_ros.egg-info/PKG-INFO
+writing dependency_links to ../../build/respeaker_ros/respeaker_ros.egg-info/dependency_links.txt
+writing entry points to ../../build/respeaker_ros/respeaker_ros.egg-info/entry_points.txt
+writing requirements to ../../build/respeaker_ros/respeaker_ros.egg-info/requires.txt
+writing top-level names to ../../build/respeaker_ros/respeaker_ros.egg-info/top_level.txt
+reading manifest file '../../build/respeaker_ros/respeaker_ros.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/respeaker_ros/respeaker_ros.egg-info/SOURCES.txt'
+running build
+running build_py
+copying respeaker_ros/interface.py -> /home/roamio42/Desktop/mic_control/build/respeaker_ros/build/lib/respeaker_ros
+running install
+running install_lib
+copying /home/roamio42/Desktop/mic_control/build/respeaker_ros/build/lib/respeaker_ros/interface.py -> /home/roamio42/Desktop/mic_control/install/respeaker_ros/lib/python3.12/site-packages/respeaker_ros
+byte-compiling /home/roamio42/Desktop/mic_control/install/respeaker_ros/lib/python3.12/site-packages/respeaker_ros/doa_listener_00.py to doa_listener_00.cpython-312.pyc
+byte-compiling /home/roamio42/Desktop/mic_control/install/respeaker_ros/lib/python3.12/site-packages/respeaker_ros/interface.py to interface.cpython-312.pyc
+running install_data
+running install_egg_info
+removing '/home/roamio42/Desktop/mic_control/install/respeaker_ros/lib/python3.12/site-packages/respeaker_ros-1.0.0-py3.12.egg-info' (and everything under it)
+Copying ../../build/respeaker_ros/respeaker_ros.egg-info to /home/roamio42/Desktop/mic_control/install/respeaker_ros/lib/python3.12/site-packages/respeaker_ros-1.0.0-py3.12.egg-info
+running install_scripts
+Installing doa_listener script to /home/roamio42/Desktop/mic_control/install/respeaker_ros/lib/respeaker_ros
+Installing keyboard_serial script to /home/roamio42/Desktop/mic_control/install/respeaker_ros/lib/respeaker_ros
+Installing mpu6050_driver script to /home/roamio42/Desktop/mic_control/install/respeaker_ros/lib/respeaker_ros
+Installing respeaker_node script to /home/roamio42/Desktop/mic_control/install/respeaker_ros/lib/respeaker_ros
+writing list of installed files to '/home/roamio42/Desktop/mic_control/build/respeaker_ros/install.log'

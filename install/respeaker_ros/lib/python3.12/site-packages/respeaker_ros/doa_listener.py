@@ -6,6 +6,7 @@ from std_msgs.msg import Float32
 import math
 import serial
 import time
+import threading
 from respeaker_ros.interface import RespeakerInterface
 
 
@@ -26,7 +27,7 @@ class DOAListener(Node):
         self.declare_parameter('port', '/dev/ttyACM0')
         self.declare_parameter('baudrate', 115200)
         self.declare_parameter('vad_threshold', 5)  # Voice activity detection threshold in dB
-        self.declare_parameter('doa_interval', 0)  # DOA processing interval in seconds
+        self.declare_parameter('doa_interval', 0.5)  # DOA processing interval in seconds
         
         # Get parameters
         self.port = self.get_parameter('port').value
@@ -36,6 +37,10 @@ class DOAListener(Node):
         
         # Initialize timing control for DOA processing
         self.last_doa_time = time.time() - self.doa_interval  # Allow first processing immediately
+        
+        # Thread-safe variable to store current IMU angle
+        self.current_imu_angle = 0.0
+        self.imu_angle_lock = threading.Lock()
         
         # Initialize ReSpeaker interface for voice detection and noise suppression
         try:
@@ -139,21 +144,66 @@ class DOAListener(Node):
         # if 270 ± 45 he will not move (225° to 315° = no move zone - front facing)
         # if more than 315 will send 'L' then 'Z' (rotate left to face voice)
         # if less than 225 will send 'R' then 'Z' (rotate right to face voice)
-        
-        angle_to_turn = 0
+    
+        angle_to_move = 0
         
         if angle > 295:
-            angle_to_turn = 270 - angle
-            self.get_logger().info(f"Voice detected on left - rotating LEFT to face speaker: {angle_to_turn}")
+            angle_to_move = 270 - angle
+            self.get_logger().info(f"Voice detected on left - rotating LEFT to face speaker: {angle_to_move}")
         elif angle > 0 and angle <= 90:
-            angle_to_turn = angle + 90
-            angle_to_turn *= -1
-            self.get_logger().info(f"Voice detected on left - rotating LEFT to face speaker: {angle_to_turn}")
+            angle_to_move = angle + 90
+            angle_to_move *= -1
+            self.get_logger().info(f"Voice detected on left - rotating LEFT to face speaker: {angle_to_move}")
         elif angle > 90 and angle <= 247:
-            angle_to_turn = 270 - angle
-            self.get_logger().info(f"Voice detected on right - rotating RIGHT to face speaker: {angle_to_turn}")
+            angle_to_move = 270 - angle
+            self.get_logger().info(f"Voice detected on right - rotating RIGHT to face speaker: {angle_to_move}")
         else:
-            self.get_logger().info(f"Voice detected in front - staying still: {angle_to_turn}")
+            self.get_logger().info(f"Voice detected in front - staying still: {angle_to_move}")
+        
+        angle_to_turn = 0
+        if  angle < 247 or angle > 295:
+            if angle_to_move < 0:
+                angle_to_turn = angle_to_move + 360
+            else:
+                angle_to_turn = angle_to_move
+                
+        # # what i want here to happen is while he is not in angle to turn he will not read any other angle
+        # # he will just turn and turn until he is in the angle to turn from the imu reading
+        
+        negative_range = angle_to_turn - 25
+        positive_range = angle_to_turn + 25
+        
+        if angle_to_turn != 0:
+            if angle_to_turn > 0:
+                # Turn left until we're in the target range
+                while (negative_range > self.get_current_imu_angle() or self.get_current_imu_angle() > positive_range):
+                    current_angle = self.get_current_imu_angle()
+                    self.get_logger().info(f"Turning left to {angle_to_turn}° (current: {current_angle:.1f}°)")
+                    self.send_command("L")
+                    time.sleep(0.1)  # Small delay to prevent overwhelming
+            else:
+                # Turn right until we're in the target range  
+                while (negative_range > self.get_current_imu_angle() or self.get_current_imu_angle() > positive_range):
+                    current_angle = self.get_current_imu_angle()
+                    self.get_logger().info(f"Turning right to {angle_to_turn}° (current: {current_angle:.1f}°)")
+                    self.send_command("R")
+                    time.sleep(0.1)  # Small delay to prevent overwhelming
+            self.send_command("Z")
+            time.sleep(0.15)  # Brief delay
+            self.get_logger().info("Voice detected on right - rotating LEFT to face speaker")
+        
+        
+                
+        
+        self.get_logger().info(f"your destination is: {angle_to_turn}")
+        
+        # angle_to_move -> show the direction and the amount of movement that we need to do
+        # angle_to_turn -> show our distnation from the imu reading
+        
+
+        
+        self.get_logger().info(f"Angle to turn: {angle_to_turn}")
+            
             
         
         
@@ -172,10 +222,20 @@ class DOAListener(Node):
         #     self.get_logger().info("Voice detected on left - rotating RIGHT to face speaker")
     
     def imu_angle_callback(self, msg):
-        """Callback function for IMU angle messages"""
+        """Callback function for IMU angle messages - updates thread-safe variable"""
         angle = msg.data
+        
+        # Thread-safe update of the current IMU angle
+        with self.imu_angle_lock:
+            self.current_imu_angle = angle
+        
         print(f"IMU Angle: {angle:.2f}°")
         self.get_logger().info(f"Received IMU angle: {angle:.2f}°")
+    
+    def get_current_imu_angle(self):
+        """Thread-safe method to get the current IMU angle"""
+        with self.imu_angle_lock:
+            return self.current_imu_angle
     
     def send_command(self, cmd):
         """Send command to Arduino via serial"""

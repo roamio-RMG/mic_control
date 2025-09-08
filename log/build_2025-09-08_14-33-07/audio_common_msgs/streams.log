@@ -1,0 +1,8 @@
+[0.052s] Invoking command in '/home/roamio42/Desktop/mic_control/build/audio_common_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/roamio42/Desktop/mic_control/build/audio_common_msgs -- -j4 -l4
+[0.526s] [  1%] Built target audio_common_msgs__rosidl_generator_type_description
+[0.526s] [  1%] Built target ament_cmake_python_copy_audio_common_msgs
+[0.526s] gmake[1]: *** [CMakeFiles/Makefile2:346: CMakeFiles/audio_common_msgs__cpp.dir/all] Interrupt
+[0.527s] gmake[2]: *** [CMakeFiles/ament_cmake_python_build_audio_common_msgs_egg.dir/build.make:85: CMakeFiles/ament_cmake_python_build_audio_common_msgs_egg.dir/depend] Interrupt
+[0.528s] gmake[1]: *** [CMakeFiles/Makefile2:477: CMakeFiles/ament_cmake_python_build_audio_common_msgs_egg.dir/all] Interrupt
+[0.528s] gmake[1]: *** [CMakeFiles/Makefile2:241: CMakeFiles/audio_common_msgs__rosidl_generator_c.dir/all] Interrupt
+[0.528s] gmake: *** [Makefile:146: all] Interrupt

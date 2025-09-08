@@ -8,9 +8,10 @@ uploade the arduino code :
     ./src/respeaker_ros/download_arduino/upload_keyboard.py 
 
 
-launch ros2 launch respeaker_ros
+launch 
+ros2 launch respeaker_ros respeaker_doa.launch.py
 
-
+./fix_respeaker_usb.py
 
 
 
