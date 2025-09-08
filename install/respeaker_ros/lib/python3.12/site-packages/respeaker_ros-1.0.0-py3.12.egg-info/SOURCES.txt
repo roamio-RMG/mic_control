@@ -15,8 +15,8 @@ respeaker_ros/__init__.py
 respeaker_ros/audio.py
 respeaker_ros/doa_listener.py
 respeaker_ros/interface.py
+respeaker_ros/keyboard_serial.py
 respeaker_ros/mpu6050_driver.py
 respeaker_ros/parameters.py
 respeaker_ros/respeaker_node.py
 respeaker_ros/util.py
-scripts/__init__.py

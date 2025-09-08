@@ -1,4 +1,5 @@
 [console_scripts]
 doa_listener = respeaker_ros.doa_listener:main
+keyboard_serial = respeaker_ros.keboard_serial:main
 mpu6050_driver = respeaker_ros.mpu6050_driver:main
 respeaker_node = respeaker_ros.respeaker_node:main

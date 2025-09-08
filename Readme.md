@@ -4,12 +4,11 @@ build the package :
     colcon build --packages-select keyboard_control
 
 uploade the arduino code :
-    chmod +x arduino_upload/upload_arduino.py 
-    ./arduino_upload/upload_arduino.py
+    chmod +x src/respeaker_ros/download_arduino/upload_keyboard.py 
+    ./src/respeaker_ros/download_arduino/upload_keyboard.py 
 
 
-launch
-    ros2 launch respeaker_ros
+launch ros2 launch respeaker_ros
 
 
 

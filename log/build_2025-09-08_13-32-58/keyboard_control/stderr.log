@@ -1,0 +1,24 @@
+Traceback (most recent call last):
+  File "/home/roamio42/Desktop/mic_control/src/keyboard_control/setup.py", line 5, in <module>
+    setup(
+  File "/usr/lib/python3/dist-packages/setuptools/__init__.py", line 107, in setup
+    return distutils.core.setup(**attrs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/setuptools/_distutils/core.py", line 147, in setup
+    _setup_distribution = dist = klass(attrs)
+                                 ^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/setuptools/dist.py", line 483, in __init__
+    for ep in metadata.entry_points(group='distutils.setup_keywords'):
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/importlib/metadata/__init__.py", line 913, in entry_points
+    return EntryPoints(eps).select(**params)
+           ^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/importlib/metadata/__init__.py", line 910, in <genexpr>
+    eps = itertools.chain.from_iterable(
+                                       ^
+  File "/usr/lib/python3.12/importlib/metadata/_itertools.py", line 15, in unique_everseen
+    for element in iterable:
+  File "/usr/lib/python3.12/importlib/metadata/__init__.py", line 349, in __new__
+    name for subclass in inspect.getmro(cls) for name in vars(subclass)
+    ^^^^
+KeyboardInterrupt

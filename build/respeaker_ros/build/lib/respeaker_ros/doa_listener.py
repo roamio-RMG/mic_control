@@ -26,7 +26,7 @@ class DOAListener(Node):
         self.declare_parameter('port', '/dev/ttyACM0')
         self.declare_parameter('baudrate', 115200)
         self.declare_parameter('vad_threshold', 5)  # Voice activity detection threshold in dB
-        self.declare_parameter('doa_interval', 0.5)  # DOA processing interval in seconds
+        self.declare_parameter('doa_interval', 0)  # DOA processing interval in seconds
         
         # Get parameters
         self.port = self.get_parameter('port').value
@@ -154,6 +154,8 @@ class DOAListener(Node):
             self.get_logger().info(f"Voice detected on right - rotating RIGHT to face speaker: {angle_to_turn}")
         else:
             self.get_logger().info(f"Voice detected in front - staying still: {angle_to_turn}")
+            
+        
         
 
         

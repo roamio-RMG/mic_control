@@ -1,0 +1,25 @@
+[2.998s] Invoking command in '/home/roamio42/Desktop/mic_control/src/keyboard_control': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/roamio42/Desktop/mic_control/build/keyboard_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/roamio42/Desktop/mic_control/install/keyboard_control/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/keyboard_control build --build-base /home/roamio42/Desktop/mic_control/build/keyboard_control/build install --record /home/roamio42/Desktop/mic_control/build/keyboard_control/install.log --single-version-externally-managed install_data
+[3.587s] Traceback (most recent call last):
+[3.589s]   File "/home/roamio42/Desktop/mic_control/src/keyboard_control/setup.py", line 5, in <module>
+[3.590s]     setup(
+[3.591s]   File "/usr/lib/python3/dist-packages/setuptools/__init__.py", line 107, in setup
+[3.597s]     return distutils.core.setup(**attrs)
+[3.597s]            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[3.597s]   File "/usr/lib/python3/dist-packages/setuptools/_distutils/core.py", line 147, in setup
+[3.600s]     _setup_distribution = dist = klass(attrs)
+[3.600s]                                  ^^^^^^^^^^^^
+[3.602s]   File "/usr/lib/python3/dist-packages/setuptools/dist.py", line 483, in __init__
+[3.625s]     for ep in metadata.entry_points(group='distutils.setup_keywords'):
+[3.625s]               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[3.625s]   File "/usr/lib/python3.12/importlib/metadata/__init__.py", line 913, in entry_points
+[3.625s]     return EntryPoints(eps).select(**params)
+[3.626s]            ^^^^^^^^^^^^^^^^
+[3.626s]   File "/usr/lib/python3.12/importlib/metadata/__init__.py", line 910, in <genexpr>
+[3.626s]     eps = itertools.chain.from_iterable(
+[3.626s]                                        ^
+[3.626s]   File "/usr/lib/python3.12/importlib/metadata/_itertools.py", line 15, in unique_everseen
+[3.626s]     for element in iterable:
+[3.626s]   File "/usr/lib/python3.12/importlib/metadata/__init__.py", line 349, in __new__
+[3.632s]     name for subclass in inspect.getmro(cls) for name in vars(subclass)
+[3.633s]     ^^^^
+[3.634s] KeyboardInterrupt
