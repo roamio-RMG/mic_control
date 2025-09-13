@@ -180,14 +180,12 @@ class DOAListener(Node):
                     current_angle = self.get_current_imu_angle()
                     self.get_logger().info(f"Turning left to {angle_to_turn}° (current: {current_angle:.1f}°)")
                     self.send_command("L")
-                    time.sleep(0.1)  # Small delay to prevent overwhelming
             else:
                 # Turn right until we're in the target range  
                 while (negative_range > self.get_current_imu_angle() or self.get_current_imu_angle() > positive_range):
                     current_angle = self.get_current_imu_angle()
                     self.get_logger().info(f"Turning right to {angle_to_turn}° (current: {current_angle:.1f}°)")
                     self.send_command("R")
-                    time.sleep(0.1)  # Small delay to prevent overwhelming
             self.send_command("Z")
             time.sleep(0.15)  # Brief delay
             self.get_logger().info("Voice detected on right - rotating LEFT to face speaker")
